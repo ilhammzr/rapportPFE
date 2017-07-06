@@ -1,11 +1,11 @@
 \documentclass[a4paper, 12pt]{report}
 
 \usepackage[latin1]{inputenc} % accents
-\usepackage[T1]{fontenc}      % caractères français
+\usepackage[T1]{fontenc}      % caractÃ¨res franÃ§ais
 \usepackage[top = 2cm, bottom = 3cm, right = 2cm, left = 4.5cm]{geometry}  % marges%
 \usepackage[francais]{babel}  % langue
 \usepackage{graphicx}         % images
-\usepackage{verbatim}         % texte préformaté
+\usepackage{verbatim}         % texte prÃ©formatÃ©
 \usepackage{setspace}        % l'interligne
 \usepackage{color}
 \usepackage{float}
@@ -16,17 +16,17 @@
 \usepackage[pdftex]{graphicx}
 %\usepackage{mathptmx}
 \renewcommand{\familydefault}{\sfdefault}
-\pagestyle{headings}          % affiche un rappel discret (en haut à gauche)
+\pagestyle{headings}          % affiche un rappel discret (en haut Ã  gauche)
 \onehalfspacing
 \makenomenclature 
-\renewcommand{\nomname}{\textsc{Liste des abréviations}}
+\renewcommand{\nomname}{\textsc{Liste des abrÃ©viations}}
  \frenchbsetup{StandardLists=true}
 
                        
 \begin{document}
 \renewcommand{\listfigurename}{\textsc{Liste des figures}}
 \renewcommand{\listtablename}{\textsc{Liste des tableaux}}
-\renewcommand{\contentsname}{\textsc{Table des matières}}
+\renewcommand{\contentsname}{\textsc{Table des matiÃ¨res}}
 %-_-_-_-_-_-_-_-_-_-_-_-_-Page de garde-_-_-_-_-_-_-_-_-
 
 	\begin{titlepage}
@@ -42,20 +42,20 @@
 \textsc{\LARGE 
 Royaume du Maroc
 \newline
-Université Mohammed Premier Oujda
+UniversitÃ© Mohammed Premier Oujda
 \newline
-Ecole Nationale des Sciences Appliquées
+Ecole Nationale des Sciences AppliquÃ©es
 \newline
-Filière Génie Informatique
+FiliÃ¨re GÃ©nie Informatique
 \newline
 \newline}\\[1.5cm]
 \end {center}
 } % Name of your university/college
-\textsc{Mémoire de Projet de Fin d'Etude \newline Présenté en vue d'obtenir
-\newline Le diplôme d'Ingénieur d'Etat
-\newline Spécialité : Génie Informatique
-\newline Option : Qualité Logiciel
-\newline N° : *******
+\textsc{MÃ©moire de Projet de Fin d'Etude \newline PrÃ©sentÃ© en vue d'obtenir
+\newline Le diplÃ´me d'IngÃ©nieur d'Etat
+\newline SpÃ©cialitÃ© : GÃ©nie Informatique
+\newline Option : QualitÃ© Logiciel
+\newline NÂ° : *******
 }
 
 }\\[0.5cm] % Major heading such as course name
@@ -66,7 +66,7 @@ Filière Génie Informatique
 %----------------------------------------------------------------------------------------
 
 \HRule \\[0.3cm]
-{ \huge \bfseries \textbf{Conception et réalisation d'une Solution CRM pour la gestion du processus Commercial de Neoxia Maroc\newline à base du CRM Salesforce}}\\[0.1cm] % Title of your document
+{ \huge \bfseries \textbf{Conception et rÃ©alisation d'une Solution CRM pour la gestion du processus Commercial de Neoxia Maroc\newline Ã  base du CRM Salesforce}}\\[0.1cm] % Title of your document
 \HRule \\[1.5cm]
  
 %----------------------------------------------------------------------------------------
@@ -77,7 +77,7 @@ Filière Génie Informatique
 \begin{minipage}{0.4\textwidth}
 \begin {flushleft}
  \large
-\emph{Encadré Par:} \\
+\emph{EncadrÃ© Par:} \\
 Dr. Jamal \textsc{Berrich} % Supervisor's Name
 \newline
 M. Rachid \textsc{El habi} % Supervisor's Name
@@ -91,7 +91,7 @@ M. Youssef \textsc{El quandili} % Supervisor's Name
 \begin{minipage}{0.4\textwidth}
 \begin{flushright}
  \large
-\emph Réalisé par :\textcolor[rgb]{1,1,0.88}{euip }\\
+\emph RÃ©alisÃ© par :\textcolor[rgb]{1,1,0.88}{euip }\\
 \textsc{Mouzouri Ilham} % Supervisor's Name
 \end{flushright}
 \end{minipage}
@@ -114,7 +114,7 @@ M. Youssef \textsc{El quandili} % Supervisor's Name
 %	DATE SECTION
 %----------------------------------------------------------------------------------------
 
-{\large Année universitaire 2016-2017}\\[3cm] % Date, change the \today to a set date if you want to be precise
+{\large AnnÃ©e universitaire 2016-2017}\\[3cm] % Date, change the \today to a set date if you want to be precise
 
 %----------------------------------------------------------------------------------------
 %	LOGO SECTION
@@ -131,40 +131,40 @@ M. Youssef \textsc{El quandili} % Supervisor's Name
 %-_-_-_-_-_-_-_-_-_-_-_-_-dedicace-_-_-_-_-_-_-_-_-_-_-
 
 \begin{center}
-\chapter*{\textsc{Dédicace}}
+\chapter*{\textsc{DÃ©dicace}}
 \centering
-\addcontentsline{toc}{chapter}{\textsc{Dédicace}}
+\addcontentsline{toc}{chapter}{\textsc{DÃ©dicace}}
 \begin{center}
-\textbf{Louange à Dieu tout puissant mon créateur,}\\
+\textbf{Louange Ã  Dieu tout puissant mon crÃ©ateur,}\\
 
-\textbf{À Ma très chère mère,}\\
-\textit{Aucun mot ne saurait exprimer ma gratitude et ma reconnaissance pour les sacrifices consentis pour mon bien-être et le soutien que tu m'as apporté afin d'atteindre mes objectifs, ma chérie tu as fait plus qu'une mère puisse faire pour que ses 
-enfants suivent le bon chemin dans leur vie et leurs études. je t'aime.}
+\textbf{Ã€ Ma trÃ¨s chÃ¨re mÃ¨re,}\\
+\textit{Aucun mot ne saurait exprimer ma gratitude et ma reconnaissance pour les sacrifices consentis pour mon bien-Ãªtre et le soutien que tu m'as apportÃ© afin d'atteindre mes objectifs, ma chÃ©rie tu as fait plus qu'une mÃ¨re puisse faire pour que ses 
+enfants suivent le bon chemin dans leur vie et leurs Ã©tudes. je t'aime.}
 
 
-\textbf{\\À Mon très cher père,\\}
-\textit{Aucune dédicace ne saurait exprimer l'amour, l'estime, le dévouement et le respect que j'ai toujours eu pour toi. Merci pour tes encouragements, pour l'éducation que tu m'as prodiguée; avec tous les moyens et au prix de tous les sacrifices que tu as consentis à mon égard. je t'aime.}
+\textbf{\\Ã€ Mon trÃ¨s cher pÃ¨re,\\}
+\textit{Aucune dÃ©dicace ne saurait exprimer l'amour, l'estime, le dÃ©vouement et le respect que j'ai toujours eu pour toi. Merci pour tes encouragements, pour l'Ã©ducation que tu m'as prodiguÃ©e; avec tous les moyens et au prix de tous les sacrifices que tu as consentis Ã  mon Ã©gard. je t'aime.}
 
-\textbf{\\À mon frère Houssam,\\}
-\textit{À mon ange gardien et mon fidèle compagnant dans les moments les plus délicats de cette vie mystérieuse,Merci Pour tes encouragements et ton soutien, pour être là à chaque fois que j'en ai besoin, pour tes conseils, tes sacrifices, tu es mon deuxième père ; je t'aime.}
+\textbf{\\Ã€ mon frÃ¨re Houssam,\\}
+\textit{Ã€ mon ange gardien et mon fidÃ¨le compagnant dans les moments les plus dÃ©licats de cette vie mystÃ©rieuse,Merci Pour tes encouragements et ton soutien, pour Ãªtre lÃ  Ã  chaque fois que j'en ai besoin, pour tes conseils, tes sacrifices, tu es mon deuxiÃ¨me pÃ¨re ; je t'aime.}
  
-\textbf{\\À ma chère ikram\\}
-\textit{Celle qui illumine mon existence, Merci pour ta disponibilité tu était toujours à mes cotés dans les bons moment ainsi que les mauvais,les mots ne suffisent guère pour exprimer l'attachement, l'amour et  l'affection que je porte pour toi.  je t'aime ma soeur.}
+\textbf{\\Ã€ ma chÃ¨re ikram\\}
+\textit{Celle qui illumine mon existence, Merci pour ta disponibilitÃ© tu Ã©tait toujours Ã  mes cotÃ©s dans les bons moment ainsi que les mauvais,les mots ne suffisent guÃ¨re pour exprimer l'attachement, l'amour et  l'affection que je porte pour toi.  je t'aime ma soeur.}
 
-\textbf{\\À ma belle bouchra ,\\} \textit{Ma source de force et d'inspiration, tu était toujours là pour me remonté le moral lorsque ma détermination flanchait, Merci pour ta disponibilité ton amabilité, je t'aime 
+\textbf{\\Ã€ ma belle bouchra ,\\} \textit{Ma source de force et d'inspiration, tu Ã©tait toujours lÃ  pour me remontÃ© le moral lorsque ma dÃ©termination flanchait, Merci pour ta disponibilitÃ© ton amabilitÃ©, je t'aime 
 }
 \textbf{\\
 \begin{center}
-À mon petit frère Bilal
+Ã€ mon petit frÃ¨re Bilal
 \end{center}
-}  \textit{À mon chouchou qui a rendu notre famille encore plus spéciale, Je te souhaite un avenir plein de joie, de réussite et de sérénité, je t'aime.}
+}  \textit{Ã€ mon chouchou qui a rendu notre famille encore plus spÃ©ciale, Je te souhaite un avenir plein de joie, de rÃ©ussite et de sÃ©rÃ©nitÃ©, je t'aime.}
 \textbf{\\
 \begin{center}
- A mon fiancé Si mohamed
+ A mon fiancÃ© Si mohamed
 \end{center}
 }
- \textit{Je te remercie pour tes sacrifices, ton soutien moral et matériel, ta gentillesse sans égal, ton profond attachement, tes conseils, Merci d'être dans ma vie ; Tu as a embelli mon chemin de vie. je t'aime.}
-\textbf{\\\textit{A toute ma grande famille, A tous mes proches et amis}\\} \textit{qui n'ont jamais cessé de me fournir de toute sorte d'aide}.
+ \textit{Je te remercie pour tes sacrifices, ton soutien moral et matÃ©riel, ta gentillesse sans Ã©gal, ton profond attachement, tes conseils, Merci d'Ãªtre dans ma vie ; Tu as a embelli mon chemin de vie. je t'aime.}
+\textbf{\\\textit{A toute ma grande famille, A tous mes proches et amis}\\} \textit{qui n'ont jamais cessÃ© de me fournir de toute sorte d'aide}.
     
 }
 \end{center}
@@ -182,21 +182,21 @@ enfants suivent le bon chemin dans leur vie et leurs études. je t'aime.}
 \addcontentsline{toc}{chapter}{\textsc{Remerciement}}
 
 \paragraph{}
-\textbf{C}ette page répond à une exigence morale bien plus qu'à l'habituel souci d'honnêteté formelle. En effet, il serait difficile d'établir une liste exhaustive des personnes ayant, d'une façon ou d'une autre, permis la réalisation de ce projet. L'absence d'une référence explicite à chacune d'entre elles ne saurait, en aucun cas, être interprétée comme un manque de reconnaissance. 
+\textbf{C}ette page rÃ©pond Ã  une exigence morale bien plus qu'Ã  l'habituel souci d'honnÃªtetÃ© formelle. En effet, il serait difficile d'Ã©tablir une liste exhaustive des personnes ayant, d'une faÃ§on ou d'une autre, permis la rÃ©alisation de ce projet. L'absence d'une rÃ©fÃ©rence explicite Ã  chacune d'entre elles ne saurait, en aucun cas, Ãªtre interprÃ©tÃ©e comme un manque de reconnaissance. 
 \paragraph{}
-Je tiens tout d'abord à remercier Monsieur Youssef El Qandili , de m'avoir accueilli comme stagiaire à Neoxia Maroc et pour sa confiance. 
+Je tiens tout d'abord Ã  remercier Monsieur Youssef El Qandili , de m'avoir accueilli comme stagiaire Ã  Neoxia Maroc et pour sa confiance. 
 \paragraph{}
-Je remercie chaleureusement Monsieur Rachid El Habi, mon encadrant fonctionnel à Neoxia Maroc, pour ses efforts, ses conseils et le temps qu'il m'a consacré tout au long de mon stage
+Je remercie chaleureusement Monsieur Rachid El Habi, mon encadrant fonctionnel Ã  Neoxia Maroc, pour ses efforts, ses conseils et le temps qu'il m'a consacrÃ© tout au long de mon stage
 \paragraph{}
-A Yassine El Qandili malgré toutes ses charges, était mon encadrant  technique par excellence, ainsi que pour tout le constant suivi qu'il m'a fourni tout au long de la période de préparation de ce projet.
+A Yassine El Qandili malgrÃ© toutes ses charges, Ã©tait mon encadrant  technique par excellence, ainsi que pour tout le constant suivi qu'il m'a fourni tout au long de la pÃ©riode de prÃ©paration de ce projet.
 \paragraph{}
-Je remercie également le directeur général de NEOXIA MAROC, M. Tawfik Es sqalli et toute l'équipe pour leurs aide et encadrement précieux et leur bonté.
+Je remercie Ã©galement le directeur gÃ©nÃ©ral de NEOXIA MAROC, M. Tawfik Es sqalli et toute l'Ã©quipe pour leurs aide et encadrement prÃ©cieux et leur bontÃ©.
 \paragraph{}
-Mes remerciements vont également à Monsieur BERRICH Jamal, mon encadrant au sein de l'ENSAO, pour son assistance lors de la rédaction du présent mémoire. 
+Mes remerciements vont Ã©galement Ã  Monsieur BERRICH Jamal, mon encadrant au sein de l'ENSAO, pour son assistance lors de la rÃ©daction du prÃ©sent mÃ©moire. 
  \paragraph{}
-J'exprime mon profond respect à Monsieur BOUCHENTOUF Toumi, responsable de filière Génie Informatique, ainsi qu'à tout le corps professoral de l'École Nationale des Sciences Appliquées d'Oujda, pour leurs efforts et précieuses directives. 
+J'exprime mon profond respect Ã  Monsieur BOUCHENTOUF Toumi, responsable de filiÃ¨re GÃ©nie Informatique, ainsi qu'Ã  tout le corps professoral de l'Ã‰cole Nationale des Sciences AppliquÃ©es d'Oujda, pour leurs efforts et prÃ©cieuses directives. 
  \paragraph{}
-Finalement, J'exprime ma grande gratitude et mes vifs remerciements à tous les membres du jury, qui m'ont fait l'honneur d'accepter de juger mon travail.
+Finalement, J'exprime ma grande gratitude et mes vifs remerciements Ã  tous les membres du jury, qui m'ont fait l'honneur d'accepter de juger mon travail.
 
 \begin{flushleft}
 \textbf{Merci}
@@ -205,31 +205,31 @@ Finalement, J'exprime ma grande gratitude et mes vifs remerciements à tous les m
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Remerciement -_-_-_-_-_-_-_-_-_-_-_-_
 
-% -_-_-_-_-_-_-_-_-_-_-_-_ Résumé -_-_-_-_-_-_-_-_-_-_-_-_
+% -_-_-_-_-_-_-_-_-_-_-_-_ RÃ©sumÃ© -_-_-_-_-_-_-_-_-_-_-_-_
 
-\chapter*{\textsc{Résumé}}
-\addcontentsline{toc}{chapter}{\textsc{Résumé}}
+\chapter*{\textsc{RÃ©sumÃ©}}
+\addcontentsline{toc}{chapter}{\textsc{RÃ©sumÃ©}}
 
  \paragraph{}
-Ce rapport synthétise le travail que nous avons effectué durant la période de stage de fin d'études au sein des locaux du cabinet de conseil \textbf{Neoxia Maroc} partenaire intégrateur privilégié de Salesforce, installé sur Casablanca.
+Ce rapport synthÃ©tise le travail que nous avons effectuÃ© durant la pÃ©riode de stage de fin d'Ã©tudes au sein des locaux du cabinet de conseil \textbf{Neoxia Maroc} partenaire intÃ©grateur privilÃ©giÃ© de Salesforce, installÃ© sur Casablanca.
  \paragraph{}
-Dans le but d'augmenter sa productivité et son profit tout en gagnant au niveau du temps et du budget et d'améliorer ses performances et sa position concurrentielle Neoxia a mis la satisfaction du client au centre de ses préoccupations.
- C'est dans cet optique que Neoxia a investi pour créer une solution CRM pour gérer ses propres processus commerciales.
+Dans le but d'augmenter sa productivitÃ© et son profit tout en gagnant au niveau du temps et du budget et d'amÃ©liorer ses performances et sa position concurrentielle Neoxia a mis la satisfaction du client au centre de ses prÃ©occupations.
+ C'est dans cet optique que Neoxia a investi pour crÃ©er une solution CRM pour gÃ©rer ses propres processus commerciales.
  
  \paragraph{}
-Nous avons eu pour mission la mise en place d'une application visant à aider Neoxia à améliorer leurs performances et leur position concurrentielle. L'enjeu était la configuration de la solution Salesforce CRM pour réaliser un processus qui automatise les forces de vente en facilitant considérablement la tâche, accélérant le processus de vente le suivi des projets ainsi que les imputations et à la fin la gestion de la facturation et le recouvrement. 
+Nous avons eu pour mission la mise en place d'une application visant Ã  aider Neoxia Ã  amÃ©liorer leurs performances et leur position concurrentielle. L'enjeu Ã©tait la configuration de la solution Salesforce CRM pour rÃ©aliser un processus qui automatise les forces de vente en facilitant considÃ©rablement la tÃ¢che, accÃ©lÃ©rant le processus de vente le suivi des projets ainsi que les imputations et Ã  la fin la gestion de la facturation et le recouvrement. 
  \paragraph{}
-Pour ce faire, nous avons procédé au début à une analyse et conception complète pour définir toutes les fonctionnalités que voudra l'entreprise mettre en place, puis modéliser les besoins spécifiés et les processus à adopter, ensuite une longues phase de réalisation et de validation continue.
+Pour ce faire, nous avons procÃ©dÃ© au dÃ©but Ã  une analyse et conception complÃ¨te pour dÃ©finir toutes les fonctionnalitÃ©s que voudra l'entreprise mettre en place, puis modÃ©liser les besoins spÃ©cifiÃ©s et les processus Ã  adopter, ensuite une longues phase de rÃ©alisation et de validation continue.
 \paragraph{}
-L'application est modélisée à l'aide du BPM Bizagi, et développée par des outils propres à la plateforme Force.com : le langage APEX, le Framework Visualforce et SOQL qui permet l'interaction avec la base de données.
+L'application est modÃ©lisÃ©e Ã  l'aide du BPM Bizagi, et dÃ©veloppÃ©e par des outils propres Ã  la plateforme Force.com : le langage APEX, le Framework Visualforce et SOQL qui permet l'interaction avec la base de donnÃ©es.
 
 \newline
 \newline
 \newline
  \paragraph{}
-\textbf{Mots clé}: CRM, \textsc{salesforce.com}, Apex, VisualForce, SOQL, Force.com,Cloud Computing.
+\textbf{Mots clÃ©}: CRM, \textsc{salesforce.com}, Apex, VisualForce, SOQL, Force.com,Cloud Computing.
 
-% -_-_-_-_-_-_-_-_-_-_-_-_ FIN Résumé -_-_-_-_-_-_-_-_-_-_-_-_
+% -_-_-_-_-_-_-_-_-_-_-_-_ FIN RÃ©sumÃ© -_-_-_-_-_-_-_-_-_-_-_-_
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ Abstract -_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -253,7 +253,7 @@ the application is modeled with the help of the BPM Bizagi, and developed by too
 \newline
 \newline
  \paragraph{}
-\textbf{Mots clé}: CRM, \textsc{salesforce.com}, VisualForce, APEX, SOQL, Visualforce, Force.com,Cloud Computing.
+\textbf{Mots clÃ©}: CRM, \textsc{salesforce.com}, VisualForce, APEX, SOQL, Visualforce, Force.com,Cloud Computing.
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Abstract -_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -267,71 +267,71 @@ the application is modeled with the help of the BPM Bizagi, and developed by too
 \listoftables % liste des tableaux
 \addcontentsline{toc}{chapter}{\textsc{Liste des tableaux}}
 
-\tableofcontents % table des matières
+\tableofcontents % table des matiÃ¨res
 
 
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ Introduction generale -_-_-_-_-_-_-_-_-_-_-_-_
 
 \begin{flushleft}
-\chapter*{\textsc{Introcution générale}}
-\addcontentsline{toc}{chapter}{\textsc{Introcution générale}}
+\chapter*{\textsc{Introcution gÃ©nÃ©rale}}
+\addcontentsline{toc}{chapter}{\textsc{Introcution gÃ©nÃ©rale}}
 
  \paragraph{}
-Dans un monde où la compétition s'établit non pas uniquement sur le plan local mais également à un niveau mondial, où la majorité des marchés sont saturés, où les produits passent de plus en plus au stade de commodité, les entreprises se doivent de développer des avantages concurrentiels défendables qui leur permettront d'évoluer avec succès dans un environnement toujours de plus en plus hostile. À cet égard, la gestion du processus commercial allant du marketing au service après-vente s'avère nécessaire et implique une série de changements dans la manière de gérer l'entreprise.
+Dans un monde oÃ¹ la compÃ©tition s'Ã©tablit non pas uniquement sur le plan local mais Ã©galement Ã  un niveau mondial, oÃ¹ la majoritÃ© des marchÃ©s sont saturÃ©s, oÃ¹ les produits passent de plus en plus au stade de commoditÃ©, les entreprises se doivent de dÃ©velopper des avantages concurrentiels dÃ©fendables qui leur permettront d'Ã©voluer avec succÃ¨s dans un environnement toujours de plus en plus hostile. Ã€ cet Ã©gard, la gestion du processus commercial allant du marketing au service aprÃ¨s-vente s'avÃ¨re nÃ©cessaire et implique une sÃ©rie de changements dans la maniÃ¨re de gÃ©rer l'entreprise.
 
  \paragraph{}
-Les consommateurs aujourd'hui habitués à avoir le choix et l'accès à des produits de qualité portent une attention grandissante à des aspects autrefois relégués au second plan. Lors de son processus d'achat, le consommateur recherche des aspects comme le plaisir, la sécurité, la considération et la personnalisation. Ces nouveaux critères obligent les entreprises à mettre en place les processus nécessaires à la rencontre de ces attentes. C'est ce qui explique l'implantation accélérée de solutions visant la Gestion des Relations Client ou la Customer Relationship Management (CRM). 
+Les consommateurs aujourd'hui habituÃ©s Ã  avoir le choix et l'accÃ¨s Ã  des produits de qualitÃ© portent une attention grandissante Ã  des aspects autrefois relÃ©guÃ©s au second plan. Lors de son processus d'achat, le consommateur recherche des aspects comme le plaisir, la sÃ©curitÃ©, la considÃ©ration et la personnalisation. Ces nouveaux critÃ¨res obligent les entreprises Ã  mettre en place les processus nÃ©cessaires Ã  la rencontre de ces attentes. C'est ce qui explique l'implantation accÃ©lÃ©rÃ©e de solutions visant la Gestion des Relations Client ou la Customer Relationship Management (CRM). 
 
  \paragraph{}
-La mise en place d'un CRM redonne de la visibilité et de la sérénité car il répond aux besoins actuels. Il structure, partage et distille l'information appropriée pour tous les services (Marketing, commercial, administratif, technique et support). Cette centralisation est facilitée par l'intégration de caractéristiques comme l'accès à la boite mail et aux divers documents et également, la réalisation d'actions marketing. 
+La mise en place d'un CRM redonne de la visibilitÃ© et de la sÃ©rÃ©nitÃ© car il rÃ©pond aux besoins actuels. Il structure, partage et distille l'information appropriÃ©e pour tous les services (Marketing, commercial, administratif, technique et support). Cette centralisation est facilitÃ©e par l'intÃ©gration de caractÃ©ristiques comme l'accÃ¨s Ã  la boite mail et aux divers documents et Ã©galement, la rÃ©alisation d'actions marketing. 
   
 
  \paragraph{}
-Le présent rapport décrit l'ensemble des étapes de réalisation de notre mission au sein de l'organisme Neoxia. Il est structuré en cinq chapitres :
+Le prÃ©sent rapport dÃ©crit l'ensemble des Ã©tapes de rÃ©alisation de notre mission au sein de l'organisme Neoxia. Il est structurÃ© en cinq chapitres :
 \paragraph{}
-\textbf{Le premier chapitre} présente le contexte général du projet en présentant l'organisme d'accueil et en définissant les objectifs de notre mission ainsi que la conduite que nous avons suivi pour mener à bien notre projet.
+\textbf{Le premier chapitre} prÃ©sente le contexte gÃ©nÃ©ral du projet en prÃ©sentant l'organisme d'accueil et en dÃ©finissant les objectifs de notre mission ainsi que la conduite que nous avons suivi pour mener Ã  bien notre projet.
 \newline
-\textbf{Le deuxième chapitre }a comme but d'expliquer la théorie du Cloud Computing, de la Gestion des Relations Clients et la philosophie de Salesforce.
+\textbf{Le deuxiÃ¨me chapitre }a comme but d'expliquer la thÃ©orie du Cloud Computing, de la Gestion des Relations Clients et la philosophie de Salesforce.
 \newline
-\textbf{Le troisième chapitre} est consacré à la branche fonctionnelle des processus adopté lors de la phase de conception qui a permet un repérage des besoins fonctionnels et opérationnels du système. Il décrit la conception des fonctionnalités de la solution.
+\textbf{Le troisiÃ¨me chapitre} est consacrÃ© Ã  la branche fonctionnelle des processus adoptÃ© lors de la phase de conception qui a permet un repÃ©rage des besoins fonctionnels et opÃ©rationnels du systÃ¨me. Il dÃ©crit la conception des fonctionnalitÃ©s de la solution.
 \newline
-\textbf{Le quatrième chapitre} est consacré à la branche technique de l'application réalisée. Il expose les concepts techniques clés du projet et l'ensemble des technologies utilisées.
+\textbf{Le quatriÃ¨me chapitre} est consacrÃ© Ã  la branche technique de l'application rÃ©alisÃ©e. Il expose les concepts techniques clÃ©s du projet et l'ensemble des technologies utilisÃ©es.
 \newline
-\textbf{Le dernier chapitre} est consacré à la mise en œuvre du projet en décrivant toutes les étapes par lesquelles nous sommes passés pour donner naissance à notre application depuis la configuration des objets personnalisés à la génération des rapports et tableaux de bord.
+\textbf{Le dernier chapitre} est consacrÃ© Ã  la mise en Å“uvre du projet en dÃ©crivant toutes les Ã©tapes par lesquelles nous sommes passÃ©s pour donner naissance Ã  notre application depuis la configuration des objets personnalisÃ©s Ã  la gÃ©nÃ©ration des rapports et tableaux de bord.
 
 \paragraph{}
-Le rapport s'achève par une conclusion décortiquant les résultats du développement de la solution tout en émettant les perspectives susceptibles de compléter le projet en question.
+Le rapport s'achÃ¨ve par une conclusion dÃ©cortiquant les rÃ©sultats du dÃ©veloppement de la solution tout en Ã©mettant les perspectives susceptibles de complÃ©ter le projet en question.
 \end{flushleft}
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Introduction generale -_-_-_-_-_-_-_-_-_-_-_-_
 
-% -_-_-_-_-_-_-_-_-_-_-_-_  Contexte général -_-_-_-_-_-_-_-_-_-_-_-_
+% -_-_-_-_-_-_-_-_-_-_-_-_  Contexte gÃ©nÃ©ral -_-_-_-_-_-_-_-_-_-_-_-_
 
-\chapter{\textsc{Contexte général}}
+\chapter{\textsc{Contexte gÃ©nÃ©ral}}
 
 \section{Organisme d'accueil}
 
 \paragraph{}
-Dans ce chapitre, nous introduirons le contexte général du projet. Nous présenterons d'abord l'organisme d'accueil. Ensuite, nous présenterons le contexte général du projet ainsi que ses principaux objectifs. Ce chapitre se terminera par la présentation de la conduite de ce projet en termes de gestion et de planification.
+Dans ce chapitre, nous introduirons le contexte gÃ©nÃ©ral du projet. Nous prÃ©senterons d'abord l'organisme d'accueil. Ensuite, nous prÃ©senterons le contexte gÃ©nÃ©ral du projet ainsi que ses principaux objectifs. Ce chapitre se terminera par la prÃ©sentation de la conduite de ce projet en termes de gestion et de planification.
 
-\subsection{Présentation de NEOXIA MAROC}
+\subsection{PrÃ©sentation de NEOXIA MAROC}
 
 \paragraph{}
-NEOXIA est un cabinet d'architecture et de gouvernance du SI. Depuis, 2000 à paris puis en 2008 à Casablanca, les Architectes NEOXIA accompagnent les grandes entreprises et administrations dans l'évolution de leur Système d'informations. En plaçant le SI comme un levier réel et important de création de valeur, NEOXIA permet à ses clients une adoption réfléchie, progressive et optimale de l'outil informatique. Fortement convaincu du gain important qu’apportent les solutions SaaS/IaaS.
+NEOXIA est un cabinet d'architecture et de gouvernance du SI. Depuis, 2000 Ã  paris puis en 2008 Ã  Casablanca, les Architectes NEOXIA accompagnent les grandes entreprises et administrations dans l'Ã©volution de leur SystÃ¨me d'informations. En plaÃ§ant le SI comme un levier rÃ©el et important de crÃ©ation de valeur, NEOXIA permet Ã  ses clients une adoption rÃ©flÃ©chie, progressive et optimale de l'outil informatique. Fortement convaincu du gain important quâ€™apportent les solutions SaaS/IaaS.
 
 \subsection{Neoxia en Chiffre}
 \subsubsection{Effectif}
-NEOXIA dispose d’une équipe de 40 collaborateurs à Paris et 31 collaborateurs à
+NEOXIA dispose dâ€™une Ã©quipe de 40 collaborateurs Ã  Paris et 31 collaborateurs Ã 
 Casablanca
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.9]{neoxiaprofil.png}
-\caption{Réputation de l'ffectif par profil}
+\caption{RÃ©putation de l'ffectif par profil}
 \end{figure}
 \subsubsection{Chiffre d'affaire}
-Le graphe ci-dessous montre le chiffre d’affaires de NEOXIA en France et son évolution
+Le graphe ci-dessous montre le chiffre dâ€™affaires de NEOXIA en France et son Ã©volution
 soutenu
 
 \begin{figure}[H]
@@ -339,79 +339,79 @@ soutenu
 \includegraphics[scale=0.9]{ca.png}
 \caption{Chiffre d'affaire NEOXIA France en Million d'Euros.}
 \end{figure}
-Le graphe ci-dessous montre le chiffre d'affaire de NEOXIA au Maroc et son évolution soutenue.
+Le graphe ci-dessous montre le chiffre d'affaire de NEOXIA au Maroc et son Ã©volution soutenue.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.9]{nxmaroc.png}
 \caption{Chiffre d'affaire NEOXIA Maroc en Million d'Euros.}
 \end{figure}
-Le graphe ci-dessous montre la répartition du chiffre d'affaire de NEOXIA par secteur
-d'activités.
+Le graphe ci-dessous montre la rÃ©partition du chiffre d'affaire de NEOXIA par secteur
+d'activitÃ©s.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.9]{secteur.png}
-\caption{Chiffre d'affaire par secteur d'activités.}
+\caption{Chiffre d'affaire par secteur d'activitÃ©s.}
 \end{figure}
 
-\subsection{Domaine de prédilection }
+\subsection{Domaine de prÃ©dilection }
 \subsubsection{Offre de service}
-NEOXIA accompagne ses clients pour adresser les enjeux majeurs de leurs SI à différents
+NEOXIA accompagne ses clients pour adresser les enjeux majeurs de leurs SI Ã  diffÃ©rents
 niveaux :
 \begin{itemize}
-	\item Stratégie et pilotage
-- Schéma directeur et planification stratégique
+	\item StratÃ©gie et pilotage
+- SchÃ©ma directeur et planification stratÃ©gique
 - Architecture d'Entreprise
 - Cartographie et Urbanisation
 \item  Processus et organisation
 - Management de projets et de portefeuille
-- Audit et amélioration des processus
+- Audit et amÃ©lioration des processus
 - Conduite de changement
-- Management de la sécurité
+- Management de la sÃ©curitÃ©
 \item  Conseil en architecture des SI
-- Architecture orientée services et d’intégration
-- Management de l’information
-- Architecture logicielle et socles d’industrialisation
-- Usine de développement et Socles technique
+- Architecture orientÃ©e services et dâ€™intÃ©gration
+- Management de lâ€™information
+- Architecture logicielle et socles dâ€™industrialisation
+- Usine de dÃ©veloppement et Socles technique
 - Ateliers des tests logiciels
 - Audit et refactoring du code
-- Performance et sécurité IT
+- Performance et sÃ©curitÃ© IT
 - Performance applicative et d'infrastructure
-- Sécurité applicative et d’infrastructure
+- SÃ©curitÃ© applicative et dâ€™infrastructure
 \item Infrastructure
 - Architecture et revue d'infrastructure
 - Cloud computing et Virtualisation
 - Industrialisation de la gestion d'infrastructure
-- Rationalisation des investissements d’infrastructure
+- Rationalisation des investissements dâ€™infrastructure
 \item  T ECHNOLOGIE ET SOLUTIONS
 - Projets SI
-- Assistance à maîtrise d’ouvrage
-- Méthodologies agiles
+- Assistance Ã  maÃ®trise dâ€™ouvrage
+- MÃ©thodologies agiles
 - Coaching technique
-- Développement d'applications
+- DÃ©veloppement d'applications
 \item  Mobile
-- Développement iPhone, Android, Black Berry
+- DÃ©veloppement iPhone, Android, Black Berry
 - Solutions mobiles
-- Industrialisation du développement mobile
+- Industrialisation du dÃ©veloppement mobile
 - SI entreprise mobile
 \item Solutions
 - Outils de management de projets
 - Outils pour le management du SI
-- Messagerie unifiée et collaboration
-- Solutions SI métiers : Agricole, Mutuelle, Etablissements de formation
-Pour assurer cet accompagnement, NEOXIA mène différentes typologies de missions :
+- Messagerie unifiÃ©e et collaboration
+- Solutions SI mÃ©tiers : Agricole, Mutuelle, Etablissements de formation
+Pour assurer cet accompagnement, NEOXIA mÃ¨ne diffÃ©rentes typologies de missions :
 \end{itemize}
 \begin{itemize}
-\item  Décider : Planification stratégique, Evaluation de maturité, Organisation, Audit,
-Urbanisation, études, prototypage.
-\item  Agir : Expertise, Développement et Intégration, Support, Coaching et Formation,
-Accompagnement, Co-pilotage, Maîtrise des risques, Contrôle qualité .
-\item  Capitaliser : Amélioration, Industrialisation, Réutilisation, Méthodes et bonnes
+\item  DÃ©cider : Planification stratÃ©gique, Evaluation de maturitÃ©, Organisation, Audit,
+Urbanisation, Ã©tudes, prototypage.
+\item  Agir : Expertise, DÃ©veloppement et IntÃ©gration, Support, Coaching et Formation,
+Accompagnement, Co-pilotage, MaÃ®trise des risques, ContrÃ´le qualitÃ© .
+\item  Capitaliser : AmÃ©lioration, Industrialisation, RÃ©utilisation, MÃ©thodes et bonnes
 pratiques
 \end{itemize}
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.7]{dec.png}
-\caption{les différentes typologies de mission de Neoxia.}
+\caption{les diffÃ©rentes typologies de mission de Neoxia.}
 \end{figure}
 
 \subsection{les principes de Neoxia}
@@ -420,62 +420,62 @@ Pour accompagner ses clients dans leur transformation digitale,
 Neoxia s'appuie sur plusieurs principes : 
 \begin{itemize}
 	\item \textbf{L'excellence } 
-Sur chaque projet Neoxia se voit comme un partenaire. Elle s'engage sur des résultats concrets et des livrables clairs. 
-\item \textbf{L'agilité}  
-Neoxia prend soin d'appliquer le bon degré d'agilité en fonction du contexte client. Elle est membre fondateur de l'institut Agile & participant régulier du ScrumDay. 
+Sur chaque projet Neoxia se voit comme un partenaire. Elle s'engage sur des rÃ©sultats concrets et des livrables clairs. 
+\item \textbf{L'agilitÃ©}  
+Neoxia prend soin d'appliquer le bon degrÃ© d'agilitÃ© en fonction du contexte client. Elle est membre fondateur de l'institut Agile & participant rÃ©gulier du ScrumDay. 
 
-	\item \textbf{La maîtrise des technologies } 
-L'entreprise maîtrise un spectre large de technologie et veille à s'impliquer dans les nouvelles technologies émergentes.
+	\item \textbf{La maÃ®trise des technologies } 
+L'entreprise maÃ®trise un spectre large de technologie et veille Ã  s'impliquer dans les nouvelles technologies Ã©mergentes.
 
 \end{itemize}
 
 \chapter{\textsc{Contexte du projet }}	 
-Dans le cadre de sa stratégie destinée à intégrer les nouvelles technologies dans ses métiers et ses prestations, Neoxia Maroc, offre des services numériques et des solutions entreprises à ces clients alors qu'elle n'avait pas de Solution numérique pour gérer ses propres projets et ses affaires commerciales.
+Dans le cadre de sa stratÃ©gie destinÃ©e Ã  intÃ©grer les nouvelles technologies dans ses mÃ©tiers et ses prestations, Neoxia Maroc, offre des services numÃ©riques et des solutions entreprises Ã  ces clients alors qu'elle n'avait pas de Solution numÃ©rique pour gÃ©rer ses propres projets et ses affaires commerciales.
 
-C'est dans ce cadre qu'intègre notre projet de fin d'étude, émanant du besoin d'une solution global répondant au fait de consolider toutes les données de l'entreprise dans une seule plateforme en restant branché à toute nouveauté à n'importe quel moment et de n'importe où.
+C'est dans ce cadre qu'intÃ¨gre notre projet de fin d'Ã©tude, Ã©manant du besoin d'une solution global rÃ©pondant au fait de consolider toutes les donnÃ©es de l'entreprise dans une seule plateforme en restant branchÃ© Ã  toute nouveautÃ© Ã  n'importe quel moment et de n'importe oÃ¹.
 
-\section{Presentation générale du projet}
-\subsection {Déroulement du projet}
-Le projet est passé par quatre phases importantes : 
+\section{Presentation gÃ©nÃ©rale du projet}
+\subsection {DÃ©roulement du projet}
+Le projet est passÃ© par quatre phases importantes : 
 \subsubsection {Documatation et formation}
-	 Choix de la plateforme de développement :  Salesforce s'est avéré la meilleure solution à adopter pour développer une application web pour la gestion d'un processus commercial et accessible sur le Cloud.
- Nous avons suivi une   formation sur la plateforme de Salesforce nommée Trailhead : Trailhead permet d'accélérer la carrière en permettant d'acquérir ou d'approfondir les compétences Salesforce. Quel que soit le rôle (développeur, utilisateur, administrateur) ou le niveau (débutant ou expérimenté), Trailhead aide à comprendre grâce à ses différents parcours et modules, la plateforme applicative (App Cloud), le CRM (Sales Cloud) ou encore la plateforme analytique (Analytics Cloud). Les connaissances acquises sont certifiées au moyen de badges tout au long de l'apprentissage. Cet apprentissage se veut par ailleurs très pratique et concret puisque les badges s'obtiennent après une mise en pratique des connaissances acquises via de nombreux challenges (quizz, exercices...). Enfin, des projets concrets permettent d'appliquer son savoir dans des mises en situation aussi réalistes que possible (comme développer une application de gestion de conférences). Depuis son lancement, plus de 250 000 badges ont été attribués sur Trailhead. 
-C'est dans ce contexte que nous avons fait notre formation sur la plateforme Salesforce. ou j'ai eu 61 badges, et 48625 points à la fin de la formation. 
+	 Choix de la plateforme de dÃ©veloppement :  Salesforce s'est avÃ©rÃ© la meilleure solution Ã  adopter pour dÃ©velopper une application web pour la gestion d'un processus commercial et accessible sur le Cloud.
+ Nous avons suivi une   formation sur la plateforme de Salesforce nommÃ©e Trailhead : Trailhead permet d'accÃ©lÃ©rer la carriÃ¨re en permettant d'acquÃ©rir ou d'approfondir les compÃ©tences Salesforce. Quel que soit le rÃ´le (dÃ©veloppeur, utilisateur, administrateur) ou le niveau (dÃ©butant ou expÃ©rimentÃ©), Trailhead aide Ã  comprendre grÃ¢ce Ã  ses diffÃ©rents parcours et modules, la plateforme applicative (App Cloud), le CRM (Sales Cloud) ou encore la plateforme analytique (Analytics Cloud). Les connaissances acquises sont certifiÃ©es au moyen de badges tout au long de l'apprentissage. Cet apprentissage se veut par ailleurs trÃ¨s pratique et concret puisque les badges s'obtiennent aprÃ¨s une mise en pratique des connaissances acquises via de nombreux challenges (quizz, exercices...). Enfin, des projets concrets permettent d'appliquer son savoir dans des mises en situation aussi rÃ©alistes que possible (comme dÃ©velopper une application de gestion de confÃ©rences). Depuis son lancement, plus de 250 000 badges ont Ã©tÃ© attribuÃ©s sur Trailhead. 
+C'est dans ce contexte que nous avons fait notre formation sur la plateforme Salesforce. ou j'ai eu 61 badges, et 48625 points Ã  la fin de la formation. 
 
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.31]{rank.png}
 \caption{Interface de la plateforme de formation TrailHead .}
 \end{figure}
-\subsubsection{	Conception } Nous avons fourni le data model adéquat pour l'application qui représente les différents objets standards et personnalisés à utiliser lors du développement de l'application. Ainsi l'élaboration de différents diagrammes selon les acteurs du système. 
+\subsubsection{	Conception } Nous avons fourni le data model adÃ©quat pour l'application qui reprÃ©sente les diffÃ©rents objets standards et personnalisÃ©s Ã  utiliser lors du dÃ©veloppement de l'application. Ainsi l'Ã©laboration de diffÃ©rents diagrammes selon les acteurs du systÃ¨me. 
 \subsubsection { planification} 
-La planification du projet est une phase importante d'avant-projet. Elle consiste à prévoir le déroulement de ce dernier tout au long des phases constituant le cycle de développement.
- Le diagramme de Gantt suivant présente le planning de mon projet :
+La planification du projet est une phase importante d'avant-projet. Elle consiste Ã  prÃ©voir le dÃ©roulement de ce dernier tout au long des phases constituant le cycle de dÃ©veloppement.
+ Le diagramme de Gantt suivant prÃ©sente le planning de mon projet :
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.31]{gantt.png}
 \caption{Diagramme de gant.}
 \end{figure}
 
-\subsubsection{	Réalisation} la réalisation était composé de plusieurs partie selon les processus détérminé pendant la phase de la conception initiale.  
+\subsubsection{	RÃ©alisation} la rÃ©alisation Ã©tait composÃ© de plusieurs partie selon les processus dÃ©tÃ©rminÃ© pendant la phase de la conception initiale.  
 \subsection{Conduite du projet}
 \subsubsection{pratiques SCRUM}
-La gestion de projet ou conduite de projet est une démarche visant à structurer, assurer et optimiser le bon déroulement d'un projet suffisamment complexe.Pour devoir réussir ce projet,
-Il était nécessaire de se baser sur un cycle de développement sur lequel s'articule l'ensemble des solutions.
-Ainsi Pour optimiser le temps disponible, nous avons travaillé en mode agile, c'est à dire en cycles itératifs courts permettant de fournir rapidement les fonctionnalités essentielles qui rendront l'application utilisable par les équipes.
-Cette approche, inspirée de la méthode Scrum de développement informatique, permet de délivrer rapidement de la valeur métier.
-Elle est particulièrement efficace dans les contextes où un retour utilisateur rapide est nécessaire.
- Une itération comprend trois étapes
+La gestion de projet ou conduite de projet est une dÃ©marche visant Ã  structurer, assurer et optimiser le bon dÃ©roulement d'un projet suffisamment complexe.Pour devoir rÃ©ussir ce projet,
+Il Ã©tait nÃ©cessaire de se baser sur un cycle de dÃ©veloppement sur lequel s'articule l'ensemble des solutions.
+Ainsi Pour optimiser le temps disponible, nous avons travaillÃ© en mode agile, c'est Ã  dire en cycles itÃ©ratifs courts permettant de fournir rapidement les fonctionnalitÃ©s essentielles qui rendront l'application utilisable par les Ã©quipes.
+Cette approche, inspirÃ©e de la mÃ©thode Scrum de dÃ©veloppement informatique, permet de dÃ©livrer rapidement de la valeur mÃ©tier.
+Elle est particuliÃ¨rement efficace dans les contextes oÃ¹ un retour utilisateur rapide est nÃ©cessaire.
+ Une itÃ©ration comprend trois Ã©tapes
 \begin{itemize}
 	
-\item Planification de l'itération :
-Chaque itération débute par une réunion avec l'encadrant (par exemple le lundi).
-Lors de cette réunion, l'ensemble des fonctionnalités pressenties pour l'itération sont explicitées dans le détail, évaluées et priorisées.
-\item	 Paramétrage et développements :
-Les fonctionnalités sont ensuite implémentées et durant toute cette phase, le « contenu » de l'itération est fixe, mais des modification quotidiennes légères peuvent avoir lieu.
-\item	Démonstration et validation :
-A l'issue de l'itération on réalise une démonstration qui donne lieu à une validation ou à des modifications.
-Cette réunion (par exemple le vendredi) est également l'occasion de faire une rapide rétrospective de l'itération (amélioration du fonctionnement) et de commencer à préparer la suivante.
+\item Planification de l'itÃ©ration :
+Chaque itÃ©ration dÃ©bute par une rÃ©union avec l'encadrant (par exemple le lundi).
+Lors de cette rÃ©union, l'ensemble des fonctionnalitÃ©s pressenties pour l'itÃ©ration sont explicitÃ©es dans le dÃ©tail, Ã©valuÃ©es et priorisÃ©es.
+\item	 ParamÃ©trage et dÃ©veloppements :
+Les fonctionnalitÃ©s sont ensuite implÃ©mentÃ©es et durant toute cette phase, le Â« contenu Â» de l'itÃ©ration est fixe, mais des modification quotidiennes lÃ©gÃ¨res peuvent avoir lieu.
+\item	DÃ©monstration et validation :
+A l'issue de l'itÃ©ration on rÃ©alise une dÃ©monstration qui donne lieu Ã  une validation ou Ã  des modifications.
+Cette rÃ©union (par exemple le vendredi) est Ã©galement l'occasion de faire une rapide rÃ©trospective de l'itÃ©ration (amÃ©lioration du fonctionnement) et de commencer Ã  prÃ©parer la suivante.
 
 \begin{figure}[H]
 \centering
@@ -483,11 +483,11 @@ Cette réunion (par exemple le vendredi) est également l'occasion de faire une ra
 \caption{le cycle de Scrum.}
 \end{figure}
 \subsubsection{Pratiques XP}
-L'approche inspiré de SCRUM utilisé précedement, respecte plusieur aspect méthologique propre à la méthode SCRUM mais tous cela reste insuffisant pour mené un tel projet à la reussite , c'est pourquoi nous avons pensée à l'intégration de quelque pratique  de l'Extreme Programming  pour couvrir les techniques d'ingénierie logicielle.
+L'approche inspirÃ© de SCRUM utilisÃ© prÃ©cedement, respecte plusieur aspect mÃ©thologique propre Ã  la mÃ©thode SCRUM mais tous cela reste insuffisant pour menÃ© un tel projet Ã  la reussite , c'est pourquoi nous avons pensÃ©e Ã  l'intÃ©gration de quelque pratique  de l'Extreme Programming  pour couvrir les techniques d'ingÃ©nierie logicielle.
 \begin{itemize}
 	\item 
-\textbf{Cycles itératifs pilotés par le client :} Le projet progresse au rythme d'itérations très courtes, dont le contenu fonctionnel est déterminé par le client.
-\item \textbf{Programmation pilotée par les tests :} On écrivait des test automatiques pour chaque portion de code qu'ils conçoivent, et on s'appui sur ces tests pour affiner et améliorer sans cesse la conception de l'application sans craindre de régression.
+\textbf{Cycles itÃ©ratifs pilotÃ©s par le client :} Le projet progresse au rythme d'itÃ©rations trÃ¨s courtes, dont le contenu fonctionnel est dÃ©terminÃ© par le client.
+\item \textbf{Programmation pilotÃ©e par les tests :} On Ã©crivait des test automatiques pour chaque portion de code qu'ils conÃ§oivent, et on s'appui sur ces tests pour affiner et amÃ©liorer sans cesse la conception de l'application sans craindre de rÃ©gression.
 \end{itemize}
 % -_-_-_-_-_-_-_ FIN Context General generale -_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -497,55 +497,55 @@ L'approche inspiré de SCRUM utilisé précedement, respecte plusieur aspect méthol
 \chapter{\textsc{Gestion des Relations Clients et Le Cloud Computing
 }}
 
-\section{La théorie de la Gestion des Relations Clients CRM }
-Avant d’entamer la partie pratique de notre projet, il nous est paru judicieux de définir, dans un premier temps, la notion du CRM ou la Gestion des Relations Clients comme un ensemble de solutions technologiques spécialisées, permettant aux entreprises d’assurer un suivi de leur clientèle et de personnaliser leurs communications avec leurs marchés. Dans un deuxième temps, nous allons présenter le module SFA ou l’Automatisation des Forces de Vente puisqu’il est le module abordé durant notre projet. 
-\subsection {Définition}
- Le CRM est un processus mettant en œuvre outils logiciels, méthodes, stratégie et comportements pour gérer plus efficacement la relation avec le client. Le processus commence dès l'étape de prospection des nouveaux clients et se poursuit en une recherche continue de fidélisation de clients à fort potentiel. D'une autre approche : C'est une méthode globale pour optimiser ses relations avec ses contacts (clients, prospects, prescripteurs...) afin d'avoir une meilleure connaissance de leurs besoins et d'y répondre le mieux possible ; tout en optimisant la rentabilité de cette relation. 
-Il vise à proposer des solutions technologiques permettant de renforcer la communication entre l'entreprise et ses clients afin d'améliorer la relation avec la clientèle en automatisant les différentes composantes de la relation client :  
+\section{La thÃ©orie de la Gestion des Relations Clients CRM }
+Avant dâ€™entamer la partie pratique de notre projet, il nous est paru judicieux de dÃ©finir, dans un premier temps, la notion du CRM ou la Gestion des Relations Clients comme un ensemble de solutions technologiques spÃ©cialisÃ©es, permettant aux entreprises dâ€™assurer un suivi de leur clientÃ¨le et de personnaliser leurs communications avec leurs marchÃ©s. Dans un deuxiÃ¨me temps, nous allons prÃ©senter le module SFA ou lâ€™Automatisation des Forces de Vente puisquâ€™il est le module abordÃ© durant notre projet. 
+\subsection {DÃ©finition}
+ Le CRM est un processus mettant en Å“uvre outils logiciels, mÃ©thodes, stratÃ©gie et comportements pour gÃ©rer plus efficacement la relation avec le client. Le processus commence dÃ¨s l'Ã©tape de prospection des nouveaux clients et se poursuit en une recherche continue de fidÃ©lisation de clients Ã  fort potentiel. D'une autre approche : C'est une mÃ©thode globale pour optimiser ses relations avec ses contacts (clients, prospects, prescripteurs...) afin d'avoir une meilleure connaissance de leurs besoins et d'y rÃ©pondre le mieux possible ; tout en optimisant la rentabilitÃ© de cette relation. 
+Il vise Ã  proposer des solutions technologiques permettant de renforcer la communication entre l'entreprise et ses clients afin d'amÃ©liorer la relation avec la clientÃ¨le en automatisant les diffÃ©rentes composantes de la relation client :  
 \begin{itemize}
 	\item 
-\textbf{L'avant-vente :} il s'agit du marketing, consistant à étudier le marché, c'est-à-dire les besoins des clients et à démarcher les prospects. L'analyse des informations collectées sur le client permet à l'entreprise de revoir sa gamme de produits afin de répondre plus précisément à ses attentes.  
-\item	\textbf{ Les ventes :} L'automatisation des forces de vente (sales forces automation, SFA), consiste à fournir des outils de pilotage aux commerciaux afin de les assister dans leurs démarches de prospection (gestion des prises de contact, des rendez-vous, des relances, mais aussi aide à l'élaboration de propositions commerciales, ...). 
-\item	\textbf{La gestion du service clientèle :} le client aime se sentir connu de l'entreprise et ne supporte pas devoir récapituler, à chaque prise de contact, l'historique de sa relation à l'entreprise. 
-\item	 \textbf{L'après-vente :} consistant à fournir une assistance au client notamment via la mise en place de centre d'appel et via la mise en ligne d'informations de support technique. 
+\textbf{L'avant-vente :} il s'agit du marketing, consistant Ã  Ã©tudier le marchÃ©, c'est-Ã -dire les besoins des clients et Ã  dÃ©marcher les prospects. L'analyse des informations collectÃ©es sur le client permet Ã  l'entreprise de revoir sa gamme de produits afin de rÃ©pondre plus prÃ©cisÃ©ment Ã  ses attentes.  
+\item	\textbf{ Les ventes :} L'automatisation des forces de vente (sales forces automation, SFA), consiste Ã  fournir des outils de pilotage aux commerciaux afin de les assister dans leurs dÃ©marches de prospection (gestion des prises de contact, des rendez-vous, des relances, mais aussi aide Ã  l'Ã©laboration de propositions commerciales, ...). 
+\item	\textbf{La gestion du service clientÃ¨le :} le client aime se sentir connu de l'entreprise et ne supporte pas devoir rÃ©capituler, Ã  chaque prise de contact, l'historique de sa relation Ã  l'entreprise. 
+\item	 \textbf{L'aprÃ¨s-vente :} consistant Ã  fournir une assistance au client notamment via la mise en place de centre d'appel et via la mise en ligne d'informations de support technique. 
 \end{itemize}
 \subsection{les types du CRM}
-Le CRM se présente sous trois variantes : 
+Le CRM se prÃ©sente sous trois variantes : 
 \begin{itemize}
 	\item 
-	 \textbf{CRM opérationnel :} se charge de la gestion des forces de ventes, de l'organisation des campagnes, du service client.
-C'est l’étape du CRM qui consiste à mettre en place la stratégie de gestion de la relation client qui a été adoptée par l'entreprise. Concrètement, le CRM opérationnel désigne la gestion de l'ensemble des canaux marketing, des flux d'information (en interface avec les données produites par et stockées sur l'ERP), des événements clients, des rythmes de travail et de toutes les actions de communication et de marketing conduites à l'intention du client. Son rôle est donc avant tout la coordination du FrontOffice avec le middle-office et le backoffice, et l'optimisation de leurs relations. Cela étend donc les activités traditionnelles du marketing à celles de la vente, a fortiori si l'entreprise est engagée dans un processus d'automatisation partielle ou totale de sa force de vente.
-b.	 L'e-CRM : comprend notamment les techniques d'email marketing, les systèmes de personnalisation et de fidélisation en ligne et les outils de support client sur Internet. Avec leurs succès grandissants, les réseaux sociaux sont plus de plus intégrés aux outils e-CRM pour pouvoir en étendre leur portée : Les médias sociaux permettent d'engager les clients et les prospects. L'e-CRM permet d'échanger et partager avec ses clients, de créer une relation. Un moyen de les sonder, de les questionner, de prendre note de ce qu'ils disent et de réagir à leurs attentes. Il permet de construire une vue unique et centrale des clients et bâtir un profil de chacun d'entre eux. Avec l'e-CRM, il est possible de scénariser et d'automatiser les campagnes marketing. Détecter les clients les plus rentables et focaliser la stratégie marketing pour générer plus de revenus constitue est un des atouts de l'e-CRM. 
-\item	CRM analytique : fournit une analyse statistique des données collectées, établit des ratios, donne les moyens d'analyser les performances de vente, les tendances, l'efficacité des campagnes ... 
-C'est l'étape du CRM qui concerne la phase d'analyse de données collectées tout au long de la gestion de la relation client. C'est la phase pendant laquelle on va exploiter les informations sur le client et son comportement d'achat, afin de mieux le comprendre et donc si possible de l'anticiper à l'avenir à l'aide de modèles éventuellement. Souvent placé au cœur de la business intelligence de l'entreprise, le CRM analytique contribue à faciliter la prise de décision (établissement de typologies, définition de critères de segmentation, recommandation pour la capitalisation en termes d'image, structuration et évolution des gammes de produits et de services…).
+	 \textbf{CRM opÃ©rationnel :} se charge de la gestion des forces de ventes, de l'organisation des campagnes, du service client.
+C'est lâ€™Ã©tape du CRM qui consiste Ã  mettre en place la stratÃ©gie de gestion de la relation client qui a Ã©tÃ© adoptÃ©e par l'entreprise. ConcrÃ¨tement, le CRM opÃ©rationnel dÃ©signe la gestion de l'ensemble des canaux marketing, des flux d'information (en interface avec les donnÃ©es produites par et stockÃ©es sur l'ERP), des Ã©vÃ©nements clients, des rythmes de travail et de toutes les actions de communication et de marketing conduites Ã  l'intention du client. Son rÃ´le est donc avant tout la coordination du FrontOffice avec le middle-office et le backoffice, et l'optimisation de leurs relations. Cela Ã©tend donc les activitÃ©s traditionnelles du marketing Ã  celles de la vente, a fortiori si l'entreprise est engagÃ©e dans un processus d'automatisation partielle ou totale de sa force de vente.
+b.	 L'e-CRM : comprend notamment les techniques d'email marketing, les systÃ¨mes de personnalisation et de fidÃ©lisation en ligne et les outils de support client sur Internet. Avec leurs succÃ¨s grandissants, les rÃ©seaux sociaux sont plus de plus intÃ©grÃ©s aux outils e-CRM pour pouvoir en Ã©tendre leur portÃ©e : Les mÃ©dias sociaux permettent d'engager les clients et les prospects. L'e-CRM permet d'Ã©changer et partager avec ses clients, de crÃ©er une relation. Un moyen de les sonder, de les questionner, de prendre note de ce qu'ils disent et de rÃ©agir Ã  leurs attentes. Il permet de construire une vue unique et centrale des clients et bÃ¢tir un profil de chacun d'entre eux. Avec l'e-CRM, il est possible de scÃ©nariser et d'automatiser les campagnes marketing. DÃ©tecter les clients les plus rentables et focaliser la stratÃ©gie marketing pour gÃ©nÃ©rer plus de revenus constitue est un des atouts de l'e-CRM. 
+\item	CRM analytique : fournit une analyse statistique des donnÃ©es collectÃ©es, Ã©tablit des ratios, donne les moyens d'analyser les performances de vente, les tendances, l'efficacitÃ© des campagnes ... 
+C'est l'Ã©tape du CRM qui concerne la phase d'analyse de donnÃ©es collectÃ©es tout au long de la gestion de la relation client. C'est la phase pendant laquelle on va exploiter les informations sur le client et son comportement d'achat, afin de mieux le comprendre et donc si possible de l'anticiper Ã  l'avenir Ã  l'aide de modÃ¨les Ã©ventuellement. Souvent placÃ© au cÅ“ur de la business intelligence de l'entreprise, le CRM analytique contribue Ã  faciliter la prise de dÃ©cision (Ã©tablissement de typologies, dÃ©finition de critÃ¨res de segmentation, recommandation pour la capitalisation en termes d'image, structuration et Ã©volution des gammes de produits et de servicesâ€¦).
 \end{itemize}
-\subsection{Les fonctionnalités du CRM }
-Le CRM ou la gestion de la relation client consiste à identifier, à retenir et à développer les clients les plus profitables et en acquérir des nouveaux. C'est une stratégie d'entreprise orientée vers la satisfaction et la fidélité du client, elle est axée sur le marketing différencié, personnalisé ou One to One. Il repose sur deux principes : 
-a.	Tous les clients ne sont pas égaux. 
-b.	Le comportement suit la promesse de la récompense. 
-Les fonctions d'un CRM peuvent être résumé à : connaître, choisir, conquérir et fidéliser la clientèle.  
+\subsection{Les fonctionnalitÃ©s du CRM }
+Le CRM ou la gestion de la relation client consiste Ã  identifier, Ã  retenir et Ã  dÃ©velopper les clients les plus profitables et en acquÃ©rir des nouveaux. C'est une stratÃ©gie d'entreprise orientÃ©e vers la satisfaction et la fidÃ©litÃ© du client, elle est axÃ©e sur le marketing diffÃ©renciÃ©, personnalisÃ© ou One to One. Il repose sur deux principes : 
+a.	Tous les clients ne sont pas Ã©gaux. 
+b.	Le comportement suit la promesse de la rÃ©compense. 
+Les fonctions d'un CRM peuvent Ãªtre rÃ©sumÃ© Ã  : connaÃ®tre, choisir, conquÃ©rir et fidÃ©liser la clientÃ¨le.  
   
 \begin{enumerate}
 	\item 
-	\textbf{Connaître le client :} l'entreprise doit rassembler les informations lui permettant de décrire et de caractériser sa clientèle, de la positionner sur son marché et de détecter de nouveaux segments. 
-Tous les moyens technologiques existent aujourd'hui pour constituer, gérer et analyser des quantités massives de données. Gérer la relation client consiste à valoriser son capital client. D'un point de vue technique, le CRM implique de capturer, au niveau de l'entreprise, l'ensemble des données clients, collectées en interne ou auprès d'organisations extérieures, et de les intégrer dans un Data Warehouse (entrepôt de données) orienté client. 
-\item	\textbf{Choisir son client :} l'étape suivante consiste à analyser ces données avec les techniques les plus évoluées. Le Datamining, analyse statistique et à rendre les résultats accessibles à tous les canaux d'interaction avec les clients. Le Datamining permet d'analyser et d'interpréter un gros volume de données, de différentes sources afin de dégager des tendances, de rassembler les éléments similaires en catégories statistiques et de formuler des hypothèses. A partir des informations collectées, l'entreprise pourra obtenir des réponses objectives sur lesquelles fonder sa stratégie opérationnelle. La centralisation des données clients doit ainsi faciliter le pilotage de toute l'activité de la société. En effet, l'informatique décisionnelle (Business Intelligence et Datamining) permet d'élaborer les diverses composantes de la stratégie : (commerciale, marketing, canaux de vente, fidélisation) et fournit tous les tableaux de bord nécessaires. Ainsi il faut différencier les clients en fonction de leur besoin et de leur contribution au résultat et dialoguer avec eux de manière à diminuer les coûts de la relation commerciale et à en augmenter l'efficacité. Ce dialogue doit permettre de faire remonter l'information. 
-\item	 \textbf{Conquérir de nouveau client :} la mise en œuvre d'une stratégie orientée client concerne l'ensemble du processus commercial. Les nouveaux canaux de ventes (télévente, commerce électronique, etc.) créent des opportunités métiers. De nouveaux outils (Sales Forces Automation) permettent aux commerciaux de mieux gérer leur activité et d'augmenter leur efficacité en construisant leurs propositions en interaction directe avec le client. 
-\item	\textbf{Fidéliser les meilleurs clients :} Les programmes de fidélisation bénéficient de nouvelles possibilités technologiques, telle que la carte à mémoire. Le service après-vente devient l'occasion privilégiée de concrétiser une relation personnalisée et durable avec le client, en lui proposant une offre encore mieux adaptée à ses besoins.
+	\textbf{ConnaÃ®tre le client :} l'entreprise doit rassembler les informations lui permettant de dÃ©crire et de caractÃ©riser sa clientÃ¨le, de la positionner sur son marchÃ© et de dÃ©tecter de nouveaux segments. 
+Tous les moyens technologiques existent aujourd'hui pour constituer, gÃ©rer et analyser des quantitÃ©s massives de donnÃ©es. GÃ©rer la relation client consiste Ã  valoriser son capital client. D'un point de vue technique, le CRM implique de capturer, au niveau de l'entreprise, l'ensemble des donnÃ©es clients, collectÃ©es en interne ou auprÃ¨s d'organisations extÃ©rieures, et de les intÃ©grer dans un Data Warehouse (entrepÃ´t de donnÃ©es) orientÃ© client. 
+\item	\textbf{Choisir son client :} l'Ã©tape suivante consiste Ã  analyser ces donnÃ©es avec les techniques les plus Ã©voluÃ©es. Le Datamining, analyse statistique et Ã  rendre les rÃ©sultats accessibles Ã  tous les canaux d'interaction avec les clients. Le Datamining permet d'analyser et d'interprÃ©ter un gros volume de donnÃ©es, de diffÃ©rentes sources afin de dÃ©gager des tendances, de rassembler les Ã©lÃ©ments similaires en catÃ©gories statistiques et de formuler des hypothÃ¨ses. A partir des informations collectÃ©es, l'entreprise pourra obtenir des rÃ©ponses objectives sur lesquelles fonder sa stratÃ©gie opÃ©rationnelle. La centralisation des donnÃ©es clients doit ainsi faciliter le pilotage de toute l'activitÃ© de la sociÃ©tÃ©. En effet, l'informatique dÃ©cisionnelle (Business Intelligence et Datamining) permet d'Ã©laborer les diverses composantes de la stratÃ©gie : (commerciale, marketing, canaux de vente, fidÃ©lisation) et fournit tous les tableaux de bord nÃ©cessaires. Ainsi il faut diffÃ©rencier les clients en fonction de leur besoin et de leur contribution au rÃ©sultat et dialoguer avec eux de maniÃ¨re Ã  diminuer les coÃ»ts de la relation commerciale et Ã  en augmenter l'efficacitÃ©. Ce dialogue doit permettre de faire remonter l'information. 
+\item	 \textbf{ConquÃ©rir de nouveau client :} la mise en Å“uvre d'une stratÃ©gie orientÃ©e client concerne l'ensemble du processus commercial. Les nouveaux canaux de ventes (tÃ©lÃ©vente, commerce Ã©lectronique, etc.) crÃ©ent des opportunitÃ©s mÃ©tiers. De nouveaux outils (Sales Forces Automation) permettent aux commerciaux de mieux gÃ©rer leur activitÃ© et d'augmenter leur efficacitÃ© en construisant leurs propositions en interaction directe avec le client. 
+\item	\textbf{FidÃ©liser les meilleurs clients :} Les programmes de fidÃ©lisation bÃ©nÃ©ficient de nouvelles possibilitÃ©s technologiques, telle que la carte Ã  mÃ©moire. Le service aprÃ¨s-vente devient l'occasion privilÃ©giÃ©e de concrÃ©tiser une relation personnalisÃ©e et durable avec le client, en lui proposant une offre encore mieux adaptÃ©e Ã  ses besoins.
 \end{enumerate}
 
 \section{Cloud Computing}
 \paragraph{}
 Le Cloud Computing, ou informatique en nuage, est, outre ses nouvelles
-spécificités techniques, un nouveau concept. Cette nouvelle façon de penser et de
-concevoir le rapport homme/machine s'inscrit dans un cycle bien plus large : pendantlongtemps la machine n'était qu'une simple interface de visualisation de l'information et tout son traitement était internalisé (l'ère du Minitel), puis les machines ont
-embarqué de la puissance de calcul et de la mémoire et les calculs ont alors été externalisés et effectués en local. La « course à la puissance » était engagée jusqu'à la saturation de la fréquence de l'horloge interne de l'ordinateur. Aujourd'hui, nous nous dirigeons, avec l'émergence des tablettes tactiles, vers un retour à la notion d'interface de travail. Logiciels et données sont dans la majeure partie hébergés dans des serveurs privés ou communautaires à travers le monde.
-Ce nouveau concept, qui se traduit dans la réalité économique par une restructuration inévitable de la filière informatique comme nous le verrons par la suite, consiste à fournir des capacités de traitement informatique évolutives, élastiques et mises à disposition comme un service pour les utilisateurs qui y accèdent via internet sans gestion de l'infrastructure sous-jacente. La notion d'évolutivité et d'élasticité s'explique par le fait que l'utilisateur peut faire varier les ressources demandées à la
-hausse comme à la baisse et ce de manière très dynamique, avec une facturation des ressources à la consommation. Les capacités informatiques concernées par le Cloud Computing sont variées : capacité de calcul, espace de stockage, bande passante ou
+spÃ©cificitÃ©s techniques, un nouveau concept. Cette nouvelle faÃ§on de penser et de
+concevoir le rapport homme/machine s'inscrit dans un cycle bien plus large : pendantlongtemps la machine n'Ã©tait qu'une simple interface de visualisation de l'information et tout son traitement Ã©tait internalisÃ© (l'Ã¨re du Minitel), puis les machines ont
+embarquÃ© de la puissance de calcul et de la mÃ©moire et les calculs ont alors Ã©tÃ© externalisÃ©s et effectuÃ©s en local. La Â« course Ã  la puissance Â» Ã©tait engagÃ©e jusqu'Ã  la saturation de la frÃ©quence de l'horloge interne de l'ordinateur. Aujourd'hui, nous nous dirigeons, avec l'Ã©mergence des tablettes tactiles, vers un retour Ã  la notion d'interface de travail. Logiciels et donnÃ©es sont dans la majeure partie hÃ©bergÃ©s dans des serveurs privÃ©s ou communautaires Ã  travers le monde.
+Ce nouveau concept, qui se traduit dans la rÃ©alitÃ© Ã©conomique par une restructuration inÃ©vitable de la filiÃ¨re informatique comme nous le verrons par la suite, consiste Ã  fournir des capacitÃ©s de traitement informatique Ã©volutives, Ã©lastiques et mises Ã  disposition comme un service pour les utilisateurs qui y accÃ¨dent via internet sans gestion de l'infrastructure sous-jacente. La notion d'Ã©volutivitÃ© et d'Ã©lasticitÃ© s'explique par le fait que l'utilisateur peut faire varier les ressources demandÃ©es Ã  la
+hausse comme Ã  la baisse et ce de maniÃ¨re trÃ¨s dynamique, avec une facturation des ressources Ã  la consommation. Les capacitÃ©s informatiques concernÃ©es par le Cloud Computing sont variÃ©es : capacitÃ© de calcul, espace de stockage, bande passante ou
 encore logiciels.
-Les applications proposées en mode Cloud Computing ne se trouvent plus forcément sur un serveur informatique hébergé chez l'utilisateur mais dans un « nuage» formé de l'interconnexion de serveurs géographiquement distincts réalisée au niveau
-de fermes de serveurs géantes (également appelées Datacenters). Ceci est rendu possible par le procédé de virtualisation qui consiste à faire fonctionner plusieurs systèmes d'exploitation ainsi que leurs applications associées sur un seul serveur
-physique. La virtualisation permet ainsi de recréer plusieurs ordinateurs virtuels sur une seule et même machine physique.
+Les applications proposÃ©es en mode Cloud Computing ne se trouvent plus forcÃ©ment sur un serveur informatique hÃ©bergÃ© chez l'utilisateur mais dans un Â« nuageÂ» formÃ© de l'interconnexion de serveurs gÃ©ographiquement distincts rÃ©alisÃ©e au niveau
+de fermes de serveurs gÃ©antes (Ã©galement appelÃ©es Datacenters). Ceci est rendu possible par le procÃ©dÃ© de virtualisation qui consiste Ã  faire fonctionner plusieurs systÃ¨mes d'exploitation ainsi que leurs applications associÃ©es sur un seul serveur
+physique. La virtualisation permet ainsi de recrÃ©er plusieurs ordinateurs virtuels sur une seule et mÃªme machine physique.
 
 \subsection{Apports techniques du cloud computing }
 	
@@ -553,84 +553,84 @@ Parmi les apports techniques du cloud, on trouve :
  
 \begin{itemize}
 	\item 
-	Automatisation – « l'infrastructure scriptable » : Nous pouvons mettre en place des processus reproductibles de construction (build) et de déploiement applicatif, et ceci en pilotant l'infrastructure via une interface de programmation. 
+	Automatisation â€“ Â« l'infrastructure scriptable Â» : Nous pouvons mettre en place des processus reproductibles de construction (build) et de dÃ©ploiement applicatif, et ceci en pilotant l'infrastructure via une interface de programmation. 
  
-\item	Adaptation automatique de la capacité (auto-scaling) : Nous pouvons adapter la capacité en fonction du besoin de vos applications, que ce soit pour la réduire ou pour l'augmenter, et ceci sans intervention humaine. L'auto-scaling facilite l'automatisation, et amène d'avantage d'efficacité. 
+\item	Adaptation automatique de la capacitÃ© (auto-scaling) : Nous pouvons adapter la capacitÃ© en fonction du besoin de vos applications, que ce soit pour la rÃ©duire ou pour l'augmenter, et ceci sans intervention humaine. L'auto-scaling facilite l'automatisation, et amÃ¨ne d'avantage d'efficacitÃ©. 
  
-\item	Adaptation proactive de la capacité (proactive scaling) : Nous pouvons également anticiper, en planifiant à l'avance la capacité en fonction de la fréquentation attendue. 
+\item	Adaptation proactive de la capacitÃ© (proactive scaling) : Nous pouvons Ã©galement anticiper, en planifiant Ã  l'avance la capacitÃ© en fonction de la frÃ©quentation attendue. 
  
-\item Cycle de développement plus efficace : Les environnements de production peuvent être aisément dupliqués pour fournir les environnements de développement, de test, et de préproduction. Les environnements préproduction peuvent aisément passer au stade de la production. 
+\item Cycle de dÃ©veloppement plus efficace : Les environnements de production peuvent Ãªtre aisÃ©ment dupliquÃ©s pour fournir les environnements de dÃ©veloppement, de test, et de prÃ©production. Les environnements prÃ©production peuvent aisÃ©ment passer au stade de la production. 
  
-\item	Amélioration de la testabilité : Pour le test, Nous ne sommes jamais à court de hardware. Nous pouvons introduire les tests et les automatiser à tous les stades du processus de développement. Pour une campagne de test, nous pouvons quasi-instantanément dériver un environnement de test préconfiguré, et le supprimer en fin de campagne. 
+\item	AmÃ©lioration de la testabilitÃ© : Pour le test, Nous ne sommes jamais Ã  court de hardware. Nous pouvons introduire les tests et les automatiser Ã  tous les stades du processus de dÃ©veloppement. Pour une campagne de test, nous pouvons quasi-instantanÃ©ment dÃ©river un environnement de test prÃ©configurÃ©, et le supprimer en fin de campagne. 
  
-\item	Plans de reprise et de continuité d'activité facilités : Le cloud permet une approche plus efficace du plan de reprise d'activité et du plan de continuité d'activité, en permettant de disposer des serveurs et du stockage de données à moindre coût. Nous pouvons répartir nos infrastructures sur de multiples sites géographiques. Nous pouvons dupliquer un environnement complet sur un autre site en quelques minutes. 
+\item	Plans de reprise et de continuitÃ© d'activitÃ© facilitÃ©s : Le cloud permet une approche plus efficace du plan de reprise d'activitÃ© et du plan de continuitÃ© d'activitÃ©, en permettant de disposer des serveurs et du stockage de donnÃ©es Ã  moindre coÃ»t. Nous pouvons rÃ©partir nos infrastructures sur de multiples sites gÃ©ographiques. Nous pouvons dupliquer un environnement complet sur un autre site en quelques minutes. 
  
-\item	Utilisation du cloud comme "trop-plein" : Quelques clics et une politique de load balancing adaptée permettent de déverser le trop-plein de fréquentation d'une application vers le cloud.
+\item	Utilisation du cloud comme "trop-plein" : Quelques clics et une politique de load balancing adaptÃ©e permettent de dÃ©verser le trop-plein de frÃ©quentation d'une application vers le cloud.
 \end{itemize}
 
-\subsection{	Apports économiques du cloud computing }
-Construire des applications pour le cloud présente des avantages certains sur le plan économique. Voici quelques-uns de ces avantages. 
+\subsection{	Apports Ã©conomiques du cloud computing }
+Construire des applications pour le cloud prÃ©sente des avantages certains sur le plan Ã©conomique. Voici quelques-uns de ces avantages. 
 \begin{itemize}
-	\item 	Suppression quasi-totale des investissements amont d'infrastructure : Construire des systèmes de grande capacité nécessite des investissements très importants en surface de locaux, en sécurité physique, en hardware (racks, serveurs ; routeurs, alimentation de secours), en fonctionnement de hardware (coûts énergétiques et climatisation), et en personnel. De part leur ampleur, ces coûts doivent être anticipés en amont et mettent en œuvre un processus décisionnel long et complexe, et ceci avant même que le projet ne puisse démarrer. Avec le cloud, de tels frais fixes ou de démarrage n'existent plus. 
+	\item 	Suppression quasi-totale des investissements amont d'infrastructure : Construire des systÃ¨mes de grande capacitÃ© nÃ©cessite des investissements trÃ¨s importants en surface de locaux, en sÃ©curitÃ© physique, en hardware (racks, serveurs ; routeurs, alimentation de secours), en fonctionnement de hardware (coÃ»ts Ã©nergÃ©tiques et climatisation), et en personnel. De part leur ampleur, ces coÃ»ts doivent Ãªtre anticipÃ©s en amont et mettent en Å“uvre un processus dÃ©cisionnel long et complexe, et ceci avant mÃªme que le projet ne puisse dÃ©marrer. Avec le cloud, de tels frais fixes ou de dÃ©marrage n'existent plus. 
  
-\item	Infrastructure à la demande : Auparavant, si votre application attirait les utilisateurs en nombre et que le l'application ou l'infrastructure n'était pas capable de faire face, vous vous retrouviez victime de votre propre succès. Ou alors, si vous aviez investi lourdement et que les utilisateurs ne venaient pas aussi nombreux qu'espérer, vous étiez cette fois victime de votre échec. Déployées sur le cloud, les applications bénéficient d'un dimensionnement à la demande de l'infrastructure. Il n'est plus nécessaire de recourir à l'acquisition anticipée de capacité d'infrastructure. Vous augmentez la capacité au fur et à mesure de vos besoins, et payez uniquement ce que vous utilisez vraiment. La flexibilité s'en trouve augmentée, et les risques et les coûts d'exploitation, réduits. 
+\item	Infrastructure Ã  la demande : Auparavant, si votre application attirait les utilisateurs en nombre et que le l'application ou l'infrastructure n'Ã©tait pas capable de faire face, vous vous retrouviez victime de votre propre succÃ¨s. Ou alors, si vous aviez investi lourdement et que les utilisateurs ne venaient pas aussi nombreux qu'espÃ©rer, vous Ã©tiez cette fois victime de votre Ã©chec. DÃ©ployÃ©es sur le cloud, les applications bÃ©nÃ©ficient d'un dimensionnement Ã  la demande de l'infrastructure. Il n'est plus nÃ©cessaire de recourir Ã  l'acquisition anticipÃ©e de capacitÃ© d'infrastructure. Vous augmentez la capacitÃ© au fur et Ã  mesure de vos besoins, et payez uniquement ce que vous utilisez vraiment. La flexibilitÃ© s'en trouve augmentÃ©e, et les risques et les coÃ»ts d'exploitation, rÃ©duits. 
  
-\item Utilisation plus efficace des ressources : Les administrateurs système sont habituellement préoccupés par l'acquisition de hardware supplémentaire (quand la capacité est insuffisante) ou par le désir de mieux utiliser la capacité disponible (en cas d'excès de capacité ou de capacité inexploitée). Avec le cloud, ils peuvent utiliser les ressources plus efficacement, en laissant l'application demander et restituer elle-même les ressources selon ses besoins. 
+\item Utilisation plus efficace des ressources : Les administrateurs systÃ¨me sont habituellement prÃ©occupÃ©s par l'acquisition de hardware supplÃ©mentaire (quand la capacitÃ© est insuffisante) ou par le dÃ©sir de mieux utiliser la capacitÃ© disponible (en cas d'excÃ¨s de capacitÃ© ou de capacitÃ© inexploitÃ©e). Avec le cloud, ils peuvent utiliser les ressources plus efficacement, en laissant l'application demander et restituer elle-mÃªme les ressources selon ses besoins. 
  
-\item Coûts modulés selon l'usage : Avec une tarification au service, vous êtes facturé uniquement pour l'infrastructure que vous utilisez. Vous ne payez pas pour de l'infrastructure qui vous est affectée, mais que vous n'utilisez pas. Ceci fait apparaître une nouvelle perspective de réduction des coûts. Ainsi, quand vous déployez un correctif d'optimisation des performances, vous constatez une réduction quasi-immédiate de vos coûts (parfois dès la fin du premier mois). Par exemple, dans le cas où l'introduction d'un cache permet de réduire de 70 \% 
-les requêtes de données, les économies réalisées démarrent immédiatement et continuent de s'accumuler avec le temps ; la récompense ne tarde pas à tomber dès la facture suivante. De plus, si vous construisez une plateforme fondée sur le cloud, vous pouvez propager le mode de tarification modulé par l'usage à vos propres clients. 
+\item CoÃ»ts modulÃ©s selon l'usage : Avec une tarification au service, vous Ãªtes facturÃ© uniquement pour l'infrastructure que vous utilisez. Vous ne payez pas pour de l'infrastructure qui vous est affectÃ©e, mais que vous n'utilisez pas. Ceci fait apparaÃ®tre une nouvelle perspective de rÃ©duction des coÃ»ts. Ainsi, quand vous dÃ©ployez un correctif d'optimisation des performances, vous constatez une rÃ©duction quasi-immÃ©diate de vos coÃ»ts (parfois dÃ¨s la fin du premier mois). Par exemple, dans le cas oÃ¹ l'introduction d'un cache permet de rÃ©duire de 70 \% 
+les requÃªtes de donnÃ©es, les Ã©conomies rÃ©alisÃ©es dÃ©marrent immÃ©diatement et continuent de s'accumuler avec le temps ; la rÃ©compense ne tarde pas Ã  tomber dÃ¨s la facture suivante. De plus, si vous construisez une plateforme fondÃ©e sur le cloud, vous pouvez propager le mode de tarification modulÃ© par l'usage Ã  vos propres clients. 
  
-	\item La réduction des délais de livraison : La parallélisation est l'un des moyens les plus efficaces pour accélérer la vitesse de traitement. Si un traitement lourd, mais parallélisable, dure 500 heures sur une seule machine, avec les architectures cloud, il est possible de répartir ce traitement sur 500 instances, réduisant ainsi son exécution à 1 heure. Disposer d'une telle infrastructure 'élastique' permet à l'application de mettre à profit la parallélisation, et de réduire pour le métier le délai de mise à disposition du résultat. 
+	\item La rÃ©duction des dÃ©lais de livraison : La parallÃ©lisation est l'un des moyens les plus efficaces pour accÃ©lÃ©rer la vitesse de traitement. Si un traitement lourd, mais parallÃ©lisable, dure 500 heures sur une seule machine, avec les architectures cloud, il est possible de rÃ©partir ce traitement sur 500 instances, rÃ©duisant ainsi son exÃ©cution Ã  1 heure. Disposer d'une telle infrastructure 'Ã©lastique' permet Ã  l'application de mettre Ã  profit la parallÃ©lisation, et de rÃ©duire pour le mÃ©tier le dÃ©lai de mise Ã  disposition du rÃ©sultat. 
 \end{itemize}
 \chapter{Analyse Fonctionnelle et Conception}
-Ce chapitre présente une étude détaillée des spécifications fonctionnelles du projet. La première section traite les besoins fonctionnels et non fonctionnels du projet visant à reformuler le besoin d'une manière simple et réalisable. La deuxième section est une analyse des acteurs qui interviennent dans le projet. Quant à la troisième, il s'agit d'une modélisation pour donner une vision globale du comportement fonctionnel de notre solution. 
-\section{ Spécifications fonctionnelles }
+Ce chapitre prÃ©sente une Ã©tude dÃ©taillÃ©e des spÃ©cifications fonctionnelles du projet. La premiÃ¨re section traite les besoins fonctionnels et non fonctionnels du projet visant Ã  reformuler le besoin d'une maniÃ¨re simple et rÃ©alisable. La deuxiÃ¨me section est une analyse des acteurs qui interviennent dans le projet. Quant Ã  la troisiÃ¨me, il s'agit d'une modÃ©lisation pour donner une vision globale du comportement fonctionnel de notre solution. 
+\section{ SpÃ©cifications fonctionnelles }
 \paragraph{}
-Les spécifications fonctionnelles générales de l'application ont été décrites en collaboration avec l'encadrant, et le client qui est en fait le directeur Général de Neoxia au Maroc et l'assistante chargé de facturation. Des plans d'action élaborés pendant les réunions précisaient le périmètre général ainsi que les différentes fonctionnalités que l'application devrait offrir. Une fois ayant procédé à une analyse détaillée, nous avons pu identifier les différentes exigences métiers. 
-Le besoin de Neoxia à gérer ses propres affaires sur une plateforme Salesforce, m'a amené à comprendre le métier de gestion des projets informatique ainsi que la gestion des prestations.
-Ensuite comprendre le déroulement des ventes des prestations dès la phase de marketing allant à la phase du SAV.
+Les spÃ©cifications fonctionnelles gÃ©nÃ©rales de l'application ont Ã©tÃ© dÃ©crites en collaboration avec l'encadrant, et le client qui est en fait le directeur GÃ©nÃ©ral de Neoxia au Maroc et l'assistante chargÃ© de facturation. Des plans d'action Ã©laborÃ©s pendant les rÃ©unions prÃ©cisaient le pÃ©rimÃ¨tre gÃ©nÃ©ral ainsi que les diffÃ©rentes fonctionnalitÃ©s que l'application devrait offrir. Une fois ayant procÃ©dÃ© Ã  une analyse dÃ©taillÃ©e, nous avons pu identifier les diffÃ©rentes exigences mÃ©tiers. 
+Le besoin de Neoxia Ã  gÃ©rer ses propres affaires sur une plateforme Salesforce, m'a amenÃ© Ã  comprendre le mÃ©tier de gestion des projets informatique ainsi que la gestion des prestations.
+Ensuite comprendre le dÃ©roulement des ventes des prestations dÃ¨s la phase de marketing allant Ã  la phase du SAV.
 Le processus global se compose de plusieurs sous-processus
 \begin{enumerate}
 	\item {	Processus de Marketing}
-	Après avoir organisé des actions publicitaires et accueillir un nombre important de pistes, comptes, contacts et opportunités.
+	AprÃ¨s avoir organisÃ© des actions publicitaires et accueillir un nombre important de pistes, comptes, contacts et opportunitÃ©s.
 L'entreprise commence la phase du marketing pour pouvoir commencer ses affaires et vendre ses produits.
-La tendance du marketing nous mène directement vers le mass mailing.
-L'utilisateur doit être capable d'envoyer des e-mails en mass aux contacts et pistes enregistrés sur la plateforme avec des modèles bien précis pour chaque cas,  de nos jours le consommateur recherche des aspects comme le plaisir, la sécurité, la considération, et surtout la personnalisation. Ces nouveaux critères obligent les entreprises à mettre en place les processus nécessaires à la rencontre de ces attentes.
-C'est pourquoi les modèles des e-mails sont divers et personnalisés.
-Mais le processus ne s'arrête pas là, car le client va répondre par une demande, réclamation ou juste une question, on doit être capable de capturer la réponse, la stocker et par la suite crée une tâche pour pouvoir traiter la demande.
-Après l'exécution de la tâche elle est marquée comme terminée. 
+La tendance du marketing nous mÃ¨ne directement vers le mass mailing.
+L'utilisateur doit Ãªtre capable d'envoyer des e-mails en mass aux contacts et pistes enregistrÃ©s sur la plateforme avec des modÃ¨les bien prÃ©cis pour chaque cas,  de nos jours le consommateur recherche des aspects comme le plaisir, la sÃ©curitÃ©, la considÃ©ration, et surtout la personnalisation. Ces nouveaux critÃ¨res obligent les entreprises Ã  mettre en place les processus nÃ©cessaires Ã  la rencontre de ces attentes.
+C'est pourquoi les modÃ¨les des e-mails sont divers et personnalisÃ©s.
+Mais le processus ne s'arrÃªte pas lÃ , car le client va rÃ©pondre par une demande, rÃ©clamation ou juste une question, on doit Ãªtre capable de capturer la rÃ©ponse, la stocker et par la suite crÃ©e une tÃ¢che pour pouvoir traiter la demande.
+AprÃ¨s l'exÃ©cution de la tÃ¢che elle est marquÃ©e comme terminÃ©e. 
 
-La figure ci-dessous représente le processus de marketing.
+La figure ci-dessous reprÃ©sente le processus de marketing.
 \begin{figure}[H]
 \centering
 \caption{Diagramme des cas d'utilisation}
 \includegraphics[scale=0.41]{processusmarketing.png}
 \end {figure}
 \item{Processus de ventes }
-Le processus de vente commence par la création d'une piste, par la suite cette piste est soit supprimée si elle n'est pas qualifiée, soit qualifiée et convertie.
-Une piste convertie nous donne un Compte, Contact et Opportunité.
-Une fois nous avons notre opportunité ouverte dans l'org, on commence à concentrer sur l'objet Opportunité qui passe par plusieurs étapes selon l'évolution des propositions et des échanges avec le client :
-La figure si dessous montre le déroulement du processus de vente.
+Le processus de vente commence par la crÃ©ation d'une piste, par la suite cette piste est soit supprimÃ©e si elle n'est pas qualifiÃ©e, soit qualifiÃ©e et convertie.
+Une piste convertie nous donne un Compte, Contact et OpportunitÃ©.
+Une fois nous avons notre opportunitÃ© ouverte dans l'org, on commence Ã  concentrer sur l'objet OpportunitÃ© qui passe par plusieurs Ã©tapes selon l'Ã©volution des propositions et des Ã©changes avec le client :
+La figure si dessous montre le dÃ©roulement du processus de vente.
 \begin{figure}[H]
 \centering
-\caption{Schéma du processus de vente.}
+\caption{SchÃ©ma du processus de vente.}
 \includegraphics[scale=0.75]{processusvente2.png}
 \end{figure}
-L'objet opportunité passe par des étapes claire et nette sont :
+L'objet opportunitÃ© passe par des Ã©tapes claire et nette sont :
 	
 	\begin{itemize}
 		\item Prospection 
 		\item Qualification
 		\item Proposition des valeurs
 		\item Offres Commerciale
-		\item Négociation
-		\item Fermée gagnée/Perdue.
+		\item NÃ©gociation
+		\item FermÃ©e gagnÃ©e/Perdue.
 \end{itemize}
-C'est dans la phase de l'offre commerciale que commence l'envoi des Devis, jusqu'à l'acceptation d'un devis de la part du client, et là on dit que l'opportunité est gagnée. Et on commence le processus de facturation.
+C'est dans la phase de l'offre commerciale que commence l'envoi des Devis, jusqu'Ã  l'acceptation d'un devis de la part du client, et lÃ  on dit que l'opportunitÃ© est gagnÃ©e. Et on commence le processus de facturation.
 
 \item {Le processus de facturation }
-Ce processus est déclenché par l'acceptation du devis par le client, cette acceptation envoie automatiquement une notification au Responsable commercial pour qu'il crée des tâches pour chaque date de facturation, quand la date est échue le responsable de facturation est notifié, qui va par la suite demandé au Responsable Commercial de lui confirmer la validation de la réception pour que le responsable de Facturation Dépose la facture sinon la  date de dépôt est modifié.
-Ensuite après le dépôt de la facture si la facture est réglée dans le délai, elle est marquée comme réglée. Sinon une relance sur le règlement est lancée par le Responsable du Recouvrement.
+Ce processus est dÃ©clenchÃ© par l'acceptation du devis par le client, cette acceptation envoie automatiquement une notification au Responsable commercial pour qu'il crÃ©e des tÃ¢ches pour chaque date de facturation, quand la date est Ã©chue le responsable de facturation est notifiÃ©, qui va par la suite demandÃ© au Responsable Commercial de lui confirmer la validation de la rÃ©ception pour que le responsable de Facturation DÃ©pose la facture sinon la  date de dÃ©pÃ´t est modifiÃ©.
+Ensuite aprÃ¨s le dÃ©pÃ´t de la facture si la facture est rÃ©glÃ©e dans le dÃ©lai, elle est marquÃ©e comme rÃ©glÃ©e. Sinon une relance sur le rÃ¨glement est lancÃ©e par le Responsable du Recouvrement.
 
 \begin{figure}[H]
 \centering
@@ -638,12 +638,12 @@ Ensuite après le dépôt de la facture si la facture est réglée dans le délai, ell
 \includegraphics[scale=0.9]{processusfacturation.png}
 \end{figure}
 \item {Lightning Sync}
-Google a maintenant des fonctions de calendrier. La synchronisation du calendrier de salesforce avec le calendrier Google nous permettrait de fournir des tâches à un ensemble diversifié d'outils utilisés dans le domaine. Comme les téléphones cellulaires ... Cela permettrait aux clients de numériser des calendriers de vente pour réserver l'heure et nous pourrions lier cela à Salesforce. Le calendrier Google peut être mis à jour depuis le téléphone portable ( depuis l'Agenda de Google). 
-cette figure montre le résultat final de cette configuration dans Google Contacts:
+Google a maintenant des fonctions de calendrier. La synchronisation du calendrier de salesforce avec le calendrier Google nous permettrait de fournir des tÃ¢ches Ã  un ensemble diversifiÃ© d'outils utilisÃ©s dans le domaine. Comme les tÃ©lÃ©phones cellulaires ... Cela permettrait aux clients de numÃ©riser des calendriers de vente pour rÃ©server l'heure et nous pourrions lier cela Ã  Salesforce. Le calendrier Google peut Ãªtre mis Ã  jour depuis le tÃ©lÃ©phone portable ( depuis l'Agenda de Google). 
+cette figure montre le rÃ©sultat final de cette configuration dans Google Contacts:
 \begin{figure}[H]
 	\centering
 		\includegraphics{Contactsync.PNG}
-	\label{fig:les Contacts Synchronisés de SF vers Google Contacts}
+	\label{fig:les Contacts SynchronisÃ©s de SF vers Google Contacts}
 \end{figure}
  
 
@@ -653,24 +653,24 @@ cette figure montre le résultat final de cette configuration dans Google Contact
 \end{enumerate}
 
 \section{Conception}
-Toute personne qui utilise une base de données relationnelle sait que la structure de stockage de base de données primaire est une table, une structure de données qui possède un ensemble de champs (colonnes) avec des types de données spécifiques comme texte, date et numéro. Les applications gèrent les informations des tables par la création, la lecture, la modification et la suppression des enregistrements (lignes).
+Toute personne qui utilise une base de donnÃ©es relationnelle sait que la structure de stockage de base de donnÃ©es primaire est une table, une structure de donnÃ©es qui possÃ¨de un ensemble de champs (colonnes) avec des types de donnÃ©es spÃ©cifiques comme texte, date et numÃ©ro. Les applications gÃ¨rent les informations des tables par la crÃ©ation, la lecture, la modification et la suppression des enregistrements (lignes).
 
-Avec Force.com, la première structure de données est appelée un objet, qui, avec quelques fonctions supplémentaires, est plus ou moins le même concept que la table, mais nous avons que deux types de relation entre les tables :
+Avec Force.com, la premiÃ¨re structure de donnÃ©es est appelÃ©e un objet, qui, avec quelques fonctions supplÃ©mentaires, est plus ou moins le mÃªme concept que la table, mais nous avons que deux types de relation entre les tables :
 	
 	\begin{itemize}
-		\item Relation Principal-détails : Master-détail.
-		\item Relation de référence : lookup.
+		\item Relation Principal-dÃ©tails : Master-dÃ©tail.
+		\item Relation de rÃ©fÃ©rence : lookup.
 \end{itemize}
-Les relation « principal-détails » et « de référence » facilite l'association entre les objets, Il n'est pas nécessaire de déclarer les clés primaires et étrangères, et compliquer la structure avec les jointures.
-la figure ci-dessous représente le schéma généré par Salesforce  qui schématise quelques objets crées dans l'org.
+Les relation Â« principal-dÃ©tails Â» et Â« de rÃ©fÃ©rence Â» facilite l'association entre les objets, Il n'est pas nÃ©cessaire de dÃ©clarer les clÃ©s primaires et Ã©trangÃ¨res, et compliquer la structure avec les jointures.
+la figure ci-dessous reprÃ©sente le schÃ©ma gÃ©nÃ©rÃ© par Salesforce  qui schÃ©matise quelques objets crÃ©es dans l'org.
 \begin{figure}[H]
 \centering
-\caption{la clé du générateur de schéma}
+\caption{la clÃ© du gÃ©nÃ©rateur de schÃ©ma}
 \includegraphics[scale=1]{key.png}
 \end{figure}
 \begin{figure}[H]
 \centering
-\caption{le schéma des Objets utilisés dans l'org}
+\caption{le schÃ©ma des Objets utilisÃ©s dans l'org}
 \includegraphics[scale=0.6]{schemabuilder.png}
 \end{figure}
 
@@ -678,20 +678,20 @@ la figure ci-dessous représente le schéma généré par Salesforce  qui schématise 
  
 % -_-_-_-_-_-_-_-_-_-_-_-_ Etude technique  -_-_-_-_-_-_-_-_-_-_-_-_
 
-\chapter{\textsc{Étude technique}}
+\chapter{\textsc{Ã‰tude technique}}
 
 \paragraph{}
-Dans ce qui suit, le plan technique du projet sera abordé. On présentera ainsi les contraintes techniques liées aux outils de développement utilisés durant la réalisation du projet. L'architecture physique et applicative seront détaillées pour avoir une vision claire sur la démarche de mise en oeuvre de la solution. 
+Dans ce qui suit, le plan technique du projet sera abordÃ©. On prÃ©sentera ainsi les contraintes techniques liÃ©es aux outils de dÃ©veloppement utilisÃ©s durant la rÃ©alisation du projet. L'architecture physique et applicative seront dÃ©taillÃ©es pour avoir une vision claire sur la dÃ©marche de mise en oeuvre de la solution. 
 
 
 \paragraph{}
-Salesforce.com est un éditeur de logiciels, basé à San Francisco aux États-Unis. Il distribue des logiciels de gestion basés sur Internet et héberge des solutions pour la gestion de la relation client CRM.
-Précurseur du Cloud Computing, et aujourd'hui leader mondial des outils CRM, Salesforce compte plus de 100 000 entreprises clientes dont Pernod Ricard, Renault, Cofely GDF SUEZ ou encore IBM.
+Salesforce.com est un Ã©diteur de logiciels, basÃ© Ã  San Francisco aux Ã‰tats-Unis. Il distribue des logiciels de gestion basÃ©s sur Internet et hÃ©berge des solutions pour la gestion de la relation client CRM.
+PrÃ©curseur du Cloud Computing, et aujourd'hui leader mondial des outils CRM, Salesforce compte plus de 100 000 entreprises clientes dont Pernod Ricard, Renault, Cofely GDF SUEZ ou encore IBM.
 
 \subsubsection{Produits et services \textsc{salesforce.com} : }
 
  \paragraph{}
-Basé sur Database.com et un marché d'applications d'entreprise Appexchange, les solutions de Salesforce.com sont regroupées sous plusieurs grandes catégories : 
+BasÃ© sur Database.com et un marchÃ© d'applications d'entreprise Appexchange, les solutions de Salesforce.com sont regroupÃ©es sous plusieurs grandes catÃ©gories : 
 
 \begin{figure}[H]
 \centering
@@ -705,34 +705,34 @@ Basé sur Database.com et un marché d'applications d'entreprise Appexchange, les 
 
 	\begin{itemize}
 		\item \textbf{Sales Cloud : } automatisation des processus de vente et CRM.
-		\item \textbf{Data.com : } prospection B2B et nettoyage de données.
+		\item \textbf{Data.com : } prospection B2B et nettoyage de donnÃ©es.
 	\end{itemize}
 	
 \item{\textit{Service : }}
 
 	\begin{itemize}
-		\item \textbf{Service Cloud : } service d'assistance entièrement personnalisable.
-		\item \textbf{Desk.com : } service d'assistance clientèle pour les petites entreprises.
+		\item \textbf{Service Cloud : } service d'assistance entiÃ¨rement personnalisable.
+		\item \textbf{Desk.com : } service d'assistance clientÃ¨le pour les petites entreprises.
 	\end{itemize}
 	
 \item{\textit{Marketing : }}
 
 	\begin{itemize}
-		\item \textbf{Marketing Cloud : } plate-forme de marketing numérique.
+		\item \textbf{Marketing Cloud : } plate-forme de marketing numÃ©rique.
 		\item \textbf{Pardot : } automatisation des processus Marketing B2B.
 	\end{itemize}
 	
 \item{\textit{Community : }}
 
 	\begin{itemize}
-		\item \textbf{Community Cloud : } communauté des clients,  partenaires et employés.
-		\item \textbf{Chatter : } réseau social d'entreprise.
+		\item \textbf{Community Cloud : } communautÃ© des clients,  partenaires et employÃ©s.
+		\item \textbf{Chatter : } rÃ©seau social d'entreprise.
 	\end{itemize}
 	
 \item{\textit{Analytics : }}
 
 	\begin{itemize}
-		\item \textbf{Wave Analytics : } business Analytics sur toute donnée et tout périphérique.
+		\item \textbf{Wave Analytics : } business Analytics sur toute donnÃ©e et tout pÃ©riphÃ©rique.
 		\item \textbf{Wave Apps : } des applications qui influencent l'attrait des ventes et le plaisir des clients.
 	\end{itemize}
 	
@@ -740,9 +740,9 @@ Basé sur Database.com et un marché d'applications d'entreprise Appexchange, les 
 \item{\textit{Platform and Apps : }}
 
 	\begin{itemize}
-		\item \textbf{Salesforce1 : } La plate-forme du Cloud développement n ° 1 .
-		\item \textbf{Force.com : } Automatisation des processus métier moyenant des applications.
-		\item \textbf{Heroku : } Création d'applications orientées client.
+		\item \textbf{Salesforce1 : } La plate-forme du Cloud dÃ©veloppement n Â° 1 .
+		\item \textbf{Force.com : } Automatisation des processus mÃ©tier moyenant des applications.
+		\item \textbf{Heroku : } CrÃ©ation d'applications orientÃ©es client.
 	\end{itemize}
 	
 \item{\textit{Marketplace : }} Achat et vente d' applications
@@ -750,49 +750,49 @@ Basé sur Database.com et un marché d'applications d'entreprise Appexchange, les 
 \end{description}
 
 \paragraph{}
-\textsc{salesforce.com} offre une panoplie d'outils standards intégrés permettant l'automatisation des processus et le stockage des données d'une entreprise. En revanche, et lorsqu'une fonctionnalité n'est pas intégrée par défaut dans la solution, La plate-forme offre aux développeurs des outils puissants pour développer leurs propres nouvelles fonctionnalités, et ce, avec une complète compatibilité (aussi logique qu'esthétique) avec ce qui existe par défaut. 
+\textsc{salesforce.com} offre une panoplie d'outils standards intÃ©grÃ©s permettant l'automatisation des processus et le stockage des donnÃ©es d'une entreprise. En revanche, et lorsqu'une fonctionnalitÃ© n'est pas intÃ©grÃ©e par dÃ©faut dans la solution, La plate-forme offre aux dÃ©veloppeurs des outils puissants pour dÃ©velopper leurs propres nouvelles fonctionnalitÃ©s, et ce, avec une complÃ¨te compatibilitÃ© (aussi logique qu'esthÃ©tique) avec ce qui existe par dÃ©faut. 
 \subsection {MVC et Salesforce}
-Le paradigme Modèle, Vue et Contrôleur
+Le paradigme ModÃ¨le, Vue et ContrÃ´leur
 \begin{figure}[H]
 	\centering
 		\includegraphics{mvc.png}
 	\label{fig:MVC en Salesforce}
 \end{figure}
 \paragraph{}
-Comme illustré sur la figure ci-dessus, Model View Controller (MVC) est un
-patron de conception qui sépare la couche de présentation de la couche métier qui
-interagit avec l'utilisateur. En plus de la séparation de l'application en trois couches,
-le patron MVC définit les interactions entre ces différentes couches
+Comme illustrÃ© sur la figure ci-dessus, Model View Controller (MVC) est un
+patron de conception qui sÃ©pare la couche de prÃ©sentation de la couche mÃ©tier qui
+interagit avec l'utilisateur. En plus de la sÃ©paration de l'application en trois couches,
+le patron MVC dÃ©finit les interactions entre ces diffÃ©rentes couches
 \paragraph{}Ce patron de Salesforce contient donc trois modules suivants :
 \begin{itemize}
-	\item {Modèle :} Traitements des données, interactions avec la base de données dans
-Salesforce. Ainsi les objets standards et personnalisés, différents champs et relations font partie de cette couche.`
-\item{Vue :} la façon dont les schémas et les données sont représentés. Les pages
-Visualforce, pages Layout et les différents onglets déterminent la couche Vue
+	\item {ModÃ¨le :} Traitements des donnÃ©es, interactions avec la base de donnÃ©es dans
+Salesforce. Ainsi les objets standards et personnalisÃ©s, diffÃ©rents champs et relations font partie de cette couche.`
+\item{Vue :} la faÃ§on dont les schÃ©mas et les donnÃ©es sont reprÃ©sentÃ©s. Les pages
+Visualforce, pages Layout et les diffÃ©rents onglets dÃ©terminent la couche Vue
 du MVC
-\item{Contrôleur :} Les contrôleurs sont utilisés afin d'exécuter les actions de l'interaction de l'utilisateur avec Visualforce, et ce module est définit par les
+\item{ContrÃ´leur :} Les contrÃ´leurs sont utilisÃ©s afin d'exÃ©cuter les actions de l'interaction de l'utilisateur avec Visualforce, et ce module est dÃ©finit par les
 Workflows, Apex Classes et Triggers.
 \end{itemize}
 
 \paragraph{SFDC\foornotemark[1] MVC }
-on peux écrire les pages "`VUE" en utilisant SFDC visual force (VF). les pages VF sont similaires aux pages JSP.chaque page VF est associée à un Controlleur.soit on utilise les Controlleurs Standard ou écrire nos propre controlleurs en utlisant le language Apex. 
+on peux Ã©crire les pages "`VUE" en utilisant SFDC visual force (VF). les pages VF sont similaires aux pages JSP.chaque page VF est associÃ©e Ã  un Controlleur.soit on utilise les Controlleurs Standard ou Ã©crire nos propre controlleurs en utlisant le language Apex. 
 \paragraph{}
-Visualforce utilise le paradigme traditionnel : Modele-vue-controlleur,avec l'option d'auto-générer les controlleurs pour les objets de la base de données,Fournissant une intégration complète et simple avec la base de données. Vous pouvez écrire vos propres contrôleurs, ou des extensions aux contrôleurs, en utilisant le code Apex. Visualforce fournit également des composants ajax et inclut le langage d'expression de formule pour l'interaction d'action, de données et de liaison de composants.
+Visualforce utilise le paradigme traditionnel : Modele-vue-controlleur,avec l'option d'auto-gÃ©nÃ©rer les controlleurs pour les objets de la base de donnÃ©es,Fournissant une intÃ©gration complÃ¨te et simple avec la base de donnÃ©es. Vous pouvez Ã©crire vos propres contrÃ´leurs, ou des extensions aux contrÃ´leurs, en utilisant le code Apex. Visualforce fournit Ã©galement des composants ajax et inclut le langage d'expression de formule pour l'interaction d'action, de donnÃ©es et de liaison de composants.
 \paragraph{}
 SFDC MVC pattern contient les modules suivants 
 \begin{enumerate}
-	\item Modèle 
+	\item ModÃ¨le 
 	\item vue
 	\item Controlleur
 \end{enumerate}
-\paragraph{Modèle}
-le modèle et le schéma et les données qu'utilise salesforce pour représenter le système complèt. Dans SF on peut dire que \textbf{sObjects}sont le modèle, comme toute entité dans SF est mappée avec un sObject.
+\paragraph{ModÃ¨le}
+le modÃ¨le et le schÃ©ma et les donnÃ©es qu'utilise salesforce pour reprÃ©senter le systÃ¨me complÃ¨t. Dans SF on peut dire que \textbf{sObjects}sont le modÃ¨le, comme toute entitÃ© dans SF est mappÃ©e avec un sObject.
 \paragraph{Vue}
-est comment le schéma et les données sont représentées. VisualForce est utilisé pour présenter les données aux utilisateurs.
+est comment le schÃ©ma et les donnÃ©es sont reprÃ©sentÃ©es. VisualForce est utilisÃ© pour prÃ©senter les donnÃ©es aux utilisateurs.
 \paragraph{Controlleur}
-comment les intérface se comportent. les controlleurs sont utilisés pour. Les contrôleurs sont utilisés pour effectuer les actions chaque fois que les utilisateurs interagissent avec le visualforce
+comment les intÃ©rface se comportent. les controlleurs sont utilisÃ©s pour. Les contrÃ´leurs sont utilisÃ©s pour effectuer les actions chaque fois que les utilisateurs interagissent avec le visualforce
 
-Salesforce.com est un outil primé pour gérer toutes les données de l'équipe commerciale d'une organisation. La flexibilité et l'assurance des données sécurisées fournies par Salesforce.com entraînent des capacités de développement non parallèles pour le développeur
+Salesforce.com est un outil primÃ© pour gÃ©rer toutes les donnÃ©es de l'Ã©quipe commerciale d'une organisation. La flexibilitÃ© et l'assurance des donnÃ©es sÃ©curisÃ©es fournies par Salesforce.com entraÃ®nent des capacitÃ©s de dÃ©veloppement non parallÃ¨les pour le dÃ©veloppeur
  
 \section {Les objets Standard de Salesforce}
 
@@ -800,21 +800,21 @@ Salesforce.com est un outil primé pour gérer toutes les données de l'équipe comm
 
 \subsection{La PAAS\up{1} \textsc{salesforce.com}}
 \footnotetext[1]
-{Platform as a Service, souvent appelé simplement PaaS, est une catégorie de services de Cloud computing qui fournit la plateforme et l'environnement informatique nécessaire aux développeurs pour mettre en place leurs différents services et applications sur Internet.}
+{Platform as a Service, souvent appelÃ© simplement PaaS, est une catÃ©gorie de services de Cloud computing qui fournit la plateforme et l'environnement informatique nÃ©cessaire aux dÃ©veloppeurs pour mettre en place leurs diffÃ©rents services et applications sur Internet.}
 \paragraph{}
-SALESFORCE est une plate-forme hautement personnalisée. En plus de la multitude des fonctionnalités offertes pour les utilisateurs de la plate-forme, cette dernière permet d'étendre ses fonctionnalités standard, créer des pages, des composants et des applications entièrement personnalisées.
+SALESFORCE est une plate-forme hautement personnalisÃ©e. En plus de la multitude des fonctionnalitÃ©s offertes pour les utilisateurs de la plate-forme, cette derniÃ¨re permet d'Ã©tendre ses fonctionnalitÃ©s standard, crÃ©er des pages, des composants et des applications entiÃ¨rement personnalisÃ©es.
 \paragraph{}
-Le développement dans la plate-forme SALESFORCE garantit les avantages suivants : 
+Le dÃ©veloppement dans la plate-forme SALESFORCE garantit les avantages suivants : 
 \begin{description}
-\item{\textbf{Sécurité : }} SALESFORCE offre à ses utilisateurs un contrôle total et précis de la sécurité de toute activité. Depuis l'authentification des utilisateurs, les autorisations administratives d'accès aux données jusqu'au modèle de partage. 
-\item{\textbf{Mutualisation : }} Le fait que les ressources informatiques dans un contexte de Cloud sont dématérialisées, les rend accessibles à tous les utilisateurs. Ces ressources sont partagées pour éviter à des utilisateurs d'investir dans des ressources sous risque d'une sous-exploitation dans les périodes moins actives.
-\item{\textbf{Gain de temps : }} Dans un cas normal, la mise en oeuvre d'une application a besoin du matériel et du logiciel, une configuration d'accès et de sécurité seront obligatoires et des rapports doivent être configurés. Avec SALESFORCE aucun logiciel n'est matériel n'est installé par le développeur. En effet, on peut définir ses propres configurations de sécurité des données, créer des rapport et rendre son application sociable et mobile.  
-\item{\textbf{Scalabilité : }} les données et métadonnées sont activés via des API. Cela signifie qu'ils sont accèssibles depuis un point unique et exploitables partout. 
+\item{\textbf{SÃ©curitÃ© : }} SALESFORCE offre Ã  ses utilisateurs un contrÃ´le total et prÃ©cis de la sÃ©curitÃ© de toute activitÃ©. Depuis l'authentification des utilisateurs, les autorisations administratives d'accÃ¨s aux donnÃ©es jusqu'au modÃ¨le de partage. 
+\item{\textbf{Mutualisation : }} Le fait que les ressources informatiques dans un contexte de Cloud sont dÃ©matÃ©rialisÃ©es, les rend accessibles Ã  tous les utilisateurs. Ces ressources sont partagÃ©es pour Ã©viter Ã  des utilisateurs d'investir dans des ressources sous risque d'une sous-exploitation dans les pÃ©riodes moins actives.
+\item{\textbf{Gain de temps : }} Dans un cas normal, la mise en oeuvre d'une application a besoin du matÃ©riel et du logiciel, une configuration d'accÃ¨s et de sÃ©curitÃ© seront obligatoires et des rapports doivent Ãªtre configurÃ©s. Avec SALESFORCE aucun logiciel n'est matÃ©riel n'est installÃ© par le dÃ©veloppeur. En effet, on peut dÃ©finir ses propres configurations de sÃ©curitÃ© des donnÃ©es, crÃ©er des rapport et rendre son application sociable et mobile.  
+\item{\textbf{ScalabilitÃ© : }} les donnÃ©es et mÃ©tadonnÃ©es sont activÃ©s via des API. Cela signifie qu'ils sont accÃ¨ssibles depuis un point unique et exploitables partout. 
 \end{description}
 
-\subsection{Outils utilisés}
+\subsection{Outils utilisÃ©s}
 \paragraph{}
-Du moment que le développement sera sur une plate-forme hébergée en Cloud, les outils et langages utilisés seront imposés par la plate-forme même.
+Du moment que le dÃ©veloppement sera sur une plate-forme hÃ©bergÃ©e en Cloud, les outils et langages utilisÃ©s seront imposÃ©s par la plate-forme mÃªme.
 \subsubsection{APEX}
 \begin{figure}
 	\centering
@@ -822,11 +822,11 @@ Du moment que le développement sera sur une plate-forme hébergée en Cloud, les o
 	\label{fig:logo Apex}
 \end{figure}
 
-Le premier langage de programmation à la demande\footnotemark[2] au monde. Apex Code étend le succès puissant et éprouvé de la plate-forme \textsc{Force.com}\footnotemark[3] en introduisant la possibilité d'écrire un code qui s'exécute sur les serveurs \textsc{salesforce.com}. La langue permet de développer et de déployer entièrement une nouvelle classe d'applications et de fonctionnalités à la demande. Ces applications rendent les applications existantes de \textsc{Force.com} «plus intelligentes» en leur permettant de capturer la logique métier et les règles - telles que la validation des données - et développer des applications entièrement nouvelles à la demande - telles que la vérification complexe des stocks et l'exécution des commandes.
+Le premier langage de programmation Ã  la demande\footnotemark[2] au monde. Apex Code Ã©tend le succÃ¨s puissant et Ã©prouvÃ© de la plate-forme \textsc{Force.com}\footnotemark[3] en introduisant la possibilitÃ© d'Ã©crire un code qui s'exÃ©cute sur les serveurs \textsc{salesforce.com}. La langue permet de dÃ©velopper et de dÃ©ployer entiÃ¨rement une nouvelle classe d'applications et de fonctionnalitÃ©s Ã  la demande. Ces applications rendent les applications existantes de \textsc{Force.com} Â«plus intelligentesÂ» en leur permettant de capturer la logique mÃ©tier et les rÃ¨gles - telles que la validation des donnÃ©es - et dÃ©velopper des applications entiÃ¨rement nouvelles Ã  la demande - telles que la vÃ©rification complexe des stocks et l'exÃ©cution des commandes.
 
-\footnotetext[2]{Les languages à la demande sont fournis par un fournisseur de services, et ont la particularité d'être compilés et exécutés dans le cloud, sont facilement distribués et ne nécessitent généralement pas de logiciels que ce qui est standard avec la plupart des systèmes d'exploitation.}
+\footnotetext[2]{Les languages Ã  la demande sont fournis par un fournisseur de services, et ont la particularitÃ© d'Ãªtre compilÃ©s et exÃ©cutÃ©s dans le cloud, sont facilement distribuÃ©s et ne nÃ©cessitent gÃ©nÃ©ralement pas de logiciels que ce qui est standard avec la plupart des systÃ¨mes d'exploitation.}
 
-\footnotetext[3]{Force.com est une plate-forme de développement d'applications sociales et mobiles de Salesforce.com.}
+\footnotetext[3]{Force.com est une plate-forme de dÃ©veloppement d'applications sociales et mobiles de Salesforce.com.}
 
 
 \subsubsection{VISUALFORCE}
@@ -837,22 +837,22 @@ Le premier langage de programmation à la demande\footnotemark[2] au monde. Apex 
 \end{figure}
 
 \paragraph{}
-Visualforce est un Framework qui permet aux développeurs de créer des interfaces utilisateur sophistiquées et personnalisées qui peuvent être hébergées en mode natif sur la plate-forme Force.com. Il inclut un langage de balisage similaire à HTML.
-Dans le langage de balisage Visualforce, chaque étiquette VF correspond à un composant d'interface utilisateur grossier ou à grains fins, comme une section d'une page, une liste de sélection ou un simple champ. 
+Visualforce est un Framework qui permet aux dÃ©veloppeurs de crÃ©er des interfaces utilisateur sophistiquÃ©es et personnalisÃ©es qui peuvent Ãªtre hÃ©bergÃ©es en mode natif sur la plate-forme Force.com. Il inclut un langage de balisage similaire Ã  HTML.
+Dans le langage de balisage Visualforce, chaque Ã©tiquette VF correspond Ã  un composant d'interface utilisateur grossier ou Ã  grains fins, comme une section d'une page, une liste de sÃ©lection ou un simple champ. 
 \paragraph{}
-Le comportement des composants Visualforce peut être commandé par la même logique qui est utilisée dans les pages Salesforce standard ou par une logique spécifique écrite dans Apex comme un controlleur personnalisé.
+Le comportement des composants Visualforce peut Ãªtre commandÃ© par la mÃªme logique qui est utilisÃ©e dans les pages Salesforce standard ou par une logique spÃ©cifique Ã©crite dans Apex comme un controlleur personnalisÃ©.
 
 \subsubsection{SOQL : Salesforce Object Query Language}
 
 \paragraph{}
-SOQL est un langage informatique propriétaire à Salesforce servant à effectuer des opérations sur des objets Salesforce. Il est utilisé pour construire des chaînes de requêtes simples mais puissantes dans les environnements suivants:
+SOQL est un langage informatique propriÃ©taire Ã  Salesforce servant Ã  effectuer des opÃ©rations sur des objets Salesforce. Il est utilisÃ© pour construire des chaÃ®nes de requÃªtes simples mais puissantes dans les environnements suivants:
 \begin{itemize}
-\item	Dans des déclarations Apex ;
-\item	Dans les contrôleurs Visualforce ;
-\item	Dans l'Explorateur de schéma de l'IDE Force.com.
+\item	Dans des dÃ©clarations Apex ;
+\item	Dans les contrÃ´leurs Visualforce ;
+\item	Dans l'Explorateur de schÃ©ma de l'IDE Force.com.
 \end{itemize}
 \paragraph{}
-Sa syntaxe est similaire à celui de SQL (Structured Query Language), Il permet de spécifier l'objet source, une liste des champs à récupérer, et les conditions de sélection des lignes dans l'objet source.
+Sa syntaxe est similaire Ã  celui de SQL (Structured Query Language), Il permet de spÃ©cifier l'objet source, une liste des champs Ã  rÃ©cupÃ©rer, et les conditions de sÃ©lection des lignes dans l'objet source.
 
 \subsubsection{JAVASCRIPT}
 \begin{figure}[H]
@@ -862,37 +862,37 @@ Sa syntaxe est similaire à celui de SQL (Structured Query Language), Il permet d
 \end{figure}
 
 \paragraph{}
-JavaScript est un langage informatique utilisé sur les pages web. Ce langage a la particularité de s'executer sur le poste client. En effet, le client reçoit le code dans son navigateur puis l'exécute.
+JavaScript est un langage informatique utilisÃ© sur les pages web. Ce langage a la particularitÃ© de s'executer sur le poste client. En effet, le client reÃ§oit le code dans son navigateur puis l'exÃ©cute.
 JavaScript n'a aucun rapport avec le Java qui est un autre langage informatique.
 \paragraph{}
-La particularité du JavaScript consiste à créer des petits scripts sur une page HTML - ou VISUALFORCE dans mon cas - dans le but d'ajouter une petite animation ou un effet particulier sur la page. Cela permet en général d'améliorer l'ergonomie ou l'interface utilisateur. L'intérêt du JavaScript est d'exécuté un code sans avoir à recharger une nouvelle fois la page.
+La particularitÃ© du JavaScript consiste Ã  crÃ©er des petits scripts sur une page HTML - ou VISUALFORCE dans mon cas - dans le but d'ajouter une petite animation ou un effet particulier sur la page. Cela permet en gÃ©nÃ©ral d'amÃ©liorer l'ergonomie ou l'interface utilisateur. L'intÃ©rÃªt du JavaScript est d'exÃ©cutÃ© un code sans avoir Ã  recharger une nouvelle fois la page.
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Etude technique  
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ Realisation  -_-_-_-_-_-_-_-_-_-_-_-_
 
 \chapter{\textsc{Mise en oeuvre}}
-\section{développement du processus de vente}
+\section{dÃ©veloppement du processus de vente}
 \subsection{Identification des Objets}
-Tous d'abord nous avons fait une conception initiale pour les objets utilisés dans ce processus, qui nous a permis de tirer les objets suivants :
-Piste , Compte , Contact, Opportunité Devis et Elements de Devis
-la figure ci-dessous schématise les objets nécessaires pour la création de ce processus:
+Tous d'abord nous avons fait une conception initiale pour les objets utilisÃ©s dans ce processus, qui nous a permis de tirer les objets suivants :
+Piste , Compte , Contact, OpportunitÃ© Devis et Elements de Devis
+la figure ci-dessous schÃ©matise les objets nÃ©cessaires pour la crÃ©ation de ce processus:
 \begin{figure}[H]
 	\centering
 		\includegraphics{classvente.PNG}
 	\label{fig:classvente}
 \end{figure}
-\subsection{réalisation et développement}
-Nous avons commencer par la  modélisation du processus et la planifications des tâches de paramétrage de configuration ainsi que celles de développement necessaires pour compléter le processus.
-Cette partie était plus ou moin une partie de paramétrage vu que les prestations ne sont pas 'un produit'  facile à manipuler, alors la configuration  et la personnalisation des champs des Objet Opportunité, Compte, Contact et Devis est était necessaire.(comme l'introduction de la notion  J/H \footnotemark[1])
-nous nous somme concentrez surtout sur l'objet Devis, pour pouvoir générer un devis personnalisé et en minimisant le plus possible la saisie des manulle des informations, comme le calcul du montant , TVA , Remise  et même le montant en lettre.
+\subsection{rÃ©alisation et dÃ©veloppement}
+Nous avons commencer par la  modÃ©lisation du processus et la planifications des tÃ¢ches de paramÃ©trage de configuration ainsi que celles de dÃ©veloppement necessaires pour complÃ©ter le processus.
+Cette partie Ã©tait plus ou moin une partie de paramÃ©trage vu que les prestations ne sont pas 'un produit'  facile Ã  manipuler, alors la configuration  et la personnalisation des champs des Objet OpportunitÃ©, Compte, Contact et Devis est Ã©tait necessaire.(comme l'introduction de la notion  J/H \footnotemark[1])
+nous nous somme concentrez surtout sur l'objet Devis, pour pouvoir gÃ©nÃ©rer un devis personnalisÃ© et en minimisant le plus possible la saisie des manulle des informations, comme le calcul du montant , TVA , Remise  et mÃªme le montant en lettre.
 \footnotetext[1]{
-J/H est l'unité utilisée pour évaluer les besoins en jour-hommes, c'est à dire combien de ressources humaines et de temps sont nécessaires pour accomplir une tâche.}
-\subsubsection{difficultés et limitations}
-Dans Salesforce on a la notion des ressources statiques, les ressources statiques permettent de télécharger du contenu que nous pouvons faire référence dans une page Visualforce, y compris des archives (telles que des fichiers .zip et .jar), des images, des feuilles de style et d'autres fichiers.
-Pour l'utilisation d'une ressource statique est préférable de télécharger un fichier dans l'onglet Documents car:
-    Nous pouvons regrouper une collection de fichiers liés dans une hiérarchie de répertoires et télécharger cette hiérarchie sous la forme d'une archive .zip ou .jar.
-    ou on peut référencer une ressource statique par nom dans le balisage de page en utilisant la variable \$Resource global à la place des ID de document de codage dur.  Mais celà est unitil pour le cas la conversion des chiffres en lettres, car SF ne supporte que les librairie statiques, donc la solution était de développer une class Apex  de A-Z pour réaliser cette conversion.
+J/H est l'unitÃ© utilisÃ©e pour Ã©valuer les besoins en jour-hommes, c'est Ã  dire combien de ressources humaines et de temps sont nÃ©cessaires pour accomplir une tÃ¢che.}
+\subsubsection{difficultÃ©s et limitations}
+Dans Salesforce on a la notion des ressources statiques, les ressources statiques permettent de tÃ©lÃ©charger du contenu que nous pouvons faire rÃ©fÃ©rence dans une page Visualforce, y compris des archives (telles que des fichiers .zip et .jar), des images, des feuilles de style et d'autres fichiers.
+Pour l'utilisation d'une ressource statique est prÃ©fÃ©rable de tÃ©lÃ©charger un fichier dans l'onglet Documents car:
+    Nous pouvons regrouper une collection de fichiers liÃ©s dans une hiÃ©rarchie de rÃ©pertoires et tÃ©lÃ©charger cette hiÃ©rarchie sous la forme d'une archive .zip ou .jar.
+    ou on peut rÃ©fÃ©rencer une ressource statique par nom dans le balisage de page en utilisant la variable \$Resource global Ã  la place des ID de document de codage dur.  Mais celÃ  est unitil pour le cas la conversion des chiffres en lettres, car SF ne supporte que les librairie statiques, donc la solution Ã©tait de dÃ©velopper une class Apex  de A-Z pour rÃ©aliser cette conversion.
 
 \section {processus de marketing}
 \subsection{identification des objet}
@@ -900,14 +900,14 @@ les objets principales de ce processus sont campagne, membre de campagne , piste
 \begin{figure}[H]
 	\centering
 		\includegraphics[scale=0.6]{classmarketing.PNG}
-	\label{fig:le schéma des objets du processus de marketing}
+	\label{fig:le schÃ©ma des objets du processus de marketing}
 \end{figure}
 
-\subsection{développement et réalisation}
-la plateforme Salseforce.com offre le service pour l'envoi en mass des email. mais la selection des destinataires posait un problème  vu qu'il n'y avait pas d'option pour le filtrage, pour celà nous avons commencer la création  d'une interface de selection des destinataires selon plusiuers filtres.
-le processus de marketing ne s'arrête pas à l'envoi des mails mais nous avons besoin de recevoir les réponses des membres de la campagne.  pour celà nous avons suivi les étapes suivantes:
+\subsection{dÃ©veloppement et rÃ©alisation}
+la plateforme Salseforce.com offre le service pour l'envoi en mass des email. mais la selection des destinataires posait un problÃ¨me  vu qu'il n'y avait pas d'option pour le filtrage, pour celÃ  nous avons commencer la crÃ©ation  d'une interface de selection des destinataires selon plusiuers filtres.
+le processus de marketing ne s'arrÃªte pas Ã  l'envoi des mails mais nous avons besoin de recevoir les rÃ©ponses des membres de la campagne.  pour celÃ  nous avons suivi les Ã©tapes suivantes:
 \begin{enumerate}
-	\item Configure Email to SalesForce : cette étape se fait au niveau de la plateforme salesforce, cette option permet aux utilisateurs d'attribuer des courriels aux prospects, aux contacts, aux opportunités et à d'autres enregistrements spécifiques dans Salesforce. De cette façon, il est facile de suivre les communications liées aux ventes.
+	\item Configure Email to SalesForce : cette Ã©tape se fait au niveau de la plateforme salesforce, cette option permet aux utilisateurs d'attribuer des courriels aux prospects, aux contacts, aux opportunitÃ©s et Ã  d'autres enregistrements spÃ©cifiques dans Salesforce. De cette faÃ§on, il est facile de suivre les communications liÃ©es aux ventes.
 	
 	\begin{figure}[H]
 		\centering
@@ -915,9 +915,9 @@ le processus de marketing ne s'arrête pas à l'envoi des mails mais nous avons be
 		\label{fig:Configuration de "Email to SalesForce"}
 	\end{figure}
 	
-	\item Configure BCC compliance (wide org BCC): cette fonctionnalité permet d'envoyer automatiquement une copie cachée de chaque message électronique sortant à une adresse email que nous avons spécifié.
-	\item wide org Footer:  c'est un pied de page utilisé dans tous les message sortant de la plateforme , pour qu'il soit utilisé par la suite dans le script Google pour identifier les Mail venant de 		Salesforce
-	\item Inbound Email handler: class Apex pour recevoir les réponses venants de Google, et enregistrer la réponse comme activité liée au contact ou piste ayant la même addresse mail que le message reçue.
+	\item Configure BCC compliance (wide org BCC): cette fonctionnalitÃ© permet d'envoyer automatiquement une copie cachÃ©e de chaque message Ã©lectronique sortant Ã  une adresse email que nous avons spÃ©cifiÃ©.
+	\item wide org Footer:  c'est un pied de page utilisÃ© dans tous les message sortant de la plateforme , pour qu'il soit utilisÃ© par la suite dans le script Google pour identifier les Mail venant de 		Salesforce
+	\item Inbound Email handler: class Apex pour recevoir les rÃ©ponses venants de Google, et enregistrer la rÃ©ponse comme activitÃ© liÃ©e au contact ou piste ayant la mÃªme addresse mail que le message reÃ§ue.
 	
 	\begin{figure}[H]
 		\centering
@@ -926,34 +926,34 @@ le processus de marketing ne s'arrête pas à l'envoi des mails mais nous avons be
 	\end{figure}
 	
  
-\item Script Google  : Google offre un service appelé GoogleScript permet de  scripter le language JS dans le cloud  et qui offre des moyens faciles d'automatiser les tâches sur les produits Google et des services tiers et de créer des applications Web. Dans notre cas il est utilisé pour identifier les message qui sont une réponse à un message venant de la plateforme salesforce et puis renvoyer la réponse à Salesforce.
+\item Script Google  : Google offre un service appelÃ© GoogleScript permet de  scripter le language JS dans le cloud  et qui offre des moyens faciles d'automatiser les tÃ¢ches sur les produits Google et des services tiers et de crÃ©er des applications Web. Dans notre cas il est utilisÃ© pour identifier les message qui sont une rÃ©ponse Ã  un message venant de la plateforme salesforce et puis renvoyer la rÃ©ponse Ã  Salesforce.
 \end{enumerate}
-la figure suivante représente une portion du code Sur Google Script.
+la figure suivante reprÃ©sente une portion du code Sur Google Script.
 \begin{figure}[H]
 	\centering
 		\includegraphics[scale=0.7]{googlescript.PNG}
 	\label{fig:googlescript}
 \end{figure}
-le schéma montre l'inétarction entre les Systèmes GoogleScript, le Client, et SF:
+le schÃ©ma montre l'inÃ©tarction entre les SystÃ¨mes GoogleScript, le Client, et SF:
 \begin{figure}[H]
 	\centering
 		\includegraphics[scale=0.7]{EmailMarketing.PNG}
 	\label{fig:EmailMarketing}
 \end{figure}
 
-\subsection {dificultés et limitations}
-comme le client peut nous répondre à partir de plusieurs client messagerie, la capture de la réponse deviens difficile car chaque client a une structure de message différente 
-pour celà nous nous avons contenter de l'analyse des réponses des deux clients : gmail et Outlook.
-la figure ci-dessous montre la réception de la réponse et la tâche enregitrée.
+\subsection {dificultÃ©s et limitations}
+comme le client peut nous rÃ©pondre Ã  partir de plusieurs client messagerie, la capture de la rÃ©ponse deviens difficile car chaque client a une structure de message diffÃ©rente 
+pour celÃ  nous nous avons contenter de l'analyse des rÃ©ponses des deux clients : gmail et Outlook.
+la figure ci-dessous montre la rÃ©ception de la rÃ©ponse et la tÃ¢che enregitrÃ©e.
 \begin{figure}[H]
 	\centering
 		\includegraphics{reponsemail.PNG}
-	\label{fig:Interface de la réception de la réponse par mail}
+	\label{fig:Interface de la rÃ©ception de la rÃ©ponse par mail}
 \end{figure}
 \section {processus de Facturation}
 \subsection{conception initiale}
-Comme tout processus nous avons commencer par l'élaboration des Objets Standards et personnalisés pour gérer la facturation,
-Facture, Echeance, Opportunité,Poste d'Opportunité, Poste d'echeance.
+Comme tout processus nous avons commencer par l'Ã©laboration des Objets Standards et personnalisÃ©s pour gÃ©rer la facturation,
+Facture, Echeance, OpportunitÃ©,Poste d'OpportunitÃ©, Poste d'echeance.
 la figure ci-dessous montre les Objets principales et les relations entre eux.
 \begin{figure}[H]
 	\centering
@@ -966,38 +966,38 @@ la figure ci-dessous montre les Objets principales et les relations entre eux.
 
 
 \section{Etablissement des rapports et des tableau de bord}
-\paragraph{}Le reporting constitue un outil décisionnel aussi bien pour la Direction Générale que pour les Directions Opérationnelles. Il centralise les informations clés susceptibles d'aider à faire le point sur une partie de l'activité de l'entreprise (marketing, commerciale, financière, ..) et puis de piloter le business de façon efficace. 
+\paragraph{}Le reporting constitue un outil dÃ©cisionnel aussi bien pour la Direction GÃ©nÃ©rale que pour les Directions OpÃ©rationnelles. Il centralise les informations clÃ©s susceptibles d'aider Ã  faire le point sur une partie de l'activitÃ© de l'entreprise (marketing, commerciale, financiÃ¨re, ..) et puis de piloter le business de faÃ§on efficace. 
 \paragraph{}
-Dans cette solution, le reporting représente un moyen tangible de prise de décision puisqu'il permet de traiter toutes les informations de l'analyse d’une manière détaillée et facile à comprendre.
+Dans cette solution, le reporting reprÃ©sente un moyen tangible de prise de dÃ©cision puisqu'il permet de traiter toutes les informations de l'analyse dâ€™une maniÃ¨re dÃ©taillÃ©e et facile Ã  comprendre.
 \paragraph{}
-Dans ce but, nous avons utilisé le connecteur direct à Salesforce de Tableau, nous pouvons analyser toutes les étapes du processus de commercial. Mettons en œuvre des tableaux de bord autonomes et des fonctions analytiques avancées concernant la prospection, la gestion de la clientèle potentielle et des opportunités, l'étude de nos perspectives commerciales, la gestion de comptes et bien plus encore.
+Dans ce but, nous avons utilisÃ© le connecteur direct Ã  Salesforce de Tableau, nous pouvons analyser toutes les Ã©tapes du processus de commercial. Mettons en Å“uvre des tableaux de bord autonomes et des fonctions analytiques avancÃ©es concernant la prospection, la gestion de la clientÃ¨le potentielle et des opportunitÃ©s, l'Ã©tude de nos perspectives commerciales, la gestion de comptes et bien plus encore.
 \paragraph{}
- Cet outil permet de présenter les informations commerciales sous formes de rapports, accessibles depuis le CRM Salesforce, qui contiennent des tableaux et des graphes assistant la compréhension des données et permettant d’en tirer des conclusions congruentes.
+ Cet outil permet de prÃ©senter les informations commerciales sous formes de rapports, accessibles depuis le CRM Salesforce, qui contiennent des tableaux et des graphes assistant la comprÃ©hension des donnÃ©es et permettant dâ€™en tirer des conclusions congruentes.
 \paragrapg{}
-Dans cette section, nous exposerons les rapports et les tableaux de bords qui vont nous aider à prendre les décisions afin d'améliorer notre rentabilité à long terme.
+Dans cette section, nous exposerons les rapports et les tableaux de bords qui vont nous aider Ã  prendre les dÃ©cisions afin d'amÃ©liorer notre rentabilitÃ© Ã  long terme.
 \subsubsection{les rapports}
 \paragraph{}
-Un rapport renvoie un ensemble d'enregistrements qui remplissent certains critères et les affiche dans des lignes et des colonnes organisées. Les données de rapport peuvent être filtrées, groupées et affichées dans un graphique. Les rapports sont stockés dans des dossiers qui en contrôlent l'accès. 
+Un rapport renvoie un ensemble d'enregistrements qui remplissent certains critÃ¨res et les affiche dans des lignes et des colonnes organisÃ©es. Les donnÃ©es de rapport peuvent Ãªtre filtrÃ©es, groupÃ©es et affichÃ©es dans un graphique. Les rapports sont stockÃ©s dans des dossiers qui en contrÃ´lent l'accÃ¨s. 
 
 
 \paragraph{}
-A la fin de ce chapitre, nous avons utilisé des rapports pour exploiter les données accumulées au fil du temps par le projet. Nous pouvons examiner les données de notre projet dans presque toutes les combinaisons, les afficher sous des formats conviviaux et les partager les enseignements des résultats via des tableaux de bord.
+A la fin de ce chapitre, nous avons utilisÃ© des rapports pour exploiter les donnÃ©es accumulÃ©es au fil du temps par le projet. Nous pouvons examiner les donnÃ©es de notre projet dans presque toutes les combinaisons, les afficher sous des formats conviviaux et les partager les enseignements des rÃ©sultats via des tableaux de bord.
 \begin{figure}[H]
 	\centering
 		\includegraphics{rapportettb.PNG}
 	\label{fig:Objet rapports}
 \end{figure}
 \paragraph{}
-Pour notre projet Neoxia Sales, nous avons établi plusieurs rapports qui traduisent l'avancement du projet en prenant en considération plusieurs critères.
+Pour notre projet Neoxia Sales, nous avons Ã©tabli plusieurs rapports qui traduisent l'avancement du projet en prenant en considÃ©ration plusieurs critÃ¨res.
 \paragraph{}
-L'affichage des certains champs et non des autres se base sur des filtres à configurer selon les outputs que nous voudrions afficher sur nos rapports.
+L'affichage des certains champs et non des autres se base sur des filtres Ã  configurer selon les outputs que nous voudrions afficher sur nos rapports.
 \begin{figure}[H]
 	\centering
 		\includegraphics{rapportBU.PNG}
 	\label{fig:Application des filtres sur le rapport}
 \end{figure}
 \paragraph{}
-Ensuite, nous avons choisi le champ sur lequel nous voulons regrouper nos données ainsi les champs à afficher sur le rapport.
+Ensuite, nous avons choisi le champ sur lequel nous voulons regrouper nos donnÃ©es ainsi les champs Ã  afficher sur le rapport.
 \paragraph{}
 Les enregistrements s'affichent sur les rapports avec une vue claire.
 \begin{figure}[H]
@@ -1007,9 +1007,9 @@ Les enregistrements s'affichent sur les rapports avec une vue claire.
 \end{figure}
 \subsubsection{Les tableaux de bord:}
 \paragraph{}
-Une fois les données dont nous avons besoin rassemblées, nous utiliserons un tableau de bord pour rechercher des partenaires, rester en permanence informé(e) des changements, et partager des informations sur lesquelles nous et nos collaborateurs pouvons agir en temps réel
+Une fois les donnÃ©es dont nous avons besoin rassemblÃ©es, nous utiliserons un tableau de bord pour rechercher des partenaires, rester en permanence informÃ©(e) des changements, et partager des informations sur lesquelles nous et nos collaborateurs pouvons agir en temps rÃ©el
 \paragraph{}
-La première des choses c'est de choisir le type de composant et les sources de données qui sont nos rapports déjà exposés ci-avant
+La premiÃ¨re des choses c'est de choisir le type de composant et les sources de donnÃ©es qui sont nos rapports dÃ©jÃ  exposÃ©s ci-avant
 
 \begin{figure}[H]
 	\centering
@@ -1022,14 +1022,14 @@ La première des choses c'est de choisir le type de composant et les sources de d
 	\label{fig:composantsTB1}
 \end{figure}
 \paragraph{}
-Nous avons glissé, dans un premier temps, le composant sur lequel nous voulons travailler ensuite le rapport en question.
+Nous avons glissÃ©, dans un premier temps, le composant sur lequel nous voulons travailler ensuite le rapport en question.
 \begin{figure}[H]
 	\centering
 		\includegraphics{dashbord.PNG}
 	\label{fig:Exemples des tableaux de bord}
 \end{figure}
 \paragraph{}
-Finalement, nous avons affiché nos tableaux de bord sur la page d'accueil. Aussi, nous pouvons personnaliser ces tableaux de bord selon nos besoins.
+Finalement, nous avons affichÃ© nos tableaux de bord sur la page d'accueil. Aussi, nous pouvons personnaliser ces tableaux de bord selon nos besoins.
 \begin{figure}[H]
 	\centering
 		\includegraphics{rapports.PNG}
@@ -1048,10 +1048,10 @@ Finalement, nous avons affiché nos tableaux de bord sur la page d'accueil. Aussi
 \addcontentsline{toc}{chapter}{\textsc{Conclusion}}
 
 '\paragraph{}
-Ce projet de fin d'études, effectué au sein de Neoxia MAROC, consiste en la réalisation d'une Solution CRM pour la gestion du processus commercial de Neoxia Maroc.
-\paragraph{}Durant ce stage, il a été convenu de suivre la méthodologie incrémentale itérative. La réalisation de ce projet requiert une bonne maîtrise des outils techniques ainsi qu'une bonne connaissance de la plate-forme de développement Force.com. Des formations métier, fonctionnelles et techniques ont donc été indispensables et ont été menées dans une période de préparation. 
+Ce projet de fin d'Ã©tudes, effectuÃ© au sein de Neoxia MAROC, consiste en la rÃ©alisation d'une Solution CRM pour la gestion du processus commercial de Neoxia Maroc.
+\paragraph{}Durant ce stage, il a Ã©tÃ© convenu de suivre la mÃ©thodologie incrÃ©mentale itÃ©rative. La rÃ©alisation de ce projet requiert une bonne maÃ®trise des outils techniques ainsi qu'une bonne connaissance de la plate-forme de dÃ©veloppement Force.com. Des formations mÃ©tier, fonctionnelles et techniques ont donc Ã©tÃ© indispensables et ont Ã©tÃ© menÃ©es dans une pÃ©riode de prÃ©paration. 
 \paragraph{}
-La première itération du projet a consisté en la définition du périmètre du projet et l'étude de l'existant. Les itérations qui suivent ont été consacrées à la réalisation de plusieurs modules métier qui ont une grande valeur ajoutée pour les utilisateurs de la plateforme. Lors de chaque itération, une étude fonctionnelle a été effectuée suivie d'une étude technique si nécessaire. Enfin une conception détaillée est mise en place, pour pouvoir par la suite enchainer sur la phase de réalisation et de développement des modules en question.
+La premiÃ¨re itÃ©ration du projet a consistÃ© en la dÃ©finition du pÃ©rimÃ¨tre du projet et l'Ã©tude de l'existant. Les itÃ©rations qui suivent ont Ã©tÃ© consacrÃ©es Ã  la rÃ©alisation de plusieurs modules mÃ©tier qui ont une grande valeur ajoutÃ©e pour les utilisateurs de la plateforme. Lors de chaque itÃ©ration, une Ã©tude fonctionnelle a Ã©tÃ© effectuÃ©e suivie d'une Ã©tude technique si nÃ©cessaire. Enfin une conception dÃ©taillÃ©e est mise en place, pour pouvoir par la suite enchainer sur la phase de rÃ©alisation et de dÃ©veloppement des modules en question.
 
  
 
@@ -1061,9 +1061,9 @@ La première itération du projet a consisté en la définition du périmètre du proj
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Annexes  -_-_-_-_-_-_-_-_-_-_-_-_
 
-% -_-_-_-_-_-_-_-_-_-_-_-_ Références  -_-_-_-_-_-_-_-_-_-_-_-_
+% -_-_-_-_-_-_-_-_-_-_-_-_ RÃ©fÃ©rences  -_-_-_-_-_-_-_-_-_-_-_-_
 
-% -_-_-_-_-_-_-_-_-_-_-_-_ FIN Références  -_-_-_-_-_-_-_-_-_-_-_-_
+% -_-_-_-_-_-_-_-_-_-_-_-_ FIN RÃ©fÃ©rences  -_-_-_-_-_-_-_-_-_-_-_-_
 
 
 
