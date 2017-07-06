@@ -1,0 +1,133 @@
+\select@language {french}
+\contentsline {chapter}{\textsc {D\'edicace}}{2}
+\contentsline {chapter}{\textsc {Remerciement}}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {paragraph}{}{4}
+\contentsline {chapter}{\textsc {R\'esum\'e}}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {paragraph}{}{5}
+\contentsline {chapter}{\textsc {Abstract}}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {paragraph}{}{6}
+\contentsline {chapter}{\textsc {Liste des abreviations}}{6}
+\contentsline {chapter}{\textsc {Table des figures}}{7}
+\contentsline {chapter}{\textsc {Liste des tableaux}}{8}
+\contentsline {chapter}{\textsc {Introcution g\'en\'erale}}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{11}
+\contentsline {paragraph}{}{12}
+\contentsline {chapter}{\numberline {1}\textsc {Contexte g\'en\'eral}}{13}
+\contentsline {section}{\numberline {1.1}Organisme d'accueil}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {subsection}{\numberline {1.1.1}Pr\'esentation de NEOXIA MAROC}{13}
+\contentsline {paragraph}{}{13}
+\contentsline {subsection}{\numberline {1.1.2}Neoxia en Chiffre}{13}
+\contentsline {subsubsection}{Effectif}{13}
+\contentsline {subsubsection}{Chiffre d'affaire}{14}
+\contentsline {subsection}{\numberline {1.1.3}Domaine de pr\'edilection }{15}
+\contentsline {subsubsection}{Offre de service}{15}
+\contentsline {subsection}{\numberline {1.1.4}les principes de Neoxia}{17}
+\contentsline {chapter}{\numberline {2}\textsc {Contexte du projet }}{18}
+\contentsline {section}{\numberline {2.1}Presentation g\'en\'erale du projet}{18}
+\contentsline {subsection}{\numberline {2.1.1}D\'eroulement du projet}{18}
+\contentsline {subsubsection}{Documatation et formation}{18}
+\contentsline {subsubsection}{ Conception }{19}
+\contentsline {subsubsection}{ planification}{19}
+\contentsline {subsubsection}{ R\'ealisation}{20}
+\contentsline {subsection}{\numberline {2.1.2}Conduite du projet}{20}
+\contentsline {subsubsection}{pratiques SCRUM}{20}
+\contentsline {subsubsection}{Pratiques XP}{21}
+\contentsline {chapter}{\numberline {3}\textsc {Gestion des Relations Clients et Le Cloud Computing }}{22}
+\contentsline {section}{\numberline {3.1}La th\'eorie de la Gestion des Relations Clients CRM }{22}
+\contentsline {subsection}{\numberline {3.1.1}D\'efinition}{22}
+\contentsline {subsection}{\numberline {3.1.2}les types du CRM}{23}
+\contentsline {subsection}{\numberline {3.1.3}Les fonctionnalit\'es du CRM }{24}
+\contentsline {section}{\numberline {3.2}Cloud Computing}{25}
+\contentsline {paragraph}{}{25}
+\contentsline {subsection}{\numberline {3.2.1}Apports techniques du cloud computing }{26}
+\contentsline {subsection}{\numberline {3.2.2} Apports \'economiques du cloud computing }{27}
+\contentsline {chapter}{\numberline {4}Analyse Fonctionnelle et Conception}{29}
+\contentsline {section}{\numberline {4.1} Sp\'ecifications fonctionnelles }{29}
+\contentsline {paragraph}{}{29}
+\contentsline {section}{\numberline {4.2}Conception}{33}
+\contentsline {chapter}{\numberline {5}\textsc {\'Etude technique}}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{35}
+\contentsline {subsubsection}{Produits et services \textsc {salesforce.com} : }{35}
+\contentsline {paragraph}{}{35}
+\contentsline {paragraph}{}{37}
+\contentsline {subsection}{\numberline {5.0.1}MVC et Salesforce}{37}
+\contentsline {paragraph}{}{37}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{SFDC[1] MVC }{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{}{38}
+\contentsline {paragraph}{Mod\`ele}{38}
+\contentsline {paragraph}{Vue}{39}
+\contentsline {paragraph}{Controlleur}{39}
+\contentsline {section}{\numberline {5.1}Les objets Standard de Salesforce}{39}
+\contentsline {section}{\numberline {5.2}Exigences techniques}{39}
+\contentsline {subsection}{\numberline {5.2.1}La PAAS\up {1} \textsc {salesforce.com}}{39}
+\contentsline {paragraph}{}{39}
+\contentsline {paragraph}{}{39}
+\contentsline {subsection}{\numberline {5.2.2}Outils utilis\'es}{40}
+\contentsline {paragraph}{}{40}
+\contentsline {subsubsection}{APEX}{40}
+\contentsline {subsubsection}{VISUALFORCE}{41}
+\contentsline {paragraph}{}{41}
+\contentsline {paragraph}{}{41}
+\contentsline {subsubsection}{SOQL : Salesforce Object Query Language}{41}
+\contentsline {paragraph}{}{41}
+\contentsline {paragraph}{}{41}
+\contentsline {subsubsection}{JAVASCRIPT}{42}
+\contentsline {paragraph}{}{42}
+\contentsline {paragraph}{}{42}
+\contentsline {chapter}{\numberline {6}\textsc {Mise en oeuvre}}{43}
+\contentsline {section}{\numberline {6.1}d\'eveloppement du processus de vente}{43}
+\contentsline {subsection}{\numberline {6.1.1}Identification des Objets}{43}
+\contentsline {subsection}{\numberline {6.1.2}r\'ealisation et d\'eveloppement}{45}
+\contentsline {subsubsection}{difficult\'es et limitations}{45}
+\contentsline {section}{\numberline {6.2}processus de marketing}{45}
+\contentsline {subsection}{\numberline {6.2.1}identification des objet}{45}
+\contentsline {subsection}{\numberline {6.2.2}d\'eveloppement et r\'ealisation}{46}
+\contentsline {subsection}{\numberline {6.2.3}dificult\'es et limitations}{49}
+\contentsline {section}{\numberline {6.3}processus de Facturation}{50}
+\contentsline {subsection}{\numberline {6.3.1}conception initiale}{50}
+\contentsline {section}{\numberline {6.4}Etablissement des rapports et des tableau de bord}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {subsubsection}{les rapports}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {paragraph}{}{52}
+\contentsline {paragraph}{}{53}
+\contentsline {paragraph}{}{53}
+\contentsline {paragraph}{}{54}
+\contentsline {paragraph}{}{54}
+\contentsline {subsubsection}{Les tableaux de bord:}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {paragraph}{}{56}
+\contentsline {paragraph}{}{57}
+\contentsline {paragraph}{}{59}
+\contentsline {chapter}{\textsc {Conclusion}}{60}
+\contentsline {paragraph}{}{60}
+\contentsline {paragraph}{}{60}
+\contentsline {paragraph}{}{60}
