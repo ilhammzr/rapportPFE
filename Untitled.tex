@@ -617,9 +617,41 @@ les requêtes de données, les économies réalisées démarrent immédiatement et cont
  
 	\item La réduction des délais de livraison : La parallélisation est l'un des moyens les plus efficaces pour accélérer la vitesse de traitement. Si un traitement lourd, mais parallélisable, dure 500 heures sur une seule machine, avec les architectures cloud, il est possible de répartir ce traitement sur 500 instances, réduisant ainsi son exécution à 1 heure. Disposer d'une telle infrastructure 'élastique' permet à l'application de mettre à profit la parallélisation, et de réduire pour le métier le délai de mise à disposition du résultat. 
 \end{itemize}
+%--------Force.com-----%
 \section {la philosophie de Salesforce}
 les objets :
-Piste (Lead):piste dans salesforce.com sont ceux qui vous êtes intéressé à travailler avec, mais tu ne sais pas s'ils sont intéressés à travailler avec vous.
+Piste (Lead):piste dans salesforce.com sont ceux qui nous somme intéressé à travailler avec, mais on ne sais pas s'ils sont intéressés à travailler avec nous.
+\paragraph{}
+On peut avoir les piste à partir d'une liste que nous avons acheté, ou d'un ensemble de cartes d'affaires que nous avons recueillies lors d'un salon commercial. Dans les deux cas, nous devons communiquer avec le responsable pour savoir s'ils sont intéressés à notre produit ou service. \paragraph{}
+Salesforce.com est un gestionnaire et un système de suivi des piste, qui utilise un processus de qualification des prospects pour savoir si la piste est qualifié (pourrait être le client), ou non (ne sera pas un client).
+
+Un exemple de processus de qualification des pistes est:
+\begin{itemize}
+\item ouverte :Non contactée (l'étape par défaut de tous les pistes)
+\item travail - Contactée
+\item Fermée -- convertie 
+\item Fermée/pas convertie
+\end{itemize}
+ces informations sont suivies à partir de l'objet Status de l'Objet Piste.
+\paragraph{}
+Si une piste est "Fermée" - Non convertie, c'est à dire que il n y a la possibilité de faire des affaires avec cette piste pendant une période de temps.
+\paragrpah{} Si la piste  est "Fermée" -Convertie alors nous avons remarqué qu'il y a un certain intérêt de leur part à faire des affaires avec nous, ainsi nous voulons commencer notre processus de vente. et on converti.
+ \paragraph{}
+Une piste convertie cela signifie que cette piste est transformée à un contact (personne), compte (entreprise), et opportunité(possibilité de vente) dans le système Salesforce.com.
+\paragraph{}
+Il est possible qu'un piste devient un contact et un compte sans devenir une opportunité, si on veut qu'ils deviennent partie de notre réseau, mais nous n'avons pas l'intention de vendre pour eux. 
+\paragraph{}
+Salesforce agit comme un système de gestion des contacts et un système de suivi de piste, jusqu'à ce qu'un contact ou une piste est convertie en une opportunité, Salesforce devient une solution pour la gestion des ventes
+
+Le processus d'automatisation des ventes dans Salesforce définit la probabilité de conclure une vente, qui est ensuite utilisé pour la prévision des ventes. Par exemple, si l'étape de vente "Décideur - contacté" a une probabilité de 40  \% pour fermer et je suis en train de travailler sur une possibilité de 100 000 \$, puis ma prévision de ventes dans le tableau de bord Salesforce indique l'occasion va générer 40 000 \$ en revenus. Comme je obtenir plus loin sur l'étape de vente la probabilité augmente et le revenu prévu va augmenter.
+
+Nous recommandons qu'une entreprise ont moins d'étapes de vente, plutôt que de nombreuses étapes de vente, et que chaque étape de vente être associé à une action.
+
+Les ventes sont assez dur sans avoir à se souvenir d'une scène 15 processus de vente. Concentrer votre énergie sur la conclusion de la vente non pas sur la réflexion sur ce que vous êtes en phase de vente. Rendre le processus d'automatisation des ventes moins complexe, mais en correspondance avec votre processus de vente, augmente l'adhésion des utilisateurs.
+
+Lorsque vous fermez la vente et obtenir l'analyse de l'étape de vente devient "Fermé - Gagné." Si vous voulez vous concentrer sur la droite mène, contacts et opportunités menant à de plus en plus de victoires, puis à l'aide d'un système d'automatisation de la force de vente et la création d'un processus d'automatisation de la force de vente qui reflète votre entreprise est essentielle.
+
+Le concept clé lors de la création de votre processus d'automatisation des ventes, est de passer par elle avec de vrais exemples de clients pour voir si vos ventes étapes permettent suffisamment de souplesse et que le processus de vente CRM de Salesforce est utile pour toutes les personnes impliquées dans le processus de vente.
 
 
 %-_-_-_-_-__-_-_-_ Fin CRM, Cloud Computing-_-_-_-_-_-
