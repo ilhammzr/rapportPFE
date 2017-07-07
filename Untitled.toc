@@ -62,15 +62,18 @@
 \contentsline {paragraph}{}{20}
 \contentsline {subsubsection}{ planification}{20}
 \contentsline {paragraph}{}{21}
+\contentsline {paragraph}{}{21}
 \contentsline {subsubsection}{ R\'ealisation}{21}
-\contentsline {subsection}{\numberline {2.1.2}Conduite du projet}{21}
-\contentsline {subsubsection}{pratiques SCRUM}{21}
 \contentsline {paragraph}{}{21}
 \contentsline {paragraph}{}{21}
 \contentsline {paragraph}{}{21}
+\contentsline {subsection}{\numberline {2.1.2}Conduite du projet}{22}
+\contentsline {subsubsection}{pratiques SCRUM}{22}
 \contentsline {paragraph}{}{22}
 \contentsline {paragraph}{}{22}
-\contentsline {subsubsection}{Pratiques XP}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {paragraph}{}{22}
+\contentsline {subsubsection}{Pratiques XP}{23}
 \contentsline {chapter}{\numberline {3}\textsc {Gestion des Relations Clients et Le Cloud Computing }}{24}
 \contentsline {section}{\numberline {3.1}La th\'eorie de la Gestion des Relations Clients CRM }{24}
 \contentsline {paragraph}{}{24}
@@ -155,7 +158,14 @@
 \contentsline {paragraph}{}{59}
 \contentsline {paragraph}{}{60}
 \contentsline {paragraph}{}{62}
-\contentsline {chapter}{\textsc {Conclusion}}{63}
+\contentsline {section}{\numberline {6.5}Les tests}{62}
+\contentsline {paragraph}{}{62}
+\contentsline {paragraph}{}{62}
+\contentsline {paragraph}{}{62}
 \contentsline {paragraph}{}{63}
 \contentsline {paragraph}{}{63}
-\contentsline {paragraph}{}{63}
+\contentsline {subsubsection}{Exemple de code}{63}
+\contentsline {chapter}{\textsc {Conclusion}}{64}
+\contentsline {paragraph}{}{64}
+\contentsline {paragraph}{}{64}
+\contentsline {paragraph}{}{64}
