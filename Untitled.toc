@@ -90,6 +90,7 @@
 \contentsline {paragraph}{}{28}
 \contentsline {subsection}{\numberline {3.2.1}Apports techniques du cloud computing }{28}
 \contentsline {subsection}{\numberline {3.2.2} Apports \'economiques du cloud computing }{29}
+\contentsline {section}{\numberline {3.3}la philosophie de Salesforce}{31}
 \contentsline {chapter}{\numberline {4}Analyse Fonctionnelle et Conception}{32}
 \contentsline {section}{\numberline {4.1} Sp\'ecifications fonctionnelles }{32}
 \contentsline {paragraph}{}{32}
