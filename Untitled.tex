@@ -23,8 +23,57 @@
 \onehalfspacing
 \makenomenclature 
 \renewcommand{\nomname}{\textsc{Liste des abréviations}}
- \frenchbsetup{StandardLists=true}
+\frenchbsetup{StandardLists=true}
 
+%---------------- MOOOOOOOOOOOMO 
+    \usepackage{fourier}
+    \usepackage{heuristica}
+    \usepackage{microtype}
+
+    \usepackage[pagestyles, explicit]{titlesec}%
+    \usepackage{titletoc}%
+
+    \usepackage{etoolbox}
+    \newbool{addtoc}%initial value:  false
+    \pretocmd{\lsstyle}{\SetTracking[no ligatures = {f}]{encoding = *}{50}}{}{}%
+
+    \titleformat{name = \chapter}[display]%
+    {\lsstyle\bfseries\Large\filcenter\vskip-4\baselineskip}
+    {\LARGE\chaptername~\thechapter}
+    {0.5pc}
+    {\vspace{0.5pc}\Huge#1}%
+    \titlespacing{\chapter}{0pt}{3\baselineskip}{8\baselineskip}
+
+    \titleformat{name=\chapter, numberless}[display]
+    {\vskip-4\baselineskip\lsstyle\bfseries\itshape\large\filcenter}
+    {}
+    {0.5pc}
+    {\vspace{0.5pc}#1}%
+    [\ifbool{addtoc}{\addcontentsline{toc}{chapter}{#1}}]%
+     \titlespacing{name = \chapter, numberless}{0pt}{2\baselineskip}{8\baselineskip}
+
+      \titlecontents{chapter}[0em]{\lsstyle\smallskip\bfseries}%\vspace{1cm}%
+      {\contentslabel[\chaptername~\thecontentslabel]{0em}\hspace{5.6em}}%
+      {\renewcommand\thecontentslabel{\relax}\itshape}%numberless%
+      {\hfill\contentspage}[\medskip]%
+    %
+     \titlecontents{section}[4.25em]{\smallskip}%
+      {\contentslabel[\thecontentslabel]{2em}}%numbered
+      {\hspace*{-1em}}%numberless
+      {\hfill\contentspage}[\smallskip]%
+    %
+     \titlecontents{subsection}[7em]{}%
+      {\contentslabel[\thecontentslabel]{2.75em}}%numbered
+      {\hspace*{-1em}}%numberless
+      {\hfill\contentspage}[\smallskip]
+
+    \renewcommand*{\contentsname}{\upshape TABLE OF CONTENTS \vspace{3\baselineskip}\par \hrule height 1pt\vskip1.5ex Contents\hfill Page No \vskip 1.5ex\par\hrule height 1pt\vskip -8\baselineskip}%
+    \apptocmd{\tableofcontents}{\booltrue{addtoc}}{}{}
+
+    \providecommand\frontmatter{\renewcommand\thepage{\scshape\mdseries\roman{page}}}%
+    \providecommand\mainmatter{\clearpage\pagenumbering{arabic}}
+		
+% ----------------- MOMO END
                        
 \begin{document}
 \renewcommand{\listfigurename}{\textsc{Liste des figures}}
@@ -32,7 +81,7 @@
 \renewcommand{\contentsname}{\textsc{Table des matières}}
 %-_-_-_-_-_-_-_-_-_-_-_-_-Page de garde-_-_-_-_-_-_-_-_-
 
-	\begin{titlepage}
+\begin{titlepage}
 
 % Defines a new command for the horizontal lines, change thickness here
 
