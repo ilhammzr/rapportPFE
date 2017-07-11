@@ -42,7 +42,7 @@
     {\LARGE\chaptername~\thechapter}
     {0.5pc}
     {\vspace{0.5pc}\Huge#1}%
-    \titlespacing{\chapter}{0pt}{3\baselineskip}{4\baselineskip}
+    \titlespacing{\chapter}{0pt}{4\baselineskip}{2\baselineskip}
 
     \titleformat{name=\chapter, numberless}[display]
     {\vskip-4\baselineskip\lsstyle\bfseries\itshape\large\filcenter}
@@ -50,7 +50,7 @@
     {0.5pc}
     {\vspace{0.5pc}#1}%
     [\ifbool{addtoc}{\addcontentsline{toc}{chapter}{#1}}]%
-     \titlespacing{name = \chapter, numberless}{0pt}{2\baselineskip}{5\baselineskip}
+     \titlespacing{name = \chapter, numberless}{0pt}{1\baselineskip}{2\baselineskip}
 
       \titlecontents{chapter}[0em]{\lsstyle\smallskip\bfseries}%\vspace{1cm}%
       {\contentslabel[\chaptername~\thecontentslabel]{0em}\hspace{5.6em}}%
@@ -72,7 +72,7 @@
 
     \providecommand\frontmatter{\renewcommand\thepage{\scshape\mdseries\roman{page}}}%
     \providecommand\mainmatter{\clearpage\pagenumbering{arabic}}
-		
+
 % ----------------- MOMO END
                        
 \begin{document}
@@ -1261,7 +1261,5 @@ La première itération du projet a consisté en la définition du périmètre du proj
 % -_-_-_-_-_-_-_-_-_-_-_-_ Références  -_-_-_-_-_-_-_-_-_-_-_-_
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Références  -_-_-_-_-_-_-_-_-_-_-_-_
-
-
 
 \end{document}
