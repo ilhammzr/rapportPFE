@@ -1,5 +1,4 @@
 \documentclass[a4paper, 12pt]{report}
-
 \usepackage[latin1]{inputenc} % accents
 \usepackage[T1]{fontenc}      % caractères français
 \usepackage[top = 2cm, bottom = 3cm, right = 2cm, left = 4.5cm]{geometry}  % marges%
@@ -15,7 +14,11 @@
 \usepackage{libertine}
 \usepackage[pdftex]{graphicx}
 %\usepackage{mathptmx}
+%--------------
+
+%--------------
 \renewcommand{\familydefault}{\sfdefault}
+
 \pagestyle{headings}          % affiche un rappel discret (en haut à gauche)
 \onehalfspacing
 \makenomenclature 
@@ -279,24 +282,30 @@ The application is modeled with the help of the BPM Bizagi, and developed by spe
 Dans un monde où la compétition s'établit non pas uniquement sur le plan local mais également à un niveau mondial, où la majorité des marchés sont saturés, où les produits passent de plus en plus au stade de commodité, les entreprises se doivent de développer des avantages concurrentiels défendables qui leur permettront d'évoluer avec succès dans un environnement toujours de plus en plus hostile. À cet égard, la gestion du processus commercial allant du marketing au service après-vente s'avère nécessaire et implique une série de changements dans la manière de gérer l'entreprise.
 
  \paragraph{}
-Les consommateurs aujourd'hui habitués à avoir le choix et l'accès à des produits de qualité portent une attention grandissante à des aspects autrefois relégués au second plan. Lors de son processus d'achat, le consommateur recherche des aspects comme le plaisir, la sécurité, la considération et la personnalisation. Ces nouveaux critères obligent les entreprises à mettre en place les processus nécessaires à la rencontre de ces attentes. C'est ce qui explique l'implantation accélérée de solutions visant la Gestion des Relations Client ou la Customer Relationship Management (CRM). 
+Les consommateurs aujourd'hui habitués à avoir le choix et l'accès à des produits de qualité portent une attention grandissante à des aspects autrefois relégués au second plan. Lors de son processus d'achat, le consommateur recherche des aspects comme le plaisir, la sécurité, la considération et la personnalisation. Ces nouveaux critères obligent les entreprises à mettre en place les processus nécessaires à la rencontre de ces attentes. C'est ce qui explique l'implantation accélérée de solutions visant la Gestion des Relations Client ou la "Customer Relationship Management" (CRM). 
 
  \paragraph{}
-La mise en place d'un CRM redonne de la visibilité et de la sérénité car il répond aux besoins actuels. Il structure, partage et distille l'information appropriée pour tous les services (Marketing, commercial, administratif, technique et support). Cette centralisation est facilitée par l'intégration de caractéristiques comme l'accès à la boite mail et aux divers documents et également, la réalisation d'actions marketing. 
+La mise en place d'un CRM redonne de la visibilité et de la sérénité car il répond aux besoins actuels. Il structure, partage et distille l'information appropriée pour tous les services (marketing, commercial, administratif, technique et support). Cette centralisation est facilitée par la réalisation de nombreuses actions marketing et par l'intégration de différents services comme l'accès à la boite mail et aux divers documents électroniques.
   
 
  \paragraph{}
-Le présent rapport décrit l'ensemble des étapes de réalisation de notre mission au sein de l'organisme Neoxia. Il est structuré en cinq chapitres :
+Le présent rapport décrit l'ensemble des étapes de réalisation de notre mission au sein de l'organisme Neoxia. nous avons choisi de le présenter sous 5 chapitres :
+
 \begin{itemize}
 \item \textbf{Le premier chapitre} présente le contexte général du projet en présentant l'organisme d'accueil et en définissant les objectifs de notre mission ainsi que la conduite que nous avons suivi pour mener à bien notre projet.
-\item \textbf{Le deuxième chapitre} a comme but d'expliquer la théorie du Cloud Computing, de la Gestion des Relations Clients et la philosophie de Salesforce.
-\item \textbf{Le troisième chapitre} est consacré à la branche fonctionnelle des processus adopté lors de la phase de conception qui a permet un repérage des besoins fonctionnels et opérationnels du système. Il décrit la conception des fonctionnalités de la solution.
+
+\item \textbf{Le deuxième chapitre} a comme but d'expliquer la théorie du Cloud Computing, de la gestion des relations clients et la philosophie de Salesforce.
+
+\item \textbf{Le troisième chapitre} est consacré à la branche fonctionnelle des processus adopté lors de la phase de conception, qui a permis un repérage des besoins fonctionnels et opérationnels du système. Il décrit la conception des fonctionnalités de la solution.
+
 \item \textbf{Le quatrième chapitre} est consacré à la branche technique de l'application réalisée. Il expose les concepts techniques clés du projet et l'ensemble des technologies utilisées.
+
 \item \textbf{Le dernier chapitre} est consacré à la mise en \oe uvre du projet en décrivant toutes les étapes par lesquelles nous sommes passés pour donner naissance à notre application depuis la configuration des objets personnalisés à la génération des rapports et tableaux de bord.
+
 \end{itemize}
 
 \paragraph{}
-Le rapport s'achève par une conclusion décortiquant les résultats du développement de la solution tout en émettant les perspectives susceptibles de compléter le projet en question.
+Le rapport s'achève par une conclusion résumant les résultats du développement de la solution tout en proposant des perspectives susceptibles d'améliorer et de compléter le projet en question.
 \end{flushleft}
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Introduction generale -_-_-_-_-_-_-_-_-_-_-_-_
@@ -621,7 +630,7 @@ les requêtes de données, les économies réalisées démarrent immédiatement et cont
 %--------Force.com-----%
 
 
-\section {la philosophie de Salesforce}
+\subsection {la philosophie de Salesforce}
 
 toute entreprise a  besoin  d'avoir un aperçu global sur les données de la société, et cela commence par les relations commerciales. Dans Salesforce, on stocke des informations à prepos de clients en utilisant des comptes et des contacts. 
 \subsubsection {Compte}Les comptes sont les sociétés avec lesquelles nous somme en affaire.
@@ -850,7 +859,7 @@ Basé sur Database.com et un marché d'applications d'entreprise Appexchange, les 
 
 \paragraph{}
 \textsc{salesforce.com} offre une panoplie d'outils standards intégrés permettant l'automatisation des processus et le stockage des données d'une entreprise. En revanche, et lorsqu'une fonctionnalité n'est pas intégrée par défaut dans la solution, La plate-forme offre aux développeurs des outils puissants pour développer leurs propres nouvelles fonctionnalités, et ce, avec une complète compatibilité (aussi logique qu'esthétique) avec ce qui existe par défaut. 
-\subsection {MVC et Salesforce}
+\section {MVC et Salesforce}
 Le paradigme Modèle, Vue et Contrôleur
 \begin{figure}[H]
 	\centering
@@ -893,7 +902,6 @@ comment les intérface se comportent. les controlleurs sont utilisés pour. Les co
 
 Salesforce.com est un outil primé pour gérer toutes les données de l'équipe commerciale d'une organisation. La flexibilité et l'assurance des données sécurisées fournies par Salesforce.com entraînent des capacités de développement non parallèles pour le développeur
  
-\section {Les objets Standard de Salesforce}
 
 \section{Exigences techniques}
 
@@ -1050,7 +1058,7 @@ la figure ci-dessous montre la réception de la réponse et la tâche enregitrée.
 	\label{fig:Interface de la réception de la réponse par mail}
 \end{figure}
 \section {processus de Facturation}
-\subsection{conception initiale}
+\subsection{Identification des objets}
 Comme tout processus nous avons commencer par l'élaboration des Objets Standards et personnalisés pour gérer la facturation,
 Facture, Echeance, Opportunité,Poste d'Opportunité, Poste d'echeance.
 la figure ci-dessous montre les Objets principales et les relations entre eux.
@@ -1060,7 +1068,24 @@ la figure ci-dessous montre les Objets principales et les relations entre eux.
 	\label{fig:classfacturation}
 \end{figure}
 
-
+\subsection{Réalisation et développement}
+La première étape dans cette phase configurer les objets personnalisés; Facture, Echeance et poste d'echeance, c'est à dire créer tous les champs necessaire pour chaque objets avec les règles de validation convenables et les worklfow qui mène le bon déroulement du processus; 
+\paragraph{}
+l'enjeu de ce processus et la miltitudes des types de projet, sachant que le processus de facturation dépend du type de projet:
+\begin{itemize}
+	\item  Projet forfait : Comme son nom l'indique, le développement au forfait se calcule sur le projet et non sur le temps passé réellement. Le coût peut donc être parfois plus élevé qu'avec une facturation en régie mais il est ferme et définitif. Comme son nom l'indique, le développement au forfait se calcule sur le projet et non sur le temps passé réellement. Le coût peut donc être parfois plus élevé qu'avec une facturation en régie mais il est ferme et définitif. 
+	\item Projet TMA : 
+	\begin{flushright}
+	
+	\begin{flushright}
+	
+	\begin{flushright}
+	
+	\end{flushright}
+	\end{flushright}
+	\end{flushright}
+	\item Projet en régie : La facturation en régie consiste à faire payer le temps réellement passé pour le service. Cela exige de bien estimer au départ la durée du service à effectuer. Malgré toutes les précautions prises au départ, un imprévu peut toujours se produire et bouleverser la donne.le développement en régie est privilégié pour les missions à durée bien définie. 
+\end{itemize}
 
 
 
