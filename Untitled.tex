@@ -1,7 +1,7 @@
 \documentclass[a4paper, 12pt]{report}
 \usepackage[latin1]{inputenc} % accents
 \usepackage[T1]{fontenc}      % caractères français
-\usepackage[top = 2cm, bottom = 3cm, right = 2cm, left = 4.5cm]{geometry}  % marges%
+\usepackage[top = 3cm, bottom = 3cm, right = 2cm, left = 4.5cm]{geometry}  % marges%
 \usepackage[francais]{babel}  % langue
 \usepackage{graphicx}         % images
 \usepackage{verbatim}         % texte préformaté
@@ -42,7 +42,7 @@
     {\LARGE\chaptername~\thechapter}
     {0.5pc}
     {\vspace{0.5pc}\Huge#1}%
-    \titlespacing{\chapter}{0pt}{3\baselineskip}{8\baselineskip}
+    \titlespacing{\chapter}{0pt}{3\baselineskip}{4\baselineskip}
 
     \titleformat{name=\chapter, numberless}[display]
     {\vskip-4\baselineskip\lsstyle\bfseries\itshape\large\filcenter}
@@ -50,7 +50,7 @@
     {0.5pc}
     {\vspace{0.5pc}#1}%
     [\ifbool{addtoc}{\addcontentsline{toc}{chapter}{#1}}]%
-     \titlespacing{name = \chapter, numberless}{0pt}{2\baselineskip}{8\baselineskip}
+     \titlespacing{name = \chapter, numberless}{0pt}{2\baselineskip}{5\baselineskip}
 
       \titlecontents{chapter}[0em]{\lsstyle\smallskip\bfseries}%\vspace{1cm}%
       {\contentslabel[\chaptername~\thecontentslabel]{0em}\hspace{5.6em}}%
