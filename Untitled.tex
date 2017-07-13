@@ -13,6 +13,7 @@
 \usepackage{nomencl} 
 \usepackage{libertine}
 \usepackage[pdftex]{graphicx}
+\usepackage{enumitem}
 %\usepackage{mathptmx}
 %--------------
 
@@ -79,6 +80,7 @@
 \renewcommand{\listfigurename}{\textsc{Liste des figures}}
 \renewcommand{\listtablename}{\textsc{Liste des tableaux}}
 \renewcommand{\contentsname}{\textsc{Table des matières}}
+
 %-_-_-_-_-_-_-_-_-_-_-_-_-Page de garde-_-_-_-_-_-_-_-_-
 
 \begin{titlepage}
@@ -275,7 +277,7 @@ L'application est modélisée à l'aide du BPM Bizagi, et développée par des outils
 \newline
 \newline
  \paragraph{}
-\textbf{Mots clé}: CRM, \textsc{salesforce.com}, Apex, VisualForce, SOQL, Force.com,Cloud Computing.
+\textbf{Mots clé}: CRM, \textsc{salesforce.com}, Apex,BPM, VisualForce, SOQL, Force.com,Cloud Computing.
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Résumé -_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -291,7 +293,7 @@ In this report, I will try to summarize the work that we've done in my graduatio
 In order to increase its productivity and profit while reducing time and budgets, and to improve its performance and competitive position, Neoxia has put the client satisfaction as the center of attention. That's why Neoxia has invested a lot of time and effort to create a CRM solution to manage its own commercial process.
 
  \paragraph{}
-Our mission was about setting in place an application with the purpose of helping Neoxia to attain their objectives and to have a product that responds to their expectations. The issue was mainly on the configuration of the Salesforce CRM solution to achieve a process that automates and increases sales by considerably facilitating the task, accelerating the process of sale, monitoring the different projects and postings, and finally, taking care of the billing management.
+Our mission was about creating an application with the purpose of helping Neoxia to attain their objectives and to have a product that responds to their expectations. The issue was mainly on the configuration of the Salesforce CRM solution to achieve a process that automates and increases sales by considerably facilitating the task, accelerating the process of sale, monitoring the different projects and postings, and finally, taking care of the billing management.
 
  \paragraph{}
 We started our mission by conducting a full diagnosis then a detailed conception of the solution, we defined all the functionalities that they needed to put in place, afterwards, we modelized all the specific needs, while deciding at each time which processes to adopt, a long phase of realization took place and we continuously validated parts of the project till we had our final product.
@@ -302,7 +304,7 @@ We used BPM Bizagi to modelize the application, and specific tools of the Force.
 \newline
 \newline
  \paragraph{}
-\textbf{Mots clé}: CRM, \textsc{salesforce.com}, VisualForce, APEX, SOQL, Visualforce, Force.com,Cloud Computing.
+\textbf{key words}: CRM, \textsc{salesforce.com}, VisualForce,BPM, APEX, SOQL, Visualforce, Force.com,Cloud Computing.
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Abstract -_-_-_-_-_-_-_-_-_-_-_-_
 
@@ -328,13 +330,20 @@ We used BPM Bizagi to modelize the application, and specific tools of the Force.
 
  \paragraph{}
 Dans un monde où la compétition s'établit non pas uniquement sur le plan local mais également à un niveau mondial, où la majorité des marchés sont saturés, où les produits passent de plus en plus au stade de commodité, les entreprises se doivent de développer des avantages concurrentiels défendables qui leur permettront d'évoluer avec succès dans un environnement toujours de plus en plus hostile. À cet égard, la gestion du processus commercial allant du marketing au service après-vente s'avère nécessaire et implique une série de changements dans la manière de gérer l'entreprise.
+\paragraph{}
+En fait dernièrement Neoxia a connu une croissance importante du  nombre des collaborateurs, des marchés gagnés ainsi que le nombre des profils et des technologies utilisées,  ce qui rend difficile d'obtenir une vue entière de l'entreprise, d’analyser le résultat du marketing,  ou de suivre les projet et le rendement des ventes.
+ \paragraph{}
+Dans un deuxième temps les consommateurs aujourd'hui habitués à avoir le choix et l'accès à des produits de qualité portent une attention grandissante à des aspects autrefois relégués au second plan. Lors de son processus d'achat, le consommateur recherche des aspects comme le plaisir, la sécurité, la considération et la personnalisation. 
+\paragraph{}
+Ces nouveaux critères obligent les entreprises à mettre en place les processus nécessaires à la rencontre de ces attentes. C'est ce qui explique l'implantation accélérée de solutions visant la Gestion des Relations Client ou la "Customer Relationship Management" (CRM). 
 
  \paragraph{}
-Les consommateurs aujourd'hui habitués à avoir le choix et l'accès à des produits de qualité portent une attention grandissante à des aspects autrefois relégués au second plan. Lors de son processus d'achat, le consommateur recherche des aspects comme le plaisir, la sécurité, la considération et la personnalisation. Ces nouveaux critères obligent les entreprises à mettre en place les processus nécessaires à la rencontre de ces attentes. C'est ce qui explique l'implantation accélérée de solutions visant la Gestion des Relations Client ou la "Customer Relationship Management" (CRM). 
+La mise en place d'un CRM redonne de la visibilité et de la sérénité car il répond aux besoins actuels. Il structure, partage et distille l'information appropriée pour tous les services. Cette centralisation est facilitée par la réalisation de nombreuses actions marketing et par l'intégration de différents services comme l'accès à la boite mail et aux divers documents électroniques.
+\paragraph{}
+  Mais Un CRM comme tout autre outil reste limité, et ne peut pas répondre à tous les besoins de l'entreprise, sachant qu'il doit être personnalisé d'une façon globale pour pouvoir s'adapté à un contexte informatique, où la « la vente » des prestations et la plus compliquée.
+C'est dans cette optique qu'intervient mon sujet de stage de fin d'étude, Nous avons eu pour mission la mise en place d’une application visant à aider Neoxia à améliorer leurs performances et leur position concurrentielle. 
+L'enjeu n'arrête pas à la configuration de la solution Salesforce CRM pour réaliser un processus qui automatise les forces de vente, mais aussi le développement de nouvelles fonctionnalités dans la plateforme, et l'amélioration des processus standard ainsi que la personnalisation de l'existant pour qu'il conforme au métier de l'entreprise cela en facilitant considérablement la tâche, et  accélérant le processus de vente, le suivi des projets ainsi que les imputations, et finalement la gestion de la facturation et le recouvrement
 
- \paragraph{}
-La mise en place d'un CRM redonne de la visibilité et de la sérénité car il répond aux besoins actuels. Il structure, partage et distille l'information appropriée pour tous les services (marketing, commercial, administratif, technique et support). Cette centralisation est facilitée par la réalisation de nombreuses actions marketing et par l'intégration de différents services comme l'accès à la boite mail et aux divers documents électroniques.
-  
 
  \paragraph{}
 Le présent rapport décrit l'ensemble des étapes de réalisation de notre mission au sein de l'organisme Neoxia. nous avons choisi de le présenter sous 5 chapitres :
@@ -360,7 +369,7 @@ Le rapport s'achève par une conclusion résumant les résultats du développement d
 
 % -_-_-_-_-_-_-_-_-_-_-_-_  Contexte général -_-_-_-_-_-_-_-_-_-_-_-_
 
-\chapter{\textsc{Contexte général}}
+\chapter{\textsc{Contexte général de Neoxia Sales}}
 
 \section{Organisme d'accueil}
 
@@ -389,13 +398,13 @@ soutenu
 \begin{figure}[H]
 \centering
 \includegraphics[scale=1]{ca.png}
-\caption{Chiffre d'affaire NEOXIA France en Million d'Euros.}
+\caption{Chiffre d'affaire du Group Neoxia en Million d'Euros.}
 \end{figure}
 Le graphe ci-dessous montre le chiffre d'affaire de NEOXIA au Maroc et son évolution soutenue.
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.9]{nxmaroc.png}
-\caption{Chiffre d'affaire NEOXIA Maroc en Million d'Euros.}
+\caption{Chiffre d'affaire NEOXIA Maroc en Million DH.}
 \end{figure}
 Le graphe ci-dessous montre la répartition du chiffre d'affaire de NEOXIA par secteur
 d'activités.
@@ -466,7 +475,7 @@ pratiques
 \caption{les différentes typologies de mission de Neoxia.}
 \end{figure}
 
-\subsection{les principes de Neoxia}
+\subsection{Les principes de Neoxia}
 
 Pour accompagner ses clients dans leur transformation digitale, 
 Neoxia s'appuie sur plusieurs principes : 
@@ -481,7 +490,7 @@ L'entreprise maîtrise un spectre large de technologie et veille à s'impliquer da
 
 \end{itemize}
 
-\chapter{\textsc{Contexte du projet }}	 
+\Section{Contexte du projet }
 \paragraph{}
 Neoxia comme un cabinet de conseil qui vient d'être installé sur le terrain marocain, cherche à gangner les bons marché ainsi de garder et fédiliserles bons clients.
  \paragraph{}
@@ -496,7 +505,8 @@ C'est dans ce cadre qu'intègre notre projet de fin d'étude, émanant du besoin d'
 \section{Presentation générale du projet}
 \subsection {Déroulement du projet}
 Le projet est passé par quatre phases importantes : 
-\subsubsection {Documatation et formation}
+\begin{enumerate}[label=(\alph*)]
+\item {\textbf{\textbf{Documatation et formation}}}
 	 \paragraph{}
 	Choix de la plateforme de développement :  Salesforce s'est avéré la meilleure solution à adopter pour développer une application web pour la gestion d'un processus commercial et accessible sur le Cloud.
 	\paragraph{}
@@ -511,13 +521,14 @@ C'est dans ce contexte que nous avons fait notre formation sur la plateforme Sal
 \includegraphics[scale=0.5]{rank.png}
 \caption{Interface de la plateforme de formation TrailHead .}
 \end{figure}
-\subsubsection{	Conception }
+\item{\textbf{Conception} }
 \paragraph{}De tous les  mots  associés  au  e-business, aucun n'est autant exploité que "processus". Prenez  
 l'expression "processus   business"   et   ajouter   l'un ou l'autre des qualificatifs "gestion","intégration", "optimisation", "automatisation", "modélisation" ou "simulation". Au final, ces combinaisons forment des notions qui ont un sens dans un contexte  historique mais qui sont totalement interchangeables dans le discours des vendeurs de software, car ils espèrent positionner leurs produits avec le maximum de visibilité dans la sphère très à la mode des outils liés aux processus business. Ces derniers temps, une de ces expressions se détache nettement des autres  et  il  s'agit  de  "gestion  des  processus  business"  ou  BPM  (Business  Process  Management).  
 \paragraph{}
-Un système informatique de BPM permet la conception, l'analyse,  l'optimisation et l'automatisation  des  processus  business.  Pour y parvenir,  il  sépare  la  logique  du  processus  des  
+Un système informatique de BPM\footnotemark[1] permet la conception, l'analyse,  l'optimisation et l'automatisation  des  processus  business.  Pour y parvenir,  il  sépare  la  logique  du  processus  des  
 applications qui soutiennent  le processus,  il  gère  les relations  entre  les  différents  intervenants,  il intègre les  ressources  internes  et  externes  de  l'entreprise  nécessaires  pour  le  déroulement  du processus  et  enfin  il  surveille  le  déroulement  du  processus  pour  en  tirer  une  analyse  des  
 performances qui serviront à le faire évoluer. 
+\footnotetext[1]{Business Process Modeler : est un  logiciel qui permet d'identifier les différents processus et les rationaliser.}
 \paragraph{}
 Ce travail de mémoire tente de faire une synthèse des différents aspects qui gravitent autours de la gestion des processus business, des concepts de bases aux acteurs du marché en passant par les différentes fonctionnalités d'un système de BPM et l'implication sur les structures organisationnelles de l'entreprise.
 \paragraph{}
@@ -525,7 +536,7 @@ Ce travail de mémoire tente de faire une synthèse des différents aspects qui gra
 la méthode OSSAD au niveau abstrait (sous la forme de fonctions, sous-fonctions, activités et paquets). Dans un deuxième temps, le prototype d'une  application  a  été  développé.  Cet  outil  permet  de  tester  l'intégrité  de  la  modélisation  et  
 facilite la consultation de cette modélisation soit en local ou sur le cloud, car dans notre nous avons utiliser l'outil "Bizagi" 
 \pargraph{}Dans un autre temps Nous avons fourni le data model adéquat pour l'application qui représente les différents objets standards et personnalisés à utiliser lors du développement de l'application. Ainsi l'élaboration de différents diagrammes selon les acteurs du système. 
-\subsubsection { planification} 
+\item {\textbf{Planification}} 
 La planification du projet est une phase importante d'avant-projet. Elle consiste à prévoir le déroulement de ce dernier tout au long des phases constituant le cycle de développement.
 \paragraph{}
 Parmi les outils de planification de projet, on a utilisé le diagramme de GANTT,c'est un outil qui permet de planifier le projet, ordonnancer les tâches et estimer leurs charges respectives.
@@ -535,19 +546,19 @@ Ce diagramme permet aussi de visualiser l'enchainement et la durée des différent
 \begin{figure}[H]
 \centering
 \includegraphics[scale=0.31]{gantt.png}
-\caption{Diagramme de gant.}
+\caption{Diagramme de gantt.}
 \end{figure}
 
-\subsubsection{	Réalisation} la réalisation s'est déroulée sur plusieurs étapes, selon les processus détérminés pendant la phase de la conception initiale.
+\item{\textbf{Réalisation}} la réalisation s'est déroulée sur plusieurs étapes, selon les processus détérminés pendant la phase de la conception initiale.
 \paragraph{}
 chaque fois qu'on est concentré sur un processus, on refait la conception avec plus de détails sur les champs à créer, les règles de validation et les workflow, les reunions se déroulaient au sujet du processus en question uniquement.
 \paragraph{}
 On commence à developper les fonctionnalitées demandées avec les tests en parallèle, une fois les objectif de l'iteration atteints  on fait un démo des fonctionnalités developpées.
 \paragraph{}
-Après la démo soit on passe à la partie suivante, sinon on ajoute quelques jours pour la finalisation des fonctionnalités déjà developpées.
-
+Après la démo soit on passe à la partie suivante, sinon on ajoute quelques jours pour la finalisation des fonctionnalités déjà developpées.`
+\end {enumerate}
 \subsection{Conduite du projet}
-\subsubsection{pratiques SCRUM}
+\subsubsection{Pratiques SCRUM}
 \paragraph{}La gestion de projet ou conduite de projet est une démarche visant à structurer, assurer et optimiser le bon déroulement d'un projet suffisamment complexe.
 \paragraph{}
 Ainsi Pour optimiser le temps disponible, nous avons travaillé en mode agile, c'est à dire en cycles itératifs courts permettant de fournir rapidement les fonctionnalités essentielles qui rendront l'application utilisable est finctionnelle.
@@ -586,8 +597,7 @@ L'approche inspiré de SCRUM utilisé précedement, respecte plusieur aspect méthol
 % -_-_-_-_-_-_- CRM , Cloud Computing et Salesforce.com
  -_-_-_-_-_-_-_-_-_-_-_-_
 
-\chapter{\textsc{Gestion des Relations Clients et Le Cloud Computing
-}}
+
 
 \section{La théorie de la Gestion des Relations Clients CRM }
 \paragraph{}
@@ -678,13 +688,15 @@ les requêtes de données, les économies réalisées démarrent immédiatement et cont
 %--------Force.com-----%
 
 
-\subsection {la philosophie de Salesforce}
+\section {La philosophie de Salesforce}
 
 toute entreprise a  besoin  d'avoir un aperçu global sur les données de la société, et cela commence par les relations commerciales. Dans Salesforce, on stocke des informations à prepos de clients en utilisant des comptes et des contacts. 
-\subsubsection {Compte}Les comptes sont les sociétés avec lesquelles nous somme en affaire.
-\subsubsection{Contact}
+
+\begin{enumerate}[label=(\alph*)]
+\item {Compte}Les comptes sont les sociétés avec lesquelles nous somme en affaire.
+\item{Contact}
  les contacts sont des personnes qui travaillent pour ces sociétés.
-\subsubsection{Opportunités:}
+\item{Opportunités:}
 Les opportunités sont des affaires en cours. Dans Salesforce, vous pouvez créer des opportunités pour des comptes existants ou en convertissant une piste qualifiée.
 \paragraph{}
 
@@ -700,14 +712,13 @@ Voici certaines des étapes par lesquelles on passe  habituellement :
     	\item Clôturée/Gagnée
     	\item Clôturée/Perdue
 		\end{itemize}
-\subsubsection{Contact}
+\item{Contact}
 Les contacts sont créés dès qu'une piste exprime un intérêt pour faire des affaires. La piste est convertie en un contact. Les contacts sont les personnes qui appartiennent aux comptes (entreprises) et envisagent de passer par une transaction.
 Les rôles des contacts des opportunités indiquent avec quels contacts on fait l'affaire pour l'opportunité et comment chaque contact est lié à l'opportunité. Les rôles de contact permettent également de lier des contacts d'autres comptes à l'opportunité.
 
 
 
-
-Piste (Lead):piste dans salesforce.com sont ceux qui nous somme intéressé à travailler avec, mais on ne sait pas s'ils sont intéressés à travailler avec nous.
+\item{Piste }:piste dans salesforce.com sont ceux qui nous somme intéressé à travailler avec, mais on ne sait pas s'ils sont intéressés à travailler avec nous.
 \paragraph{}
 On peut avoir les piste à partir d'une liste que nous avons acheté, ou d'un ensemble de cartes d'affaires que nous avons recueillies lors d'un salon commercial ou autres. Dans tous les cas, nous devons communiquer avec le responsable pour savoir s'ils sont intéressés à notre produit ou service. \paragraph{}
 Salesforce.com est un gestionnaire ou un système de suivi des piste, qui utilise un processus de qualification des prospects pour savoir si la piste est qualifié (pourrait être le client), ou non (ne sera pas un client).
@@ -731,11 +742,11 @@ Il est possible qu'une piste devient un contact et un compte sans devenir une op
 Salesforce agit comme un système de gestion des contacts et un système de suivi de piste, jusqu'à ce qu'un contact ou une piste est convertie en une opportunité, Salesforce devient une solution pour la gestion des ventes
 \paragraph{}
 Le processus d'automatisation des ventes dans Salesforce définit la probabilité de conclure une vente, qui est ensuite utilisé pour la prévision des ventes. Par exemple, si l'étape de vente "Décideur - contacté" a une probabilité de 40  \% pour fermer et je suis en train de travailler sur une opportunité de 100 000 \$, puis ma prévision de ventes dans le tableau de bord Salesforce indique que l'opportunité va générer 40 000 \$ en revenus.
-
+\end{enumerate}
 %-_-_-_-_-__-_-_-_ Fin CRM, Cloud Computing-_-_-_-_-_-
 
-%-_-_-_-_-_-_-_-_-_ Analyse Fonctionnelle et Conception-_-_-_-_-
-\chapter{Analyse Fonctionnelle et Conception}
+%-_-_-_-_-_-_-_-_-_ Analyse Fonctionnelle et technique_-_-_-_-
+\chapter{Analyse Fonctionnelle et Technique}
 Ce chapitre présente une étude détaillée des spécifications fonctionnelles du projet. La première section traite les besoins fonctionnels et non fonctionnels du projet visant à reformuler le besoin d'une manière simple et réalisable. La deuxième section est une analyse des acteurs qui interviennent dans le projet. Quant à la troisième, il s'agit d'une modélisation pour donner une vision globale du comportement fonctionnel de notre solution. 
 \section{ Spécifications fonctionnelles }
 \paragraph{}
@@ -799,7 +810,7 @@ cette figure montre le résultat final de cette configuration dans Google Contact
 \begin{figure}[H]
 	\centering
 		\includegraphics{Contactsync.PNG}
-	\label{fig:les Contacts Synchronisés de SF vers Google Contacts}
+	\caption{ capture: Contacts Synchronisés de SF vers Google Contacts}
 \end{figure}
  \paragraph{}
 A la fin de cette configuration de Google Sync j'ai rédigé un Guide de configuration qui est publier sur le blog de Neoxia, sous le lien suivant:
@@ -834,7 +845,7 @@ la figure ci-dessous représente le schéma généré par Salesforce  qui schématise 
  
 % -_-_-_-_-_-_-_-_-_-_-_-_ Etude technique  -_-_-_-_-_-_-_-_-_-_-_-_
 
-\chapter{\textsc{Étude technique}}
+
 
 \paragraph{}
 Dans ce qui suit, le plan technique du projet sera abordé. On présentera ainsi les contraintes techniques liées aux outils de développement utilisés durant la réalisation du projet. L'architecture physique et applicative seront détaillées pour avoir une vision claire sur la démarche de mise en oeuvre de la solution. 
@@ -912,7 +923,7 @@ Le paradigme Modèle, Vue et Contrôleur
 \begin{figure}[H]
 	\centering
 		\includegraphics[scale=0.8]{mvc.png}
-	\label{fig:MVC en Salesforce}
+	\caption{MVC en Salesforce}
 \end{figure}
 \paragraph{}
 Comme illustré sur la figure ci-dessus, Model View Controller (MVC) est un
@@ -958,6 +969,7 @@ Salesforce.com est un outil primé pour gérer toutes les données de l'équipe comm
 {Platform as a Service, souvent appelé simplement PaaS, est une catégorie de services de Cloud computing qui fournit la plateforme et l'environnement informatique nécessaire aux développeurs pour mettre en place leurs différents services et applications sur Internet.}
 \paragraph{}
 SALESFORCE est une plate-forme hautement personnalisée. En plus de la multitude des fonctionnalités offertes pour les utilisateurs de la plate-forme, cette dernière permet d'étendre ses fonctionnalités standard, créer des pages, des composants et des applications entièrement personnalisées.
+SALESFORCE est une plate-forme hautement personnalisée. En plus de la multitude des fonctionnalités offertes pour les utilisateurs de la plate-forme, cette dernière permet d'étendre ses fonctionnalités standard, créer des pages, des composants et des applications entièrement personnalisées.
 \paragraph{}
 Le développement dans la plate-forme SALESFORCE garantit les avantages suivants : 
 \begin{description}
@@ -974,7 +986,7 @@ Du moment que le développement sera sur une plate-forme hébergée en Cloud, les o
 \begin{figure}
 	\centering
 		\includegraphics[scale=0.5]{SalesforceApex.png}
-	\label{fig:logo Apex}
+	\caption{logo Apex}
 \end{figure}
 
 Le premier langage de programmation à la demande\footnotemark[2] au monde. Apex Code étend le succès puissant et éprouvé de la plate-forme \textsc{Force.com}\footnotemark[3] en introduisant la possibilité d'écrire un code qui s'exécute sur les serveurs \textsc{salesforce.com}. La langue permet de développer et de déployer entièrement une nouvelle classe d'applications et de fonctionnalités à la demande. Ces applications rendent les applications existantes de \textsc{Force.com} «plus intelligentes» en leur permettant de capturer la logique métier et les règles - telles que la validation des données - et développer des applications entièrement nouvelles à la demande - telles que la vérification complexe des stocks et l'exécution des commandes.
@@ -988,7 +1000,7 @@ Le premier langage de programmation à la demande\footnotemark[2] au monde. Apex 
 \begin{figure}[H]
 	\centering
 		\includegraphics{Visualforce.jpg}
-	\label{fig:Visualforce}
+	\caption{logo Visualforce}
 \end{figure}
 
 \paragraph{}
@@ -1013,7 +1025,7 @@ Sa syntaxe est similaire à celui de SQL (Structured Query Language), Il permet d
 \begin{figure}[H]
 	\centering
 		\includegraphics{js.png}
-	\label{fig:js}
+	\caption {logo javascript}
 \end{figure}
 
 \paragraph{}
@@ -1027,7 +1039,7 @@ La particularité du JavaScript consiste à créer des petits scripts sur une page 
 % -_-_-_-_-_-_-_-_-_-_-_-_ Realisation  -_-_-_-_-_-_-_-_-_-_-_-_
 
 \chapter{\textsc{Mise en oeuvre}}
-\section{développement du processus de vente}
+\section{Développement du processus de vente}
 \subsection{Identification des Objets}
 Tous d'abord nous avons fait une conception initiale pour les objets utilisés dans ce processus, qui nous a permis de tirer les objets suivants :
 Piste , Compte , Contact, Opportunité Devis et Elements de Devis
@@ -1035,30 +1047,30 @@ la figure ci-dessous schématise les objets nécessaires pour la création de ce pr
 \begin{figure}[H]
 	\centering
 		\includegraphics{classvente.PNG}
-	\label{fig:classvente}
+	\caption{le schéma des objets du processus de vente}
 \end{figure}
-\subsection{réalisation et développement}
+\subsection{Réalisation et développement}
 Nous avons commencer par la  modélisation du processus et la planifications des tâches de paramétrage de configuration ainsi que celles de développement necessaires pour compléter le processus.
 Cette partie était plus ou moin une partie de paramétrage vu que les prestations ne sont pas 'un produit'  facile à manipuler, alors la configuration  et la personnalisation des champs des Objet Opportunité, Compte, Contact et Devis est était necessaire.(comme l'introduction de la notion  J/H \footnotemark[1])
 nous nous somme concentrez surtout sur l'objet Devis, pour pouvoir générer un devis personnalisé et en minimisant le plus possible la saisie des manulle des informations, comme le calcul du montant , TVA , Remise  et même le montant en lettre.
 \footnotetext[1]{
 J/H est l'unité utilisée pour évaluer les besoins en jour-hommes, c'est à dire combien de ressources humaines et de temps sont nécessaires pour accomplir une tâche.}
-\subsubsection{difficultés et limitations}
+\subsubsection{Difficultés et limitations}
 Dans Salesforce on a la notion des ressources statiques, les ressources statiques permettent de télécharger du contenu que nous pouvons faire référence dans une page Visualforce, y compris des archives (telles que des fichiers .zip et .jar), des images, des feuilles de style et d'autres fichiers.
 Pour l'utilisation d'une ressource statique est préférable de télécharger un fichier dans l'onglet Documents car:
     Nous pouvons regrouper une collection de fichiers liés dans une hiérarchie de répertoires et télécharger cette hiérarchie sous la forme d'une archive .zip ou .jar.
     ou on peut référencer une ressource statique par nom dans le balisage de page en utilisant la variable \$Resource global à la place des ID de document de codage dur.  Mais celà est unitil pour le cas la conversion des chiffres en lettres, car SF ne supporte que les librairie statiques, donc la solution était de développer une class Apex  de A-Z pour réaliser cette conversion.
 
-\section {processus de marketing}
-\subsection{identification des objet}
+\section {Processus de marketing}
+\subsection{Identification des objets}
 les objets principales de ce processus sont campagne, membre de campagne , piste, contact.
 \begin{figure}[H]
 	\centering
 		\includegraphics[scale=0.6]{classmarketing.PNG}
-	\label{fig:le schéma des objets du processus de marketing}
+	\caption{le schéma des objets du processus de marketing}
 \end{figure}
 
-\subsection{développement et réalisation}
+\subsection{Développement et réalisation}
 la plateforme Salseforce.com offre le service pour l'envoi en mass des email. mais la selection des destinataires posait un problème  vu qu'il n'y avait pas d'option pour le filtrage, pour celà nous avons commencer la création  d'une interface de selection des destinataires selon plusiuers filtres.
 le processus de marketing ne s'arrête pas à l'envoi des mails mais nous avons besoin de recevoir les réponses des membres de la campagne.  pour celà nous avons suivi les étapes suivantes:
 \begin{enumerate}
@@ -1067,7 +1079,7 @@ le processus de marketing ne s'arrête pas à l'envoi des mails mais nous avons be
 	\begin{figure}[H]
 		\centering
 			\includegraphics[scale=0.5]{Email_1.png}
-		\label{fig:Configuration de "Email to SalesForce"}
+		\caption{Interface de configuration de "Email to SalesForce"}
 	\end{figure}
 	
 	\item Configure BCC compliance (wide org BCC): cette fonctionnalité permet d'envoyer automatiquement une copie cachée de chaque message électronique sortant à une adresse email que nous avons spécifié.
@@ -1077,7 +1089,7 @@ le processus de marketing ne s'arrête pas à l'envoi des mails mais nous avons be
 	\begin{figure}[H]
 		\centering
 			\includegraphics[scale=0.7]{inbound.PNG}
-		\label{fig:inbound}
+		\caption{stratégie de configuration de linghning Sync}
 	\end{figure}
 	
  
@@ -1096,7 +1108,7 @@ le schéma montre l'inétarction entre les Systèmes GoogleScript, le Client, et SF
 	\label{fig:EmailMarketing}
 \end{figure}
 
-\subsection {dificultés et limitations}
+\subsection {Dificultés et limitations}
 comme le client peut nous répondre à partir de plusieurs client messagerie, la capture de la réponse deviens difficile car chaque client a une structure de message différente 
 pour celà nous nous avons contenter de l'analyse des réponses des deux clients : gmail et Outlook.
 la figure ci-dessous montre la réception de la réponse et la tâche enregitrée.
@@ -1122,22 +1134,13 @@ La première étape dans cette phase configurer les objets personnalisés; Facture,
 l'enjeu de ce processus et la miltitudes des types de projet, sachant que le processus de facturation dépend du type de projet:
 \begin{itemize}
 	\item  Projet forfait : Comme son nom l'indique, le développement au forfait se calcule sur le projet et non sur le temps passé réellement. Le coût peut donc être parfois plus élevé qu'avec une facturation en régie mais il est ferme et définitif. Comme son nom l'indique, le développement au forfait se calcule sur le projet et non sur le temps passé réellement. Le coût peut donc être parfois plus élevé qu'avec une facturation en régie mais il est ferme et définitif. 
-	\item Projet TMA : 
-	\begin{flushright}
-	
-	\begin{flushright}
-	
-	\begin{flushright}
-	
-	\end{flushright}
-	\end{flushright}
-	\end{flushright}
+	\item Projet TMA : La TMA définit seulement la maintenance d'une ou plusieurs applications, sans nécessiter d'évolutions majeures sur l'une d'entre elles. Cette option peut également se faire en régie dans le cas de gros projets.La TMA est là pour répondre à des besoins importants de grandes sociétés, dans ce cas des équipes entières peuvent être envoyées en régie chez le client pour assurer la maintenance d'un lot d'application.
 	\item Projet en régie : La facturation en régie consiste à faire payer le temps réellement passé pour le service. Cela exige de bien estimer au départ la durée du service à effectuer. Malgré toutes les précautions prises au départ, un imprévu peut toujours se produire et bouleverser la donne.le développement en régie est privilégié pour les missions à durée bien définie. 
 \end{itemize}
 
 
 
-\section{Etablissement des rapports et des tableau de bord}
+\section{Etablissement des rapports et des tableaux de bord}
 \paragraph{}Le reporting constitue un outil décisionnel aussi bien pour la Direction Générale que pour les Directions Opérationnelles. Il centralise les informations clés susceptibles d'aider à faire le point sur une partie de l'activité de l'entreprise (marketing, commerciale, financière, ..) et puis de piloter le business de façon efficace. 
 \paragraph{}
 Dans cette solution, le reporting représente un moyen tangible de prise de décision puisqu'il permet de traiter toutes les informations de l'analyse d’une manière détaillée et facile à comprendre.
@@ -1147,7 +1150,7 @@ Dans ce but, nous avons utilisé le connecteur direct à Salesforce de Tableau, no
  Cet outil permet de présenter les informations commerciales sous formes de rapports, accessibles depuis le CRM Salesforce, qui contiennent des tableaux et des graphes assistant la compréhension des données et permettant d’en tirer des conclusions congruentes.
 \paragrapg{}
 Dans cette section, nous exposerons les rapports et les tableaux de bords qui vont nous aider à prendre les décisions afin d'améliorer notre rentabilité à long terme.
-\subsubsection{les rapports}
+\subsubsection{Les rapports}
 \paragraph{}
 Un rapport renvoie un ensemble d'enregistrements qui remplissent certains critères et les affiche dans des lignes et des colonnes organisées. Les données de rapport peuvent être filtrées, groupées et affichées dans un graphique. Les rapports sont stockés dans des dossiers qui en contrôlent l'accès. 
 
@@ -1208,7 +1211,7 @@ Finalement, nous avons affiché nos tableaux de bord sur la page d'accueil. Aussi
 	\label{fig:rapports}
 \end{figure}
  
-\section{Les tests}
+\section{La stratégie de test}
 \paragraph{}
 les tests sont la clé de succès du développement à long terme et est un élément essentiel du processus de développement. c'est pourquoi Nous vous utiliser un processus de développement piloté par les tests, c'est l'élaboration d'un test, qui se produit en même temps que l'élaboration du code.
 \paragraph{}
@@ -1240,15 +1243,26 @@ celà est un exemple d'une classe de test qui contient deux méthodes
 % -_-_-_-_-_-_-_-_-_-_-_-_ FIN Realisation  -_-_-_-_-_-_-_-_-_-_-_-_
 
 % -_-_-_-_-_-_-_-_-_-_-_-_ Conclusion  -_-_-_-_-_-_-_-_-_-_-_-_
-
 \chapter*{\textsc{Conclusion}}
 \addcontentsline{toc}{chapter}{\textsc{Conclusion}}
 
-'\paragraph{}
-Ce projet de fin d'études, effectué au sein de Neoxia MAROC, consiste en la réalisation d'une Solution CRM pour la gestion du processus commercial de Neoxia Maroc.
+\paragraph{}
+Ce projet de fin d'études, effectué au sein de Neoxia MAROC qui a durée une période de 5 mois, consiste à la réalisation d'une Solution CRM pour la gestion du processus commercial de Neoxia Maroc à base du CRM Salesforce.
+\paragraph{}
+L'augmentation du volume de l'entreprise dans le marché, veut dire un plus grand nombre de projet et d'affaires, cela rend le suivi de l'activité de l'entreprise difficile, qui dis moins de visibilité dis difficulté de gestion pour cela Neoxia a investi pour créer une Solution CRM.
+Le CRM permet de regrouper toute l'information d'un contact, qu'il soit client, prospect ou même fournisseur, à l'intérieur d'un seul et même endroit en particulier l'application réalisée permettra d'automatiser et de renforcer les forces de ventes, ainsi le suivi des projets et des imputations.
+
+\paragraph{}
+Le CRM Salesforce et un outil presque complet et performent, mais il y a toujours des limitations surtout que le métier informatique exige beaucoup de spécifications, pour cela nous avons développé plusieurs processus bien adaptés au métier de l'entreprise, comme nous avons contenté de personnaliser et configurer les processus standard de Salesforce.
 \paragraph{}Durant ce stage, il a été convenu de suivre la méthodologie incrémentale itérative. La réalisation de ce projet requiert une bonne maîtrise des outils techniques ainsi qu'une bonne connaissance de la plate-forme de développement Force.com. Des formations métier, fonctionnelles et techniques ont donc été indispensables et ont été menées dans une période de préparation. 
 \paragraph{}
-La première itération du projet a consisté en la définition du périmètre du projet et l'étude de l'existant. Les itérations qui suivent ont été consacrées à la réalisation de plusieurs modules métier qui ont une grande valeur ajoutée pour les utilisateurs de la plateforme. Lors de chaque itération, une étude fonctionnelle a été effectuée suivie d'une étude technique si nécessaire. Enfin une conception détaillée est mise en place, pour pouvoir par la suite enchainer sur la phase de réalisation et de développement des modules en question.
+La première itération du projet a consisté en la définition du périmètre du projet et l'étude de l'existant. Les itérations qui suivent ont été consacrées à la documenttion, la formation et  la réalisation de plusieurs modules métier qui ont une grande valeur ajoutée pour les utilisateurs de la plateforme. Lors de chaque itération, une étude fonctionnelle a été effectuée suivie d'une étude technique si nécessaire. Enfin une conception détaillée est mise en place, pour pouvoir par la suite enchainer sur la phase de réalisation et de développement des modules en question.
+\paragraph{}
+Comme le présent rapport a été rédiger avant la fin de la période de stage, une deuxième parties est n'est pas encore commencée; 
+dans le reste de la période du stage on va travailler sur tous en  tous ce qui concerne les projets et les imputations, on va introduire la notion du projet dans salesforce, le suivi des projet, les technologies utilisés ainsi que la gestion des imputations, celà en synchronisant la plateforme Salesforce avec l'outil redMine.
+
+
+
 
  
 
