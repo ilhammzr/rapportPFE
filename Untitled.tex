@@ -369,7 +369,11 @@ Le rapport s'achève par une conclusion résumant les résultats du développement d
 % -_-_-_-_-_-_-_-_-_-_-_-_  Contexte général -_-_-_-_-_-_-_-_-_-_-_-_
 
 \chapter{\textsc{Contexte général de Neoxia Sales}}
+%--- resumé 
+Dans ce chapitre, nous introduirons le contexte général du projet. Nous présenterons d'abord l'organisme d'accueil. Ensuite, nous présenterons le contexte général du projet ainsi que ses principaux objectifs, une présentation de la conduite de ce projet en termes de gestion et de planification.
+Ce chapitre se terminera par 3 axes sur la théorie général du projet : CRM , Cloud Computing et la philosophie de Salesforse
 
+%----- dirli les résumé f chi cadre wla chi l3ba ila kat3ref 
 
 
 \section{Organisme d'accueil: NEOXIA MAROC}
@@ -538,19 +542,13 @@ La planification du projet est une phase importante d'avant-projet. Elle consist
 \paragraph{}
 Parmi les outils de planification de projet, on a utilisé le diagramme de GANTT,c'est un outil qui permet de planifier le projet, ordonnancer les tâches et estimer leurs charges respectives.
 \paragraph{}
-Ce diagramme permet aussi de visualiser l'enchainement et la durée des différentes tâches durant la réalisation du projet comme il est illustré dans les figures qui suivent :
- Le diagramme de Gantt suivant présente le planning de mon projet :
-\begin{figure}[ht]
-\centering
-\includegraphics[scale=0.31]{gantt.png}
-\caption{Diagramme de gantt.}
-\end{figure}
+Ce diagramme permet aussi de visualiser l'enchainement et la durée des différentes tâches durant la réalisation du projet. (voir Annexe)
 
 \item{\textbf{Réalisation}} la réalisation s'est déroulée sur plusieurs étapes, selon les processus détérminés pendant la phase de la conception initiale.
 \paragraph{}
 chaque fois qu'on est concentré sur un processus, on refait la conception avec plus de détails sur les champs à créer, les règles de validation et les workflow, les reunions se déroulaient au sujet du processus en question uniquement.
 \paragraph{}
-On commence à developper les fonctionnalitées demandées avec les tests en parallèle, une fois les objectif de l'iteration atteints  on fait un démo des fonctionnalités developpées.
+On commence à developper les fonctionnalitées demandées avec les tests en parallèle, une fois les objectifs de l'iteration atteints, on fait un démo des fonctionnalités developpées.
 \paragraph{}
 Après la démo soit on passe à la partie suivante, sinon on ajoute quelques jours pour la finalisation des fonctionnalités déjà developpées.`
 \end {enumerate}
@@ -742,7 +740,10 @@ Le processus d'automatisation des ventes dans Salesforce définit la probabilité 
 
 %-_-_-_-_-_-_-_-_-_ Analyse Fonctionnelle et technique_-_-_-_-
 \chapter{Analyse Fonctionnelle et Technique}
-Ce chapitre présente une étude détaillée des spécifications fonctionnelles du projet. La première section traite les besoins fonctionnels et non fonctionnels du projet visant à reformuler le besoin d'une manière simple et réalisable. La deuxième section est une analyse des acteurs qui interviennent dans le projet. Quant à la troisième, il s'agit d'une modélisation pour donner une vision globale du comportement fonctionnel de notre solution. 
+%---resumé 
+Ce chapitre présente une étude détaillée des spécifications fonctionnelles du projet.          Où traite les besoins fonctionnels et non fonctionnels du projet visant à reformuler le besoin d’une manière simple et réalisable.
+La deuxième section de ce chapitre traite l’étude technique au long de laquelle sont exposés, dans un premier temps, la solution Salesforce CRM en décrivant l’architecture, les applications et les fonctionnalités de la plateforme et dans un deuxième temps les technologies de travail.
+%---- fin resumé 
 \section{ Spécifications fonctionnelles }
 \paragraph{}
 Les spécifications fonctionnelles générales de l'application ont été décrites en collaboration avec l'encadrant, et le client qui est en fait le directeur Général de Neoxia au Maroc et l'assistante chargé de facturation. Des plans d'action élaborés pendant les réunions précisaient le périmètre général ainsi que les différentes fonctionnalités que l'application devrait offrir. Une fois ayant procédé à une analyse détaillée, nous avons pu identifier les différentes exigences métiers. 
@@ -1042,6 +1043,11 @@ La particularité du JavaScript consiste à créer des petits scripts sur une page 
 % -_-_-_-_-_-_-_-_-_-_-_-_ Realisation  -_-_-_-_-_-_-_-_-_-_-_-_
 
 \chapter{\textsc{Mise en oeuvre}}
+%---- tesumé 
+Ce dernier chapitre est consacré à la réalisation du projet, il est composé en plusieurs sections, chaque section correspond à un processus métier, où on va analyser et traiter les spécifications et les fonctionnalités des processus,
+Pour chaque partie, on élabore une conception précise et une modélisation complète, suivi d’une explication des étapes de la réalisation ainsi que les difficultés rencontrées lors du développement.
+
+%----- fin résumé 
 \section{Développement du processus de vente}
 \subsection{Identification des Objets}
 Tous d'abord nous avons fait une conception initiale pour les objets utilisés dans ce processus, qui nous a permis de tirer les objets suivants :
@@ -1104,12 +1110,7 @@ la figure suivante représente une portion du code Sur Google Script.
 		\includegraphics[scale=0.6]{googlescript.PNG}
 	\label{fig:googlescript}
 \end{figure}
-le schéma montre l'inétarction entre les Systèmes GoogleScript, le Client, et SF:
-\begin{figure}[H]
-	\centering
-		\includegraphics[scale=0.7]{EmailMarketing.PNG}
-	\label{fig:EmailMarketing}
-\end{figure}
+
 
 \subsection {Dificultés et limitations}
 comme le client peut nous répondre à partir de plusieurs client messagerie, la capture de la réponse deviens difficile car chaque client a une structure de message différente 
